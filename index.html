@@ -1,58 +1,194 @@
-<!doctype html><html lang="mt"><head><meta charset="utf-8">
+<!doctype html>
+<html lang="mt">
+<head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-<title>Tisliba Maltija — Layout v4</title>
+<title>Tisliba Maltija — Livell 1</title>
 <style>
-*{box-sizing:border-box}
-html,body{margin:0;min-height:100%;background:#72a0df;font-family:Arial,sans-serif;color:#10213b}
-body{min-height:100dvh}
-.app{min-height:100dvh;max-width:720px;margin:auto;padding:8px;display:flex;flex-direction:column;justify-content:center}
-header{display:flex;align-items:center;justify-content:space-between;color:white;margin-bottom:8px}
-header strong{font-size:clamp(21px,6vw,30px)} .level{background:#245a9e;border-radius:14px;padding:8px 13px;font-weight:900;font-size:clamp(15px,4vw,21px)}
-.board{display:grid;grid-template-columns:repeat(11,1fr);width:100%;aspect-ratio:1/1;background:#31577f;border:2px solid #31577f;gap:1px}
-.cell{min-width:0;min-height:0;border:0;margin:0;padding:0;position:relative;overflow:hidden}
-.answer{background:#fff;font-size:clamp(15px,5vw,27px);font-weight:900;text-align:center}
-.answer.sel{outline:3px solid #f5aa00;outline-offset:-3px;background:#fff5c8}
-.clue{background:#ffefc3;display:flex;align-items:center;justify-content:center;text-align:center;padding:2px;font-weight:900}
-.clue span{font-size:clamp(5.5px,1.7vw,10px);line-height:1.02;overflow-wrap:normal;word-break:normal}
-.clue.pic span{font-size:clamp(16px,5vw,28px);line-height:1}
-.clue b{position:absolute;right:2px;bottom:0;font-size:clamp(9px,2vw,13px);color:#314d6c}
-.panel{margin-top:10px;background:#4e84c8;border-radius:16px;padding:10px}
-.tiles{display:flex;justify-content:center;gap:8px}
-.tile{width:min(16vw,72px);height:min(16vw,72px);max-height:72px;border:0;border-radius:12px;background:#ffe09b;box-shadow:0 4px 0 #a47631;font-size:clamp(22px,7vw,34px);font-weight:900;touch-action:none}.tile.chosen{outline:4px solid #fff}
+:root{
+  --bg:#183b32; --header:#0f2d27; --panel:#315f50; --line:#17352f;
+  --answer:#fffdf5; --clue:#f0dfb7; --clueText:#342b1f;
+  --tile:#c8663d; --tileShadow:#824126; --accent:#f0b84b;
+  --button:#e8dfca; --buttonText:#26342f; --correct:#dcebdc; --wrong:#f4c8c2;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;min-height:100%;background:var(--bg);font-family:Arial,sans-serif;color:#fff}
+button{font-family:inherit}
+.app{min-height:100dvh;max-width:720px;margin:auto;padding:8px;display:flex;flex-direction:column;justify-content:flex-start}
+header{display:flex;align-items:center;justify-content:space-between;margin:5px 2px 8px}
+header strong{font-size:clamp(22px,6vw,31px)}
+.level{background:var(--header);border:1px solid #547b6e;border-radius:14px;padding:8px 13px;font-weight:900;font-size:clamp(15px,4vw,20px)}
+.board{
+ display:grid;grid-template-columns:repeat(11,minmax(0,1fr));grid-template-rows:repeat(11,minmax(0,1fr));
+ width:100%;aspect-ratio:1/1;background:var(--line);border:2px solid var(--line);gap:1px;
+}
+.cell{
+ width:100%;height:100%;min-width:0;min-height:0;max-width:100%;max-height:100%;
+ border:0;margin:0;padding:0;position:relative;overflow:hidden;border-radius:0;
+}
+.answer{
+ display:flex;align-items:center;justify-content:center;background:var(--answer);color:#1d2b27;
+ font-size:clamp(14px,5vw,25px);font-weight:900;line-height:1;white-space:nowrap;
+}
+.answer.long{font-size:clamp(10px,3.7vw,19px)}
+.answer.sel{outline:3px solid var(--accent);outline-offset:-3px;background:#fff4cf}
+.answer.correct{background:var(--correct)}
+.answer.wrong{background:var(--wrong)}
+.clue{
+ background:var(--clue);color:var(--clueText);display:flex;align-items:center;justify-content:center;
+ text-align:center;padding:2px;font-weight:900;cursor:pointer;
+}
+.clue span{font-size:clamp(5.5px,1.7vw,10px);line-height:1.02;overflow-wrap:anywhere}
+.clue.pic span{font-size:clamp(16px,5vw,27px);line-height:1}
+.clue b{position:absolute;right:2px;bottom:0;font-size:clamp(9px,2vw,13px);color:#6a472e}
+.block{background:#29483f}
+.panel{margin-top:10px;background:var(--panel);border-radius:16px;padding:10px}
+.tiles{display:flex;justify-content:center;gap:8px;min-height:min(16vw,72px)}
+.tile{
+ flex:0 0 min(16vw,72px);width:min(16vw,72px);height:min(16vw,72px);
+ border:0;border-radius:12px;background:var(--tile);color:white;box-shadow:0 4px 0 var(--tileShadow);
+ font-size:clamp(21px,7vw,33px);font-weight:900;line-height:1;touch-action:none;
+}
+.tile.long{font-size:clamp(17px,5vw,26px)}
+.tile.chosen{outline:4px solid var(--accent)}
 .tools{display:flex;justify-content:center;gap:9px;margin-top:11px}
-.tools button{border:0;border-radius:10px;padding:10px 14px;font-weight:900;font-size:15px}
-.tip{text-align:center;color:white;font-weight:800;margin-top:8px;font-size:14px}
-.modal{position:fixed;inset:0;background:rgba(5,17,35,.76);display:none;align-items:center;justify-content:center;z-index:9999;padding:22px}.modal.open{display:flex}.card{width:min(90vw,420px);min-height:190px;background:#ffefc3;border:4px solid #31577f;border-radius:18px;padding:28px;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;position:relative}.card strong{font-size:clamp(25px,7vw,38px)}.card.pic strong{font-size:clamp(78px,22vw,120px)}.card em{font-style:normal;font-size:34px;font-weight:900;color:#31577f;margin-top:10px}.close{position:absolute;right:8px;top:4px;border:0;background:transparent;font-size:34px;font-weight:900}
-@media(max-height:760px){.app{justify-content:flex-start}.board{max-height:62dvh}}
-</style></head><body><main class="app">
+.tools button{border:0;border-radius:10px;padding:10px 14px;background:var(--button);color:var(--buttonText);font-weight:900;font-size:15px}
+.tip{text-align:center;color:#f5f1e7;font-weight:800;margin-top:8px;font-size:14px;min-height:34px}
+.modal{position:fixed;inset:0;background:#081712d9;display:none;align-items:center;justify-content:center;z-index:9999;padding:22px}
+.modal.open{display:flex}
+.card{width:min(90vw,420px);min-height:190px;background:var(--clue);color:var(--clueText);border:4px solid var(--header);border-radius:18px;padding:28px;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;position:relative}
+.card strong{font-size:clamp(25px,7vw,38px)} .card.pic strong{font-size:clamp(78px,22vw,120px)}
+.card em{font-style:normal;font-size:34px;font-weight:900;color:#7a4b2e;margin-top:10px}
+.close{position:absolute;right:8px;top:4px;border:0;background:transparent;font-size:34px;font-weight:900;color:#342b1f}
+@media(max-height:760px){.board{max-height:61dvh}.panel{margin-top:7px}}
+</style>
+</head>
+<body>
+<main class="app">
 <header><strong>🇲🇹 Tisliba Maltija</strong><span class="level">Livell 1</span></header>
-<section class="board" id="board"><div class="cell clue pic"><span>🐱</span><b></b></div><div class="cell clue "><span>Kulur<br>tad-demm</span><b>↓</b></div><div class="cell clue pic"><span>👁️</span><b>↓</b></div><div class="cell clue "><span>Sebat<br>ijiem</span><b>↓</b></div><div class="cell clue pic"><span>☀️</span><b>↓</b></div><div class="cell clue "><span>Ikel<br>mid-dqiq</span><b></b></div><div class="cell clue pic"><span>🇲🇹</span><b>↓</b></div><div class="cell clue pic"><span>🌳</span><b>↓</b></div><div class="cell clue pic"><span>🐟</span><b>↓</b></div><div class="cell clue pic"><span>🏠</span><b>↓</b></div><div class="cell clue pic"><span>🍯</span><b>↓</b></div><div class="cell clue "><span>Annimal<br>domestiku</span><b>→</b></div><button class="cell answer" type="button" data-key="1,1"></button><button class="cell answer" type="button" data-key="1,2"></button><button class="cell answer" type="button" data-key="1,3"></button><button class="cell answer" type="button" data-key="1,4"></button><div class="cell clue pic"><span>🚗</span><b>→</b></div><button class="cell answer" type="button" data-key="1,6"></button><button class="cell answer" type="button" data-key="1,7"></button><button class="cell answer" type="button" data-key="1,8"></button><button class="cell answer" type="button" data-key="1,9"></button><button class="cell answer" type="button" data-key="1,10"></button><div class="cell clue "><span>Baħar</span><b>→</b></div><button class="cell answer" type="button" data-key="2,1"></button><button class="cell answer" type="button" data-key="2,2"></button><button class="cell answer" type="button" data-key="2,3"></button><button class="cell answer" type="button" data-key="2,4"></button><button class="cell answer" type="button" data-key="2,5"></button><button class="cell answer" type="button" data-key="2,6"></button><div class="cell clue pic"><span>📘</span><b>→</b></div><button class="cell answer" type="button" data-key="2,8"></button><button class="cell answer" type="button" data-key="2,9"></button><button class="cell answer" type="button" data-key="2,10"></button><div class="cell clue "><span>Raħal</span><b>→</b></div><button class="cell answer" type="button" data-key="3,1"></button><div class="cell clue pic"><span>🥛</span><b>→</b></div><button class="cell answer" type="button" data-key="3,3"></button><button class="cell answer" type="button" data-key="3,4"></button><button class="cell answer" type="button" data-key="3,5"></button><button class="cell answer" type="button" data-key="3,6"></button><button class="cell answer" type="button" data-key="3,7"></button><button class="cell answer" type="button" data-key="3,8"></button><div class="cell clue "><span>Omm</span><b>→</b></div><button class="cell answer" type="button" data-key="3,10"></button><div class="cell clue "><span>Triq</span><b>→</b></div><button class="cell answer" type="button" data-key="4,1"></button><button class="cell answer" type="button" data-key="4,2"></button><button class="cell answer" type="button" data-key="4,3"></button><div class="cell clue "><span>Għajn</span><b>→</b></div><button class="cell answer" type="button" data-key="4,5"></button><button class="cell answer" type="button" data-key="4,6"></button><button class="cell answer" type="button" data-key="4,7"></button><button class="cell answer" type="button" data-key="4,8"></button><button class="cell answer" type="button" data-key="4,9"></button><button class="cell answer" type="button" data-key="4,10"></button><div class="cell clue "><span>Ħobż</span><b></b></div><div class="cell clue "><span>Siġra</span><b>→</b></div><button class="cell answer" type="button" data-key="5,2"></button><button class="cell answer" type="button" data-key="5,3"></button><button class="cell answer" type="button" data-key="5,4"></button><button class="cell answer" type="button" data-key="5,5"></button><div class="cell clue "><span>Xemx</span><b>→</b></div><button class="cell answer" type="button" data-key="5,7"></button><button class="cell answer" type="button" data-key="5,8"></button><button class="cell answer" type="button" data-key="5,9"></button><div class="cell clue "><span>Malta</span><b>↓</b></div><div class="cell clue "><span>Ħut</span><b>→</b></div><button class="cell answer" type="button" data-key="6,1"></button><button class="cell answer" type="button" data-key="6,2"></button><div class="cell clue "><span>Dar</span><b>→</b></div><button class="cell answer" type="button" data-key="6,4"></button><button class="cell answer" type="button" data-key="6,5"></button><button class="cell answer" type="button" data-key="6,6"></button><button class="cell answer" type="button" data-key="6,7"></button><div class="cell clue "><span>Għasel</span><b>→</b></div><button class="cell answer" type="button" data-key="6,9"></button><button class="cell answer" type="button" data-key="6,10"></button><div class="cell clue "><span>Skola</span><b>→</b></div><button class="cell answer" type="button" data-key="7,1"></button><button class="cell answer" type="button" data-key="7,2"></button><button class="cell answer" type="button" data-key="7,3"></button><button class="cell answer" type="button" data-key="7,4"></button><div class="cell clue "><span>Missier</span><b>→</b></div><button class="cell answer" type="button" data-key="7,6"></button><button class="cell answer" type="button" data-key="7,7"></button><button class="cell answer" type="button" data-key="7,8"></button><button class="cell answer" type="button" data-key="7,9"></button><button class="cell answer" type="button" data-key="7,10"></button><div class="cell clue "><span>Melħ</span><b>→</b></div><button class="cell answer" type="button" data-key="8,1"></button><div class="cell clue pic"><span>🍊</span><b>→</b></div><button class="cell answer" type="button" data-key="8,3"></button><button class="cell answer" type="button" data-key="8,4"></button><button class="cell answer" type="button" data-key="8,5"></button><button class="cell answer" type="button" data-key="8,6"></button><div class="cell clue pic"><span>⛵</span><b>→</b></div><button class="cell answer" type="button" data-key="8,8"></button><button class="cell answer" type="button" data-key="8,9"></button><button class="cell answer" type="button" data-key="8,10"></button><div class="cell clue pic"><span>🐝</span><b>→</b></div><button class="cell answer" type="button" data-key="9,1"></button><button class="cell answer" type="button" data-key="9,2"></button><button class="cell answer" type="button" data-key="9,3"></button><div class="cell clue pic"><span>🌊</span><b>→</b></div><button class="cell answer" type="button" data-key="9,5"></button><button class="cell answer" type="button" data-key="9,6"></button><button class="cell answer" type="button" data-key="9,7"></button><button class="cell answer" type="button" data-key="9,8"></button><div class="cell clue pic"><span>🪟</span><b>→</b></div><button class="cell answer" type="button" data-key="9,10"></button><div class="cell clue pic"><span>🐶</span><b>→</b></div><button class="cell answer" type="button" data-key="10,1"></button><button class="cell answer" type="button" data-key="10,2"></button><button class="cell answer" type="button" data-key="10,3"></button><button class="cell answer" type="button" data-key="10,4"></button><button class="cell answer" type="button" data-key="10,5"></button><div class="cell clue pic"><span>🍊</span><b>→</b></div><button class="cell answer" type="button" data-key="10,7"></button><button class="cell answer" type="button" data-key="10,8"></button><button class="cell answer" type="button" data-key="10,9"></button><button class="cell answer" type="button" data-key="10,10"></button></section>
+<section class="board" id="board"></section>
 <section class="panel">
-<div class="tiles" id="tiles">
-<button class="tile" data-letter="A">A</button><button class="tile" data-letter="Għ">Għ</button><button class="tile" data-letter="IE">IE</button><button class="tile" data-letter="R">R</button><button class="tile" data-letter="T">T</button>
-</div>
-<div class="tools"><button id="change">🔀 Ibdel</button><button id="erase">⌫ Neħħi</button><button id="hint">💡 Ħjiel</button></div>
-<div class="tip">Agħżel kaxxa u mbagħad ittra, jew tkaxkar l-ittra fuqha.</div>
-</section></main>
-<div class="modal" id="modal"><div class="card" id="card"><button type="button" class="close" id="close">×</button><strong id="big"></strong><em id="arrow"></em></div></div>
+  <div class="tiles" id="tiles"></div>
+  <div class="tools">
+    <button id="change">🔀 Ibdel</button>
+    <button id="erase">⌫ Neħħi</button>
+    <button id="hint">💡 Ħjiel 3</button>
+  </div>
+  <div class="tip" id="tip">Agħżel kaxxa u mbagħad ittra, jew tkaxkar l-ittra fuqha.</div>
+</section>
+</main>
+<div class="modal" id="modal"><div class="card" id="card"><button class="close" id="close">×</button><strong id="big"></strong><em id="arrow"></em></div></div>
+
 <script>
 (function(){
 'use strict';
-var selectedCell=null, chosenLetter=null, hints=3;
-var pool=['A','B','Ċ','D','E','Ġ','Għ','Ħ','I','IE','J','K','L','M','N','O','Q','R','S','T','U','X','Ż'];
-var answers=[].slice.call(document.querySelectorAll('.answer'));
-var tiles=document.getElementById('tiles');
-function chooseCell(el){answers.forEach(function(x){x.classList.remove('sel')});selectedCell=el;el.classList.add('sel');if(chosenLetter){place(chosenLetter)}}
-function place(letter){if(!selectedCell)return;selectedCell.textContent=letter;chosenLetter=null;[].slice.call(document.querySelectorAll('.tile')).forEach(function(x){x.classList.remove('chosen')})}
-answers.forEach(function(el){el.addEventListener('click',function(){chooseCell(el)});el.addEventListener('dragover',function(e){e.preventDefault()});el.addEventListener('drop',function(e){e.preventDefault();chooseCell(el);place(e.dataTransfer.getData('text/plain'))})});
-function bindTiles(){[].slice.call(document.querySelectorAll('.tile')).forEach(function(b){b.setAttribute('draggable','true');b.onclick=function(){chosenLetter=b.getAttribute('data-letter');[].slice.call(document.querySelectorAll('.tile')).forEach(function(x){x.classList.remove('chosen')});b.classList.add('chosen');if(selectedCell)place(chosenLetter)};b.ondragstart=function(e){e.dataTransfer.setData('text/plain',b.getAttribute('data-letter'))}})}
-function newFive(){var must=['Għ','IE'];var rest=pool.filter(function(x){return must.indexOf(x)<0}).sort(function(){return Math.random()-.5}).slice(0,3);var vals=must.concat(rest).sort(function(){return Math.random()-.5});tiles.innerHTML='';vals.forEach(function(x){var b=document.createElement('button');b.className='tile';b.setAttribute('data-letter',x);b.textContent=x;tiles.appendChild(b)});bindTiles()}
-document.getElementById('change').onclick=newFive;
-document.getElementById('erase').onclick=function(){if(selectedCell)selectedCell.textContent=''};
-document.getElementById('hint').onclick=function(){if(!selectedCell){alert('L-ewwel agħżel kaxxa bajda.');return} if(hints>0){hints--;this.textContent='💡 Ħjiel '+hints;alert('Il-mekkaniżmu tal-ħjiel qed jaħdem. Meta ndaħħlu s-soluzzjoni finali, jimla ittra korretta.')}};
-var modal=document.getElementById('modal'),card=document.getElementById('card');
-[].slice.call(document.querySelectorAll('.clue')).forEach(function(c){c.style.cursor='pointer';c.onclick=function(){var span=c.querySelector('span');document.getElementById('big').textContent=span?span.innerText.replace(/\n/g,' '):'';document.getElementById('arrow').textContent=(c.querySelector('b')||{}).textContent||'';card.classList.toggle('pic',c.classList.contains('pic'));modal.classList.add('open')}});
-function closeModal(){modal.classList.remove('open')}document.getElementById('close').onclick=closeModal;modal.onclick=function(e){if(e.target===modal)closeModal()};
-bindTiles();
+const solution = {"3,2": "Ġ", "4,2": "I", "5,2": "M", "6,2": "GĦ", "7,2": "A", "7,1": "D", "7,3": "R", "4,3": "S", "5,3": "I", "6,3": "Ġ", "8,3": "A", "4,1": "M", "4,4": "S", "4,5": "IE", "4,6": "R", "5,6": "A", "6,6": "Ħ", "7,6": "A", "8,6": "L", "8,2": "GĦ", "8,4": "S", "8,5": "E", "3,5": "T", "5,5": "Q", "6,5": "A", "6,7": "M", "6,8": "A", "6,9": "R", "5,7": "T", "5,8": "T", "5,9": "U", "5,10": "S", "2,8": "M", "3,8": "A", "4,8": "L", "7,5": "Ħ", "7,7": "L", "7,8": "I", "7,9": "B", "3,7": "Ħ", "4,7": "U", "2,1": "X", "3,1": "E", "5,1": "X"};
+const clueData = {"2,2": {"label": "Sebat ijiem", "arrow": "↓", "answer": "ĠIMGĦA"}, "7,0": {"label": "🏠", "arrow": "→", "answer": "DAR"}, "3,3": {"label": "🌳", "arrow": "↓", "answer": "SIĠRA"}, "4,0": {"label": "Raġel li għandu wlied", "arrow": "→", "answer": "MISSIER"}, "3,6": {"label": "Post iżgħar minn belt", "arrow": "↓", "answer": "RAĦAL"}, "8,1": {"label": "🍯", "arrow": "→", "answer": "GĦASEL"}, "2,5": {"label": "🪟", "arrow": "↓", "answer": "TIEQA"}, "6,4": {"label": "Kulur tad-demm", "arrow": "→", "answer": "AĦMAR"}, "5,4": {"label": "🐱", "arrow": "→", "answer": "QATTUS"}, "1,8": {"label": "🇲🇹", "arrow": "↓", "answer": "MALTA"}, "7,4": {"label": "🥛", "arrow": "→", "answer": "ĦALIB"}, "2,7": {"label": "🐟", "arrow": "↓", "answer": "ĦUT"}, "1,1": {"label": "☀️", "arrow": "↓", "answer": "XEMX"}};
+const board=document.getElementById('board'), tiles=document.getElementById('tiles'), tip=document.getElementById('tip');
+let selected=null, chosen=null, hints=3;
+
+function key(r,c){return r+','+c}
+for(let r=0;r<11;r++){
+  for(let c=0;c<11;c++){
+    const k=key(r,c);
+    if(clueData[k]){
+      const d=document.createElement('button');
+      const info=clueData[k];
+      const isPic=/[\u{1F300}-\u{1FAFF}\u{1F1E6}-\u{1F1FF}]/u.test(info.label);
+      d.type='button'; d.className='cell clue'+(isPic?' pic':'');
+      d.dataset.label=info.label; d.dataset.arrow=info.arrow;
+      d.innerHTML='<span>'+info.label+'</span><b>'+info.arrow+'</b>';
+      board.appendChild(d);
+    } else if(solution[k]){
+      const b=document.createElement('button');
+      b.type='button'; b.className='cell answer'; b.dataset.key=k;
+      board.appendChild(b);
+    } else {
+      const x=document.createElement('div'); x.className='cell block'; board.appendChild(x);
+    }
+  }
+}
+
+const answers=[...document.querySelectorAll('.answer')];
+function chooseCell(el){
+  answers.forEach(x=>x.classList.remove('sel'));
+  selected=el; el.classList.add('sel');
+  if(chosen) place(chosen);
+}
+function remainingLetters(){
+  const out=[];
+  answers.forEach(el=>{
+    const want=solution[el.dataset.key];
+    if(el.textContent!==want) out.push(want);
+  });
+  return out;
+}
+function refreshTiles(){
+  let rem=remainingLetters();
+  if(!rem.length){ tiles.innerHTML=''; tip.textContent='🎉 Prosit! Lestejt Livell 1.'; return; }
+  let unique=[...new Set(rem)];
+  unique.sort(()=>Math.random()-.5);
+  let vals=unique.slice(0,5);
+  while(vals.length<5){
+    vals.push(rem[Math.floor(Math.random()*rem.length)]);
+  }
+  vals.sort(()=>Math.random()-.5);
+  tiles.innerHTML='';
+  vals.forEach(letter=>{
+    const b=document.createElement('button');
+    b.className='tile'+(letter.length>1?' long':'');
+    b.dataset.letter=letter;b.textContent=letter;b.draggable=true;
+    b.onclick=()=>{chosen=letter;document.querySelectorAll('.tile').forEach(x=>x.classList.remove('chosen'));b.classList.add('chosen');if(selected)place(letter)};
+    b.ondragstart=e=>e.dataTransfer.setData('text/plain',letter);
+    tiles.appendChild(b);
+  });
+}
+function place(letter){
+  if(!selected)return;
+  const want=solution[selected.dataset.key];
+  selected.textContent=letter;
+  selected.classList.toggle('long',letter.length>1);
+  selected.classList.remove('wrong','correct');
+  if(letter===want){
+    selected.classList.add('correct');
+    tip.textContent='✓ Sew';
+    setTimeout(()=>{selected&&selected.classList.remove('sel'); selected=null; refreshTiles(); checkDone()},220);
+  }else{
+    selected.classList.add('wrong');
+    tip.textContent='Mhux dik l-ittra. Erġa’ pprova.';
+    setTimeout(()=>selected&&selected.classList.remove('wrong'),450);
+  }
+  chosen=null; document.querySelectorAll('.tile').forEach(x=>x.classList.remove('chosen'));
+}
+function checkDone(){
+  if(remainingLetters().length===0) tip.textContent='🎉 Prosit! Lestejt Livell 1.';
+}
+answers.forEach(el=>{
+  el.onclick=()=>chooseCell(el);
+  el.ondragover=e=>e.preventDefault();
+  el.ondrop=e=>{e.preventDefault();chooseCell(el);place(e.dataTransfer.getData('text/plain'))};
+});
+document.getElementById('change').onclick=refreshTiles;
+document.getElementById('erase').onclick=()=>{
+  if(!selected){tip.textContent='Agħżel kaxxa l-ewwel.';return}
+  selected.textContent='';selected.classList.remove('correct','wrong','long');refreshTiles();
+};
+document.getElementById('hint').onclick=function(){
+  if(!selected){tip.textContent='Agħżel kaxxa bajda l-ewwel.';return}
+  if(hints<=0){tip.textContent='Ma fadalx ħjiel.';return}
+  hints--; this.textContent='💡 Ħjiel '+hints; place(solution[selected.dataset.key]);
+};
+
+const modal=document.getElementById('modal'), card=document.getElementById('card');
+document.querySelectorAll('.clue').forEach(c=>c.onclick=()=>{
+  document.getElementById('big').textContent=c.dataset.label;
+  document.getElementById('arrow').textContent=c.dataset.arrow;
+  card.classList.toggle('pic',c.classList.contains('pic'));modal.classList.add('open');
+});
+function closeModal(){modal.classList.remove('open')}
+document.getElementById('close').onclick=closeModal;
+modal.onclick=e=>{if(e.target===modal)closeModal()};
+refreshTiles();
 })();
-</script></body></html>
+</script>
+</body></html>
