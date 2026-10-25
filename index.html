@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="mt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tisliba Maltija - Test Online</title>
+<style>
+body{font-family:Arial,sans-serif;background:#72a0df;margin:0;padding:24px;text-align:center;color:#10213b}
+.card{max-width:430px;margin:auto;background:white;border-radius:18px;padding:22px}
+#status{font-weight:800;font-size:22px;margin-bottom:18px}
+.row{display:flex;gap:12px;justify-content:center;align-items:center;margin:18px 0}
+.tile,.cell,#testButton,.clue{border:0;border-radius:12px;font-weight:800}
+.tile{width:70px;height:70px;background:#ffe09b;font-size:30px}
+.cell{width:70px;height:70px;background:#fff;border:3px solid #31577f;font-size:30px}
+#testButton,.clue{padding:14px 18px;background:#31577f;color:white;font-size:17px}
+#message{font-weight:700;min-height:24px}
+.modal{display:none;position:fixed;inset:0;background:#000a;align-items:center;justify-content:center;padding:20px}
+.modal.open{display:flex}.popup{background:#ffefc3;border-radius:18px;padding:35px;font-size:28px;font-weight:900}
+</style>
+</head>
+<body>
+<div class="card">
+<div id="status">⏳ Qed nittestja JavaScript…</div>
+<p>1. Agħfas <b>A</b>, imbagħad il-kaxxa.</p>
+<div class="row"><button class="tile" id="tile">A</button><button class="cell" id="cell"></button></div>
+<p>2. Agħfas din il-buttuna:</p>
+<button id="testButton">Agħfasni</button>
+<p id="message"></p>
+<p>3. Agħfas il-ħjiel:</p>
+<button class="clue" id="clue">Annimal domestiku 🐶</button>
+</div>
+<div class="modal" id="modal"><div class="popup">🐶 KELB<br><small>Agħfas biex tagħlaq</small></div></div>
+<script>
+let chosen=false;
+document.getElementById('status').textContent='✅ JavaScript qed jaħdem';
+document.getElementById('tile').onclick=function(){chosen=true;this.style.outline='4px solid #31577f'};
+document.getElementById('cell').onclick=function(){if(chosen){this.textContent='A';chosen=false;document.getElementById('tile').style.outline='none'}};
+document.getElementById('testButton').onclick=function(){document.getElementById('message').textContent='✅ Il-buttuna qed taħdem'};
+document.getElementById('clue').onclick=function(){document.getElementById('modal').classList.add('open')};
+document.getElementById('modal').onclick=function(){this.classList.remove('open')};
+</script>
+</body>
+</html>
