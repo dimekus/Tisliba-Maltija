@@ -1,0 +1,284 @@
+<!doctype html><html lang="mt"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>Tisliba Maltija — Layout v4</title>
+
+<style>
+:root{
+ --bg:#24463d; --header:#17352e; --grid:#49685f;
+ --answer:#fffaf0; --answerText:#263b35;
+ --clue:#e0bd70; --clueText:#302819;
+ --panel:#315b50; --tile:#bd633f; --tileShadow:#7b3d28;
+ --accent:#f0c76d; --button:#e7ddc9; --buttonText:#263833;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;min-height:100%;background:var(--bg);font-family:Arial,sans-serif;color:#fff}
+body{min-height:100dvh}
+.app{min-height:100dvh;max-width:720px;margin:auto;padding:8px;display:flex;flex-direction:column;justify-content:flex-start}
+header{display:flex;align-items:center;justify-content:space-between;color:#fff;margin:5px 2px 8px}
+header strong{font-size:clamp(21px,6vw,30px)}
+.level{background:var(--header);border:1px solid #5f7b73;border-radius:14px;padding:8px 13px;font-weight:900;font-size:clamp(15px,4vw,21px)}
+.board{
+ display:grid;grid-template-columns:repeat(11,minmax(0,1fr));grid-template-rows:repeat(11,minmax(0,1fr));
+ width:100%;aspect-ratio:1/1;background:var(--grid);border:2px solid var(--grid);gap:1px;
+}
+.cell{
+ width:100%;height:100%;min-width:0;min-height:0;max-width:100%;max-height:100%;
+ border:0;margin:0;padding:0;position:relative;overflow:hidden;border-radius:0;
+}
+.answer{
+ display:flex;align-items:center;justify-content:center;
+ background:var(--answer);color:var(--answerText);
+ font-size:clamp(14px,5vw,25px);font-weight:900;line-height:1;white-space:nowrap;
+}
+.answer.long{font-size:clamp(10px,3.8vw,19px)}
+.answer.sel{outline:3px solid var(--accent);outline-offset:-3px;background:#fff8df}
+.answer.drop-target{box-shadow:inset 0 0 0 4px var(--accent)}
+.clue{background:var(--clue);color:var(--clueText);display:flex;align-items:center;justify-content:center;text-align:center;padding:2px;font-weight:900}
+.clue span{font-size:clamp(5.5px,1.7vw,10px);line-height:1.02;overflow-wrap:normal;word-break:normal}
+.clue.pic span{font-size:clamp(16px,5vw,28px);line-height:1}
+.clue b{position:absolute;right:2px;bottom:0;font-size:clamp(9px,2vw,13px);color:#684a28}
+.panel{margin-top:10px;background:var(--panel);border-radius:16px;padding:10px}
+.tiles{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;min-height:min(17vw,76px)}
+.tile-slot{min-width:0;height:min(16vw,72px)}
+.tile{
+ width:100%;height:100%;border:0;border-radius:12px;background:var(--tile);color:#fff;
+ box-shadow:0 4px 0 var(--tileShadow);font-size:clamp(21px,7vw,33px);font-weight:900;
+ line-height:1;touch-action:none;user-select:none;-webkit-user-select:none;position:relative;z-index:3;
+}
+.tile.long{font-size:clamp(17px,5.2vw,27px)}
+.tile.chosen{outline:4px solid var(--accent)}
+.tile.dragging{opacity:.88;transform:scale(1.08);position:fixed;width:64px;height:64px;pointer-events:none;z-index:9999;box-shadow:0 7px 14px #0006}
+.tools{display:flex;justify-content:center;gap:9px;margin-top:11px}
+.tools button{border:0;border-radius:10px;padding:10px 14px;background:var(--button);color:var(--buttonText);font-weight:900;font-size:15px}
+.tip{text-align:center;color:#f8f4e8;font-weight:800;margin-top:8px;font-size:14px;min-height:34px}
+.modal{position:fixed;inset:0;background:#07130fd6;display:none;align-items:center;justify-content:center;z-index:10000;padding:22px}
+.modal.open{display:flex}
+.card{width:min(90vw,420px);min-height:190px;background:var(--clue);color:var(--clueText);border:4px solid var(--header);border-radius:18px;padding:28px;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;position:relative}
+.card strong{font-size:clamp(25px,7vw,38px)} .card.pic strong{font-size:clamp(78px,22vw,120px)}
+.card em{font-style:normal;font-size:34px;font-weight:900;color:#684a28;margin-top:10px}
+.close{position:absolute;right:8px;top:4px;border:0;background:transparent;color:#2b261c;font-size:34px;font-weight:900}
+@media(max-height:760px){.board{max-height:62dvh}.panel{margin-top:7px}}
+</style>
+</head><body><main class="app">
+<header><strong>🇲🇹 Tisliba Maltija</strong><span class="level">Livell 1</span></header>
+<section class="board" id="board"><div class="cell clue pic"><span>🐱</span><b></b></div><div class="cell clue "><span>Kulur<br>tad-demm</span><b>↓</b></div><div class="cell clue pic"><span>👁️</span><b>↓</b></div><div class="cell clue "><span>Sebat<br>ijiem</span><b>↓</b></div><div class="cell clue pic"><span>☀️</span><b>↓</b></div><div class="cell clue "><span>Ikel<br>mid-dqiq</span><b></b></div><div class="cell clue pic"><span>🇲🇹</span><b>↓</b></div><div class="cell clue pic"><span>🌳</span><b>↓</b></div><div class="cell clue pic"><span>🐟</span><b>↓</b></div><div class="cell clue pic"><span>🏠</span><b>↓</b></div><div class="cell clue pic"><span>🍯</span><b>↓</b></div><div class="cell clue "><span>Annimal<br>domestiku</span><b>→</b></div><button class="cell answer" type="button" data-key="1,1"></button><button class="cell answer" type="button" data-key="1,2"></button><button class="cell answer" type="button" data-key="1,3"></button><button class="cell answer" type="button" data-key="1,4"></button><div class="cell clue pic"><span>🚗</span><b>→</b></div><button class="cell answer" type="button" data-key="1,6"></button><button class="cell answer" type="button" data-key="1,7"></button><button class="cell answer" type="button" data-key="1,8"></button><button class="cell answer" type="button" data-key="1,9"></button><button class="cell answer" type="button" data-key="1,10"></button><div class="cell clue "><span>Baħar</span><b>→</b></div><button class="cell answer" type="button" data-key="2,1"></button><button class="cell answer" type="button" data-key="2,2"></button><button class="cell answer" type="button" data-key="2,3"></button><button class="cell answer" type="button" data-key="2,4"></button><button class="cell answer" type="button" data-key="2,5"></button><button class="cell answer" type="button" data-key="2,6"></button><div class="cell clue pic"><span>📘</span><b>→</b></div><button class="cell answer" type="button" data-key="2,8"></button><button class="cell answer" type="button" data-key="2,9"></button><button class="cell answer" type="button" data-key="2,10"></button><div class="cell clue "><span>Raħal</span><b>→</b></div><button class="cell answer" type="button" data-key="3,1"></button><div class="cell clue pic"><span>🥛</span><b>→</b></div><button class="cell answer" type="button" data-key="3,3"></button><button class="cell answer" type="button" data-key="3,4"></button><button class="cell answer" type="button" data-key="3,5"></button><button class="cell answer" type="button" data-key="3,6"></button><button class="cell answer" type="button" data-key="3,7"></button><button class="cell answer" type="button" data-key="3,8"></button><div class="cell clue "><span>Omm</span><b>→</b></div><button class="cell answer" type="button" data-key="3,10"></button><div class="cell clue "><span>Triq</span><b>→</b></div><button class="cell answer" type="button" data-key="4,1"></button><button class="cell answer" type="button" data-key="4,2"></button><button class="cell answer" type="button" data-key="4,3"></button><div class="cell clue "><span>Għajn</span><b>→</b></div><button class="cell answer" type="button" data-key="4,5"></button><button class="cell answer" type="button" data-key="4,6"></button><button class="cell answer" type="button" data-key="4,7"></button><button class="cell answer" type="button" data-key="4,8"></button><button class="cell answer" type="button" data-key="4,9"></button><button class="cell answer" type="button" data-key="4,10"></button><div class="cell clue "><span>Ħobż</span><b></b></div><div class="cell clue "><span>Siġra</span><b>→</b></div><button class="cell answer" type="button" data-key="5,2"></button><button class="cell answer" type="button" data-key="5,3"></button><button class="cell answer" type="button" data-key="5,4"></button><button class="cell answer" type="button" data-key="5,5"></button><div class="cell clue "><span>Xemx</span><b>→</b></div><button class="cell answer" type="button" data-key="5,7"></button><button class="cell answer" type="button" data-key="5,8"></button><button class="cell answer" type="button" data-key="5,9"></button><div class="cell clue "><span>Malta</span><b>↓</b></div><div class="cell clue "><span>Ħut</span><b>→</b></div><button class="cell answer" type="button" data-key="6,1"></button><button class="cell answer" type="button" data-key="6,2"></button><div class="cell clue "><span>Dar</span><b>→</b></div><button class="cell answer" type="button" data-key="6,4"></button><button class="cell answer" type="button" data-key="6,5"></button><button class="cell answer" type="button" data-key="6,6"></button><button class="cell answer" type="button" data-key="6,7"></button><div class="cell clue "><span>Għasel</span><b>→</b></div><button class="cell answer" type="button" data-key="6,9"></button><button class="cell answer" type="button" data-key="6,10"></button><div class="cell clue "><span>Skola</span><b>→</b></div><button class="cell answer" type="button" data-key="7,1"></button><button class="cell answer" type="button" data-key="7,2"></button><button class="cell answer" type="button" data-key="7,3"></button><button class="cell answer" type="button" data-key="7,4"></button><div class="cell clue "><span>Missier</span><b>→</b></div><button class="cell answer" type="button" data-key="7,6"></button><button class="cell answer" type="button" data-key="7,7"></button><button class="cell answer" type="button" data-key="7,8"></button><button class="cell answer" type="button" data-key="7,9"></button><button class="cell answer" type="button" data-key="7,10"></button><div class="cell clue "><span>Melħ</span><b>→</b></div><button class="cell answer" type="button" data-key="8,1"></button><div class="cell clue pic"><span>🍊</span><b>→</b></div><button class="cell answer" type="button" data-key="8,3"></button><button class="cell answer" type="button" data-key="8,4"></button><button class="cell answer" type="button" data-key="8,5"></button><button class="cell answer" type="button" data-key="8,6"></button><div class="cell clue pic"><span>⛵</span><b>→</b></div><button class="cell answer" type="button" data-key="8,8"></button><button class="cell answer" type="button" data-key="8,9"></button><button class="cell answer" type="button" data-key="8,10"></button><div class="cell clue pic"><span>🐝</span><b>→</b></div><button class="cell answer" type="button" data-key="9,1"></button><button class="cell answer" type="button" data-key="9,2"></button><button class="cell answer" type="button" data-key="9,3"></button><div class="cell clue pic"><span>🌊</span><b>→</b></div><button class="cell answer" type="button" data-key="9,5"></button><button class="cell answer" type="button" data-key="9,6"></button><button class="cell answer" type="button" data-key="9,7"></button><button class="cell answer" type="button" data-key="9,8"></button><div class="cell clue pic"><span>🪟</span><b>→</b></div><button class="cell answer" type="button" data-key="9,10"></button><div class="cell clue pic"><span>🐶</span><b>→</b></div><button class="cell answer" type="button" data-key="10,1"></button><button class="cell answer" type="button" data-key="10,2"></button><button class="cell answer" type="button" data-key="10,3"></button><button class="cell answer" type="button" data-key="10,4"></button><button class="cell answer" type="button" data-key="10,5"></button><div class="cell clue pic"><span>🍊</span><b>→</b></div><button class="cell answer" type="button" data-key="10,7"></button><button class="cell answer" type="button" data-key="10,8"></button><button class="cell answer" type="button" data-key="10,9"></button><button class="cell answer" type="button" data-key="10,10"></button></section>
+<section class="panel">
+<div class="tiles" id="tiles"></div>
+<div class="tools"><button id="change">🔀 Ibdel</button><button id="erase">⌫ Neħħi</button><button id="hint">💡 Ħjiel</button></div>
+<div class="tip" id="tip">5 ittri f’dan iċ-ċiklu. Użahom bit-tap jew drag-and-drop.</div>
+</section></main>
+
+<div class="modal" id="modal">
+ <div class="card" id="card">
+  <button class="close" id="close">×</button>
+  <strong id="bigClue"></strong><em id="bigArrow"></em>
+ </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  const tilesEl = document.getElementById("tiles");
+  const tip = document.getElementById("tip");
+  const answers = Array.from(document.querySelectorAll(".answer"));
+  const changeBtn = document.getElementById("change");
+  const eraseBtn = document.getElementById("erase");
+  const hintBtn = document.getElementById("hint");
+
+  let selectedCell = null;
+  let selectedTile = null;
+  let dragState = null;
+
+  const cycle = ["A", "GĦ", "IE", "R", "T"];
+
+  function setTip(text) {
+    if (tip) tip.textContent = text;
+  }
+
+  function selectCell(cell) {
+    answers.forEach(c => c.classList.remove("sel"));
+    selectedCell = cell;
+    cell.classList.add("sel");
+  }
+
+  function remainingTiles() {
+    return tilesEl.querySelectorAll(".tile").length;
+  }
+
+  function placeTile(tile, cell) {
+    if (!tile || !cell || !cell.classList.contains("answer")) return;
+
+    const value = tile.dataset.letter;
+    cell.textContent = value;
+    cell.classList.toggle("long", value.length > 1);
+    selectCell(cell);
+
+    const slot = tile.closest(".tile-slot");
+    if (slot) slot.replaceChildren();
+
+    selectedTile = null;
+
+    const n = remainingTiles();
+    if (n === 0) {
+      setTip("Ċiklu ta’ 5 lest. Agħfas Ibdel għall-ħames li jmiss.");
+    } else {
+      setTip("Fadal " + n + (n === 1 ? " ittra" : " ittri") + " f’dan iċ-ċiklu.");
+    }
+  }
+
+  function getDropTarget(x, y, tile) {
+    const oldDisplay = tile.style.display;
+    tile.style.display = "none";
+    const element = document.elementFromPoint(x, y);
+    tile.style.display = oldDisplay;
+    return element && element.closest ? element.closest(".answer") : null;
+  }
+
+  function bindTile(tile) {
+    tile.addEventListener("click", function () {
+      if (dragState && dragState.moved) return;
+
+      if (selectedCell) {
+        placeTile(tile, selectedCell);
+        return;
+      }
+
+      tilesEl.querySelectorAll(".tile").forEach(t => t.classList.remove("chosen"));
+      selectedTile = tile;
+      tile.classList.add("chosen");
+      setTip("Agħfas il-kaxxa fejn trid tpoġġi " + tile.dataset.letter + ".");
+    });
+
+    tile.addEventListener("pointerdown", function (e) {
+      if (e.pointerType === "mouse" && e.button !== 0) return;
+
+      dragState = {
+        tile: tile,
+        pointerId: e.pointerId,
+        startX: e.clientX,
+        startY: e.clientY,
+        moved: false
+      };
+
+      try { tile.setPointerCapture(e.pointerId); } catch (_) {}
+    });
+
+    tile.addEventListener("pointermove", function (e) {
+      if (!dragState || dragState.tile !== tile || dragState.pointerId !== e.pointerId) return;
+
+      const distance = Math.hypot(e.clientX - dragState.startX, e.clientY - dragState.startY);
+      if (!dragState.moved && distance < 7) return;
+
+      dragState.moved = true;
+      tile.classList.add("dragging");
+      tile.style.left = (e.clientX - 32) + "px";
+      tile.style.top = (e.clientY - 32) + "px";
+
+      answers.forEach(c => c.classList.remove("drop-target"));
+      const target = getDropTarget(e.clientX, e.clientY, tile);
+      if (target) target.classList.add("drop-target");
+
+      e.preventDefault();
+    });
+
+    tile.addEventListener("pointerup", function (e) {
+      if (!dragState || dragState.tile !== tile) return;
+
+      const moved = dragState.moved;
+      const target = moved ? getDropTarget(e.clientX, e.clientY, tile) : null;
+
+      answers.forEach(c => c.classList.remove("drop-target"));
+      tile.classList.remove("dragging");
+      tile.style.left = "";
+      tile.style.top = "";
+      dragState = null;
+
+      if (moved && target) placeTile(tile, target);
+    });
+
+    tile.addEventListener("pointercancel", function () {
+      answers.forEach(c => c.classList.remove("drop-target"));
+      tile.classList.remove("dragging");
+      tile.style.left = "";
+      tile.style.top = "";
+      dragState = null;
+    });
+  }
+
+  function renderCycle() {
+    tilesEl.replaceChildren();
+
+    cycle.forEach(function (letter) {
+      const slot = document.createElement("div");
+      slot.className = "tile-slot";
+
+      const tile = document.createElement("button");
+      tile.type = "button";
+      tile.className = "tile" + (letter.length > 1 ? " long" : "");
+      tile.dataset.letter = letter;
+      tile.textContent = letter;
+
+      slot.appendChild(tile);
+      tilesEl.appendChild(slot);
+      bindTile(tile);
+    });
+
+    selectedTile = null;
+    setTip("5 ittri f’dan iċ-ċiklu. Użahom bit-tap jew drag-and-drop.");
+  }
+
+  answers.forEach(function (cell) {
+    cell.addEventListener("click", function () {
+      selectCell(cell);
+      if (selectedTile && document.body.contains(selectedTile)) {
+        placeTile(selectedTile, cell);
+      }
+    });
+  });
+
+  changeBtn.addEventListener("click", renderCycle);
+
+  eraseBtn.addEventListener("click", function () {
+    if (!selectedCell) {
+      setTip("Agħżel kaxxa l-ewwel.");
+      return;
+    }
+    selectedCell.textContent = "";
+    selectedCell.classList.remove("long");
+    setTip("L-ittra tneħħiet.");
+  });
+
+  hintBtn.addEventListener("click", function () {
+    setTip("Il-funzjoni tal-ħjiel inżiduha wara li niffissaw il-logħob.");
+  });
+
+  const modal = document.getElementById("modal");
+  const card = document.getElementById("card");
+  const closeBtn = document.getElementById("close");
+  const bigClue = document.getElementById("bigClue");
+  const bigArrow = document.getElementById("bigArrow");
+
+  document.querySelectorAll(".clue").forEach(function (clue) {
+    clue.addEventListener("click", function () {
+      const span = clue.querySelector("span");
+      const arrow = clue.querySelector("b");
+      bigClue.textContent = span ? span.innerText.split("\n").join(" ") : "";
+      bigArrow.textContent = arrow ? arrow.innerText : "";
+      card.classList.toggle("pic", clue.classList.contains("pic"));
+      modal.classList.add("open");
+    });
+  });
+
+  closeBtn.addEventListener("click", function () {
+    modal.classList.remove("open");
+  });
+
+  modal.addEventListener("click", function (e) {
+    if (e.target === modal) modal.classList.remove("open");
+  });
+
+  renderCycle();
+})();
+</script>
+</body></html>
