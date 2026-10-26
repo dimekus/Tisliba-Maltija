@@ -1,0 +1,2 @@
+Tisliba Maltija - test tal-konnessjoni ChatGPT ma' GitHub.
+Dan il-file inħoloq fuq branch separat. Il-main u index.html ma nbidlux.
