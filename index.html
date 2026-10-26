@@ -38,7 +38,7 @@ header strong{font-size:clamp(21px,6vw,30px)}
 .card{width:min(90vw,420px);min-height:190px;background-color:#9bb6c7;color:#19364c;border:4px solid #27455c;border-radius:18px;padding:28px;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;position:relative}
 .card strong{font-size:clamp(25px,7vw,38px)}.card.pic strong{font-size:clamp(78px,22vw,120px)}
 .card em{font-style:normal;font-size:34px;font-weight:900;color:#19364c;margin-top:10px}
-.close{position:absolute;right:8px;top:4px;border:0;background:transparent;color:#19364c;font-size:34px;font-weight:900}
+.close{position:absolute;right:8px;top:4px;border:0;background:transparent;color:#19364c;font-size:34px;font-weight:900}.end-actions{display:none;gap:10px;margin-top:20px;flex-wrap:wrap;justify-content:center}.end-actions.open{display:flex}.end-actions button{border:0;border-radius:10px;padding:11px 16px;background:#345f87;color:#fff;font-size:16px;font-weight:900}.end-actions #newPuzzle{background:#2f7857}
 @media(max-height:760px){.board{max-height:62dvh}.panel{margin-top:7px}}
 .board .cell.block{background-color:#163047}.board .cell.answer.good{background-color:#dcebd8}.board .cell.answer.bad{background-color:#f0c7c2}.progress{text-align:center;font-size:13px;color:#fff;margin:8px 0}.board .cell.clue:not(.pic) span{font-size:clamp(5px,1.35vw,9px);line-height:1.05;max-width:100%;max-height:100%;overflow:hidden;overflow-wrap:anywhere;word-break:break-word;hyphens:auto;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical}.board .cell.clue.pic span{font-size:clamp(16px,5vw,28px);overflow:hidden;max-width:100%}.board .cell.clue b{font-size:clamp(8px,1.9vw,12px)}.board .cell.clue{padding:2px 2px 8px}.total-score{text-align:center;background-color:#294963;border:1px solid #7198b3;border-radius:12px;margin:8px 0 0;padding:8px 12px;font-size:clamp(17px,4.5vw,22px);font-weight:900;color:#fff}.board .cell.answer[data-locked='1']{background-color:#dcebd8}.board .cell.answer[data-pending='1']{outline:2px solid #e9bd68;outline-offset:-2px}</style>
 </head><body><main class="app">
@@ -47,7 +47,7 @@ header strong{font-size:clamp(21px,6vw,30px)}
 <div class="total-score" id="totalScore" aria-live="polite">Punti totali: 0</div>
 <section class="panel">
 <div class="tiles" id="tiles"></div>
-<div class="tools"><button id="change">🔀 Ibdel</button><button id="erase">⌫ Neħħi</button><button id="hint">💡 Ħjiel</button><button id="verify">✓ Iċċekkja</button></div>
+<div class="tools"><button id="change">🔀 Ibdel</button><button id="erase">⌫ Neħħi</button><button id="hint">💡 Ħjiel</button><button id="verify">✓ Iċċekkja</button><button id="solve">🧩 Għaqqadli t-tisliba</button></div>
 <div class="tip" id="tip">5 ittri f’dan iċ-ċiklu. Użahom bit-tap jew drag-and-drop.</div><div class="progress" id="progress"></div>
 </section></main>
 
@@ -55,11 +55,31 @@ header strong{font-size:clamp(21px,6vw,30px)}
  <div class="card" id="card">
   <button class="close" id="close">×</button>
   <strong id="bigClue"></strong><em id="bigArrow"></em>
+  <div class="end-actions" id="endActions"><button id="newPuzzle">Iva, tisliba oħra</button><button id="finishGame">Le, spiċċajt</button></div>
  </div>
 </div>
 
 <script>(()=>{
-const words=[{"clue":"Ikel mid-dqiq","name":"Ħobż","letters":["Ħ","O","B","Ż"],"direction":"down","cells":["7,6","8,6","9,6","10,6"]},{"clue":"🌳","name":"Siġra","letters":["S","I","Ġ","R","A"],"direction":"down","cells":["1,6","2,6","3,6","4,6","5,6"]},{"clue":"Kulur tad-demm","name":"Aħmar","letters":["A","Ħ","M","A","R"],"direction":"across","cells":["5,6","5,7","5,8","5,9","5,10"]},{"clue":"🍯","name":"Għasel","letters":["GĦ","A","S","E","L"],"direction":"down","cells":["2,2","3,2","4,2","5,2","6,2"]},{"clue":"Fejn imorru t-tfal jitgħallmu?","name":"Skola","letters":["S","K","O","L","A"],"direction":"down","cells":["1,0","2,0","3,0","4,0","5,0"]},{"clue":"🥛","name":"Ħalib","letters":["Ħ","A","L","I","B"],"direction":"across","cells":["7,6","7,7","7,8","7,9","7,10"]},{"clue":"🐶","name":"Kelb","letters":["K","E","L","B"],"direction":"down","cells":["4,4","5,4","6,4","7,4"]},{"clue":"☀️","name":"Xemx","letters":["X","E","M","X"],"direction":"down","cells":["7,1","8,1","9,1","10,1"]},{"clue":"🏠","name":"Dar","letters":["D","A","R"],"direction":"down","cells":["3,10","4,10","5,10"]},{"clue":"Ilma mielaħ vast","name":"Baħar","letters":["B","A","Ħ","A","R"],"direction":"across","cells":["9,6","9,7","9,8","9,9","9,10"]},{"clue":"Il-mara li wellditek","name":"Omm","letters":["O","M","M"],"direction":"down","cells":["3,8","4,8","5,8"]},{"clue":"Jagħti togħma lill-ikel","name":"Melħ","letters":["M","E","L","Ħ"],"direction":"across","cells":["9,1","9,2","9,3","9,4"]},{"clue":"🐟","name":"Ħut","letters":["Ħ","U","T"],"direction":"across","cells":["1,8","1,9","1,10"]},{"clue":"Minnha jgħaddu l-karozzi","name":"Triq","letters":["T","R","I","Q"],"direction":"across","cells":["2,4","2,5","2,6","2,7"]}],solution={"7,6":"Ħ","8,6":"O","9,6":"B","10,6":"Ż","1,6":"S","2,6":"I","3,6":"Ġ","4,6":"R","5,6":"A","5,7":"Ħ","5,8":"M","5,9":"A","5,10":"R","2,2":"GĦ","3,2":"A","4,2":"S","5,2":"E","6,2":"L","1,0":"S","2,0":"K","3,0":"O","4,0":"L","5,0":"A","7,7":"A","7,8":"L","7,9":"I","7,10":"B","4,4":"K","5,4":"E","6,4":"L","7,4":"B","7,1":"X","8,1":"E","9,1":"M","10,1":"X","3,10":"D","4,10":"A","9,7":"A","9,8":"Ħ","9,9":"A","9,10":"R","3,8":"O","4,8":"M","9,2":"E","9,3":"L","9,4":"Ħ","1,8":"Ħ","1,9":"U","1,10":"T","2,4":"T","2,5":"R","2,7":"Q"};
+let words=[{"clue":"Ikel mid-dqiq","name":"Ħobż","letters":["Ħ","O","B","Ż"],"direction":"down","cells":["7,6","8,6","9,6","10,6"]},{"clue":"🌳","name":"Siġra","letters":["S","I","Ġ","R","A"],"direction":"down","cells":["1,6","2,6","3,6","4,6","5,6"]},{"clue":"Kulur tad-demm","name":"Aħmar","letters":["A","Ħ","M","A","R"],"direction":"across","cells":["5,6","5,7","5,8","5,9","5,10"]},{"clue":"🍯","name":"Għasel","letters":["GĦ","A","S","E","L"],"direction":"down","cells":["2,2","3,2","4,2","5,2","6,2"]},{"clue":"Fejn imorru t-tfal jitgħallmu?","name":"Skola","letters":["S","K","O","L","A"],"direction":"down","cells":["1,0","2,0","3,0","4,0","5,0"]},{"clue":"🥛","name":"Ħalib","letters":["Ħ","A","L","I","B"],"direction":"across","cells":["7,6","7,7","7,8","7,9","7,10"]},{"clue":"🐶","name":"Kelb","letters":["K","E","L","B"],"direction":"down","cells":["4,4","5,4","6,4","7,4"]},{"clue":"☀️","name":"Xemx","letters":["X","E","M","X"],"direction":"down","cells":["7,1","8,1","9,1","10,1"]},{"clue":"🏠","name":"Dar","letters":["D","A","R"],"direction":"down","cells":["3,10","4,10","5,10"]},{"clue":"Ilma mielaħ vast","name":"Baħar","letters":["B","A","Ħ","A","R"],"direction":"across","cells":["9,6","9,7","9,8","9,9","9,10"]},{"clue":"Il-mara li wellditek","name":"Omm","letters":["O","M","M"],"direction":"down","cells":["3,8","4,8","5,8"]},{"clue":"Jagħti togħma lill-ikel","name":"Melħ","letters":["M","E","L","Ħ"],"direction":"across","cells":["9,1","9,2","9,3","9,4"]},{"clue":"🐟","name":"Ħut","letters":["Ħ","U","T"],"direction":"across","cells":["1,8","1,9","1,10"]},{"clue":"Minnha jgħaddu l-karozzi","name":"Triq","letters":["T","R","I","Q"],"direction":"across","cells":["2,4","2,5","2,6","2,7"]}],solution={"7,6":"Ħ","8,6":"O","9,6":"B","10,6":"Ż","1,6":"S","2,6":"I","3,6":"Ġ","4,6":"R","5,6":"A","5,7":"Ħ","5,8":"M","5,9":"A","5,10":"R","2,2":"GĦ","3,2":"A","4,2":"S","5,2":"E","6,2":"L","1,0":"S","2,0":"K","3,0":"O","4,0":"L","5,0":"A","7,7":"A","7,8":"L","7,9":"I","7,10":"B","4,4":"K","5,4":"E","6,4":"L","7,4":"B","7,1":"X","8,1":"E","9,1":"M","10,1":"X","3,10":"D","4,10":"A","9,7":"A","9,8":"Ħ","9,9":"A","9,10":"R","3,8":"O","4,8":"M","9,2":"E","9,3":"L","9,4":"Ħ","1,8":"Ħ","1,9":"U","1,10":"T","2,4":"T","2,5":"R","2,7":"Q"};
+const firstPuzzle={words,solution};
+const secondWords=[
+{clue:'Il-parti ta’ fuq ta’ kamra',name:'Saqf',letters:['S','A','Q','F'],direction:'down',cells:['7,6','8,6','9,6','10,6']},
+{clue:'📖',name:'Ktieb',letters:['K','T','I','E','B'],direction:'down',cells:['1,6','2,6','3,6','4,6','5,6']},
+{clue:'Ilma mielaħ vast',name:'Baħar',letters:['B','A','Ħ','A','R'],direction:'across',cells:['5,6','5,7','5,8','5,9','5,10']},
+{clue:'🐜',name:'Nemla',letters:['N','E','M','L','A'],direction:'down',cells:['2,2','3,2','4,2','5,2','6,2']},
+{clue:'Minnha jidħol id-dawl',name:'Tieqa',letters:['T','I','E','Q','A'],direction:'down',cells:['1,0','2,0','3,0','4,0','5,0']},
+{clue:'🛋️',name:'Sufan',letters:['S','U','F','A','N'],direction:'across',cells:['7,6','7,7','7,8','7,9','7,10']},
+{clue:'Mara adulta',name:'Mara',letters:['M','A','R','A'],direction:'down',cells:['4,4','5,4','6,4','7,4']},
+{clue:'Bil-maqlub ta’ żgħir',name:'Kbir',letters:['K','B','I','R'],direction:'down',cells:['7,1','8,1','9,1','10,1']},
+{clue:'🔥',name:'Nar',letters:['N','A','R'],direction:'down',cells:['3,10','4,10','5,10']},
+{clue:'🌙',name:'Qamar',letters:['Q','A','M','A','R'],direction:'across',cells:['9,6','9,7','9,8','9,9','9,10']},
+{clue:'💨',name:'Riħ',letters:['R','I','Ħ'],direction:'down',cells:['3,8','4,8','5,8']},
+{clue:'Dak li nieklu',name:'Ikel',letters:['I','K','E','L'],direction:'across',cells:['9,1','9,2','9,3','9,4']},
+{clue:'🐭',name:'Far',letters:['F','A','R'],direction:'across',cells:['1,8','1,9','1,10']},
+{clue:'🐟 waħda',name:'Ħuta',letters:['Ħ','U','T','A'],direction:'across',cells:['2,4','2,5','2,6','2,7']}
+];
+function makeSolution(list){const out={};list.forEach(w=>w.cells.forEach((k,i)=>{if(out[k]&&out[k]!==w.letters[i])throw new Error('Tisliba invalida');out[k]=w.letters[i]}));return out}
+const puzzles=[firstPuzzle,{words:secondWords,solution:makeSolution(secondWords)}];let activePuzzle=0;
 const answers=[...document.querySelectorAll('.answer')],byKey=Object.fromEntries(answers.map(c=>[c.dataset.key,c])),tiles=document.getElementById('tiles'),tip=document.getElementById('tip'),progress=document.getElementById('progress'),totalScore=document.getElementById('totalScore'),modal=document.getElementById('modal');
 let selectedCell=null,selectedTile=null,drag=null,ghost=null,turn=1,total=0,won=false,serial=0;
 const say=s=>tip.textContent=s;
