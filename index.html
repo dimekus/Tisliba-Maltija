@@ -12,9 +12,9 @@ body{min-height:100dvh}
 header{display:flex;align-items:center;justify-content:space-between;margin:5px 2px 8px;color:white}
 header strong{font-size:clamp(21px,6vw,30px)}
 .level{background-color:#294963;border:1px solid #7198b3;border-radius:14px;padding:8px 13px;font-weight:900;font-size:clamp(15px,4vw,21px);color:white}
-.board{display:grid;grid-template-columns:repeat(11,minmax(0,1fr));grid-template-rows:repeat(11,minmax(0,1fr));width:100%;aspect-ratio:1/1;background-color:var(--grid);border:2px solid #6089a6;gap:1px;border-radius:9px;overflow:hidden}
-.cell{width:100%;height:100%;min-width:0;min-height:0;max-width:100%;max-height:100%;border:0;margin:0;padding:0;position:relative;overflow:hidden;border-radius:0}
-.board .cell.answer{display:flex;align-items:center;justify-content:center;background-color:#f7efdd;box-shadow:inset 0 0 0 1px #b7a98f;color:#142d43;font-size:clamp(14px,5vw,25px);font-weight:900;line-height:1;white-space:nowrap;appearance:none;-webkit-appearance:none}
+.board{display:grid;grid-template-columns:repeat(11,minmax(0,1fr));grid-template-rows:repeat(11,minmax(0,1fr));width:100%;aspect-ratio:1/1;background-color:var(--grid);border:2px solid #6089a6;gap:0;border-radius:9px;overflow:hidden}
+.cell{width:100%;height:100%;min-width:0;min-height:0;max-width:100%;max-height:100%;border:0;margin:0;padding:0;position:relative;overflow:hidden;border-radius:0;box-shadow:inset 1px 0 0 #6089a6,inset 0 1px 0 #6089a6}
+.board .cell.answer{display:flex;align-items:center;justify-content:center;background-color:#f7efdd;color:#142d43;font-size:clamp(14px,5vw,25px);font-weight:900;line-height:1;white-space:nowrap;appearance:none;-webkit-appearance:none}
 .board .cell.answer.long{font-size:clamp(10px,3.8vw,19px)}
 .board .cell.answer.sel{outline:3px solid var(--accent);outline-offset:-3px;background-color:#fff4d9}
 .board .cell.answer.drop-target{box-shadow:inset 0 0 0 4px var(--accent)}
@@ -68,7 +68,7 @@ function pending(){return answers.filter(c=>c.dataset.pending==='1')}
 function select(c){answers.forEach(x=>x.classList.remove('sel'));selectedCell=c;c.classList.add('sel')}
 function refresh(){const done=words.filter(w=>w.cells.every((k,i)=>byKey[k].dataset.locked==='1'&&byKey[k].textContent===w.letters[i])).length;progress.textContent='Turn '+turn+' | Kliem: '+done+'/'+words.length;totalScore.textContent='Punti totali: '+total;if(done===words.length&&!won){won=true;say('Prosit! Lestejt il-livell b’'+total+' punti! 🎉')}return done}
 function createTile(letter){let slot=document.createElement('div');slot.className='tile-slot';let t=document.createElement('button');t.type='button';t.className='tile'+(letter.length>1?' long':'');t.dataset.letter=letter;t.dataset.tileId='t'+(++serial);t.textContent=letter;slot.appendChild(t);tiles.appendChild(slot);bind(t)}
-function refill(){const missing=5-tiles.querySelectorAll('.tile').length;if(missing<=0)return;let pool=answers.filter(c=>c.dataset.locked!=='1').map(c=>solution[c.dataset.key]);for(let i=0;i<missing;i++){let letter=pool.length?pool.splice(Math.floor(Math.random()*pool.length),1)[0]:'A';createTile(letter)}}
+function refill(){const missing=5-tiles.querySelectorAll('.tile').length;if(missing<=0)return;let pool=answers.filter(c=>c.dataset.locked!=='1').map(c=>solution[c.dataset.key]);tiles.querySelectorAll('.tile').forEach(t=>{const i=pool.indexOf(t.dataset.letter);if(i!==-1)pool.splice(i,1)});for(let i=0;i<missing&&pool.length;i++){const letter=pool.splice(Math.floor(Math.random()*pool.length),1)[0];createTile(letter)}}
 function findTile(id){return [...tiles.querySelectorAll('.tile')].find(t=>t.dataset.tileId===id)}
 function returnTile(c){if(!c.dataset.tileId)return;const t=findTile(c.dataset.tileId);if(t){t.disabled=false;t.style.visibility='';t.closest('.tile-slot').classList.remove('used')}delete c.dataset.tileId}
 function clearCell(c){returnTile(c);c.textContent='';delete c.dataset.pending;c.classList.remove('long','good','bad')}
