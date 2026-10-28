@@ -5135,11 +5135,19 @@
       "clues": {
         "easy": "Vettura kbira li ġġorr ħafna passiġġieri",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Ġġorr ħafna passiġġieri"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Bus",
+      "status": "komuni-inizjali",
+      "meaning": "Vettura kbira tat-trasport pubbliku li ġġorr ħafna passiġġieri fuq rotta.",
+      "example": "Ix-xarabank waslet fil-waqfa fil-ħin.",
+      "exampleEnglish": "The bus arrived at the stop on time.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 172,
@@ -5156,11 +5164,19 @@
       "clues": {
         "easy": "Vettura magħluqa akbar minn karozza",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Akbar minn karozza"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Van",
+      "status": "komuni-inizjali",
+      "meaning": "Vettura magħluqa, akbar minn karozza, użata biex iġġorr nies jew tagħbija.",
+      "example": "Il-vann wassal il-kaxxi fil-ħanut.",
+      "exampleEnglish": "The van delivered the boxes to the shop.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 173,
@@ -5178,11 +5194,19 @@
       "clues": {
         "easy": "Vettura kbira li ġġorr tagħbija",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Iġorr tagħbija kbira"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Truck",
+      "status": "komuni-inizjali",
+      "meaning": "Vettura kbira u b’saħħitha magħmula biex iġġorr tagħbija tqila.",
+      "example": "It-trakk ġarr il-ġebel lejn is-sit.",
+      "exampleEnglish": "The truck carried the stones to the site.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 174,
@@ -5200,11 +5224,19 @@
       "clues": {
         "easy": "Vettura b’żewġ roti u magna",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Żewġ roti u magna"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Motorcycle",
+      "status": "komuni-inizjali",
+      "meaning": "Vettura b’żewġ roti mħaddma b’magna u misjuqa minn sewwieq.",
+      "example": "Il-mutur għadda bil-mod mit-triq.",
+      "exampleEnglish": "The motorcycle travelled slowly along the road.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 175,
@@ -5223,11 +5255,19 @@
       "clues": {
         "easy": "Post minn fejn jitilqu u jinżlu l-ajruplani",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jitilqu l-ajruplani"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Airport",
+      "status": "komuni-inizjali",
+      "meaning": "Post b’runways u bini minn fejn jitilqu u jinżlu l-ajruplani.",
+      "example": "Waslu l-mitjar sagħtejn qabel it-titjira.",
+      "exampleEnglish": "They arrived at the airport two hours before the flight.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 176,
@@ -5244,11 +5284,19 @@
       "clues": {
         "easy": "Post fejn jidħlu u jorbtu l-bastimenti",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jorbtu l-bastimenti"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Harbour",
+      "status": "komuni-inizjali",
+      "meaning": "Post protett max-xatt fejn il-bastimenti jidħlu, jorbtu u jitgħabbew.",
+      "example": "Il-bastiment daħal fil-port filgħaxija.",
+      "exampleEnglish": "The ship entered the harbour in the evening.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 177,
@@ -5269,11 +5317,19 @@
       "clues": {
         "easy": "Post fejn jieqaf jew jitlaq it-trasport",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jieqaf fih it-trasport"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Station",
+      "status": "komuni-inizjali",
+      "meaning": "Post fejn jieqfu jew jitilqu ferroviji, xarabanks jew mezzi oħra tat-trasport.",
+      "example": "Iltaqgħu quddiem l-istazzjon.",
+      "exampleEnglish": "They met in front of the station.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 178,
@@ -5291,11 +5347,19 @@
       "clues": {
         "easy": "Post fejn tieqaf ix-xarabank",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tieqaf ix-xarabank"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Bus stop",
+      "status": "komuni-inizjali",
+      "meaning": "Post immarkat fejn ix-xarabank tieqaf biex jitilgħu jew jinżlu l-passiġġieri.",
+      "example": "Stennejna x-xarabank fil-waqfa.",
+      "exampleEnglish": "We waited for the bus at the bus stop.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 179,
@@ -5315,11 +5379,19 @@
       "clues": {
         "easy": "Parti mgħollija maġenb it-triq għall-mixi",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Mixja maġenb it-triq"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Pavement",
+      "status": "komuni-inizjali",
+      "meaning": "Parti mgħollija maġenb it-triq magħmula biex jimxu fuqha n-nies.",
+      "example": "Imxew fuq il-bankina bla periklu.",
+      "exampleEnglish": "They walked safely on the pavement.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 180,
@@ -5336,11 +5408,19 @@
       "clues": {
         "easy": "Passaġġ taħt l-art jew ġo muntanja",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Passaġġ taħt l-art"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Tunnel",
+      "status": "komuni-inizjali",
+      "meaning": "Passaġġ imħaffer taħt l-art, taħt ilma jew minn ġo muntanja.",
+      "example": "Il-ferrovija għaddiet mill-mina.",
+      "exampleEnglish": "The train passed through the tunnel.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 181,
