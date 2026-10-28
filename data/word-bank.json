@@ -7,8 +7,8 @@
     "Ħ": "ittra separata u ppronunzjata"
   },
   "counts": {
-    "total": 220,
-    "common": 183,
+    "total": 320,
+    "common": 283,
     "ieReview": 0,
     "ieApproved": 17,
     "userApproved": 20
@@ -4904,6 +4904,2260 @@
       "image": null,
       "english": null,
       "status": "approvata-utent"
+    },
+    {
+      "id": 221,
+      "batch": 5,
+      "answer": "QALB",
+      "tokens": [
+        "Q",
+        "A",
+        "L",
+        "B"
+      ],
+      "category": "ġisem",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Tħabbat fis-sider u tmexxi d-demm",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 222,
+      "batch": 5,
+      "answer": "DEMM",
+      "tokens": [
+        "D",
+        "E",
+        "M",
+        "M"
+      ],
+      "category": "ġisem",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Likwidu aħmar li jiċċirkola fil-ġisem",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 223,
+      "batch": 5,
+      "answer": "GĦADAM",
+      "tokens": [
+        "GĦ",
+        "A",
+        "D",
+        "A",
+        "M"
+      ],
+      "category": "ġisem",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Partijiet ibsin li jsostnu l-ġisem",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 224,
+      "batch": 5,
+      "answer": "ĠILDA",
+      "tokens": [
+        "Ġ",
+        "I",
+        "L",
+        "D",
+        "A"
+      ],
+      "category": "ġisem",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Tgħatti l-ġisem minn barra",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 225,
+      "batch": 5,
+      "answer": "GĦONQ",
+      "tokens": [
+        "GĦ",
+        "O",
+        "N",
+        "Q"
+      ],
+      "category": "ġisem",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Jgħaqqad ir-ras mal-ġisem",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 226,
+      "batch": 5,
+      "answer": "SPALLA",
+      "tokens": [
+        "S",
+        "P",
+        "A",
+        "L",
+        "L",
+        "A"
+      ],
+      "category": "ġisem",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Parti bejn l-għonq u d-driegħ",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 227,
+      "batch": 5,
+      "answer": "MINKEB",
+      "tokens": [
+        "M",
+        "I",
+        "N",
+        "K",
+        "E",
+        "B"
+      ],
+      "category": "ġisem",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Il-ġog fin-nofs tad-driegħ",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 228,
+      "batch": 5,
+      "answer": "IRKOPPA",
+      "tokens": [
+        "I",
+        "R",
+        "K",
+        "O",
+        "P",
+        "P",
+        "A"
+      ],
+      "category": "ġisem",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Il-ġog fin-nofs tar-riġel",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 229,
+      "batch": 5,
+      "answer": "DAHAR",
+      "tokens": [
+        "D",
+        "A",
+        "H",
+        "A",
+        "R"
+      ],
+      "category": "ġisem",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Il-parti ta’ wara tal-ġisem",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 230,
+      "batch": 5,
+      "answer": "SIDIR",
+      "tokens": [
+        "S",
+        "I",
+        "D",
+        "I",
+        "R"
+      ],
+      "category": "ġisem",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Il-parti ta’ quddiem bejn l-għonq u ż-żaqq",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 231,
+      "batch": 5,
+      "answer": "ŻAQQ",
+      "tokens": [
+        "Ż",
+        "A",
+        "Q",
+        "Q"
+      ],
+      "category": "ġisem",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Il-parti ta’ quddiem taħt is-sider",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 232,
+      "batch": 5,
+      "answer": "SWABA",
+      "tokens": [
+        "S",
+        "W",
+        "A",
+        "B",
+        "A"
+      ],
+      "category": "ġisem",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Partijiet żgħar fit-truf tal-idejn",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 233,
+      "batch": 5,
+      "answer": "DWIEFER",
+      "tokens": [
+        "D",
+        "W",
+        "IE",
+        "F",
+        "E",
+        "R"
+      ],
+      "category": "ġisem",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Jikbru fit-truf tas-swaba’",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 234,
+      "batch": 5,
+      "answer": "SNIEN",
+      "tokens": [
+        "S",
+        "N",
+        "IE",
+        "N"
+      ],
+      "category": "ġisem",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Jintużaw biex tomgħod l-ikel",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 235,
+      "batch": 5,
+      "answer": "ILSIEN",
+      "tokens": [
+        "I",
+        "L",
+        "S",
+        "IE",
+        "N"
+      ],
+      "category": "ġisem",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Jgħin fit-taħdit u fit-togħma",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 236,
+      "batch": 5,
+      "answer": "RAĠEL",
+      "tokens": [
+        "R",
+        "A",
+        "Ġ",
+        "E",
+        "L"
+      ],
+      "category": "nies",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Persuna adulta maskili",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 237,
+      "batch": 5,
+      "answer": "MARA",
+      "tokens": [
+        "M",
+        "A",
+        "R",
+        "A"
+      ],
+      "category": "nies",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Persuna adulta femminili",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 238,
+      "batch": 5,
+      "answer": "TIFEL",
+      "tokens": [
+        "T",
+        "I",
+        "F",
+        "E",
+        "L"
+      ],
+      "category": "nies",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Persuna maskili ta’ età żgħira",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 239,
+      "batch": 5,
+      "answer": "TIFLA",
+      "tokens": [
+        "T",
+        "I",
+        "F",
+        "L",
+        "A"
+      ],
+      "category": "nies",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Persuna femminili ta’ età żgħira",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 240,
+      "batch": 5,
+      "answer": "TARBIJA",
+      "tokens": [
+        "T",
+        "A",
+        "R",
+        "B",
+        "I",
+        "J",
+        "A"
+      ],
+      "category": "nies",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Persuna fl-ewwel snin tal-ħajja",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 241,
+      "batch": 5,
+      "answer": "ĦABIB",
+      "tokens": [
+        "Ħ",
+        "A",
+        "B",
+        "I",
+        "B"
+      ],
+      "category": "nies",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Raġel li għandek relazzjoni tajba miegħu",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 242,
+      "batch": 5,
+      "answer": "ĦABIBA",
+      "tokens": [
+        "Ħ",
+        "A",
+        "B",
+        "I",
+        "B",
+        "A"
+      ],
+      "category": "nies",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Mara li għandek relazzjoni tajba magħha",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 243,
+      "batch": 5,
+      "answer": "ĠAR",
+      "tokens": [
+        "Ġ",
+        "A",
+        "R"
+      ],
+      "category": "nies",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Raġel li jgħix qrib tiegħek",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 244,
+      "batch": 5,
+      "answer": "ĠARA",
+      "tokens": [
+        "Ġ",
+        "A",
+        "R",
+        "A"
+      ],
+      "category": "nies",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Mara li tgħix qrib tiegħek",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 245,
+      "batch": 5,
+      "answer": "FAMILJA",
+      "tokens": [
+        "F",
+        "A",
+        "M",
+        "I",
+        "L",
+        "J",
+        "A"
+      ],
+      "category": "nies",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Grupp magħmul minn ġenituri u wlied",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 246,
+      "batch": 5,
+      "answer": "ARMARJU",
+      "tokens": [
+        "A",
+        "R",
+        "M",
+        "A",
+        "R",
+        "J",
+        "U"
+      ],
+      "category": "dar",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Għamara magħluqa fejn jinżammu l-ħwejjeġ",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 247,
+      "batch": 5,
+      "answer": "SUFAN",
+      "tokens": [
+        "S",
+        "U",
+        "F",
+        "A",
+        "N"
+      ],
+      "category": "dar",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Għamara ratba fejn joqogħdu diversi persuni",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 248,
+      "batch": 5,
+      "answer": "LAMPA",
+      "tokens": [
+        "L",
+        "A",
+        "M",
+        "P",
+        "A"
+      ],
+      "category": "dar",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Tagħti dawl ġewwa jew barra",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 249,
+      "batch": 5,
+      "answer": "PURTIERA",
+      "tokens": [
+        "P",
+        "U",
+        "R",
+        "T",
+        "IE",
+        "R",
+        "A"
+      ],
+      "category": "dar",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Drapp li jgħatti tieqa",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 250,
+      "batch": 5,
+      "answer": "TAPIT",
+      "tokens": [
+        "T",
+        "A",
+        "P",
+        "I",
+        "T"
+      ],
+      "category": "dar",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Kisja tad-drapp mifruxa mal-art",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 251,
+      "batch": 5,
+      "answer": "IMĦADDA",
+      "tokens": [
+        "I",
+        "M",
+        "Ħ",
+        "A",
+        "D",
+        "D",
+        "A"
+      ],
+      "category": "dar",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Tpoġġi rasek fuqha fis-sodda",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 252,
+      "batch": 5,
+      "answer": "KUTRA",
+      "tokens": [
+        "K",
+        "U",
+        "T",
+        "R",
+        "A"
+      ],
+      "category": "dar",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Tgħattik waqt l-irqad",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 253,
+      "batch": 5,
+      "answer": "LOŻOR",
+      "tokens": [
+        "L",
+        "O",
+        "Ż",
+        "O",
+        "R"
+      ],
+      "category": "dar",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Drapp li jinkesa bih is-saqqu",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 254,
+      "batch": 5,
+      "answer": "BARMIL",
+      "tokens": [
+        "B",
+        "A",
+        "R",
+        "M",
+        "I",
+        "L"
+      ],
+      "category": "dar",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Kontenitur fond b’manku",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 255,
+      "batch": 5,
+      "answer": "XKUPA",
+      "tokens": [
+        "X",
+        "K",
+        "U",
+        "P",
+        "A"
+      ],
+      "category": "dar",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Tintuża biex tiknes l-art",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 256,
+      "batch": 5,
+      "answer": "MADUMA",
+      "tokens": [
+        "M",
+        "A",
+        "D",
+        "U",
+        "M",
+        "A"
+      ],
+      "category": "dar",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Biċċa iebsa li tiksi art jew ħajt",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 257,
+      "batch": 5,
+      "answer": "SERRATURA",
+      "tokens": [
+        "S",
+        "E",
+        "R",
+        "R",
+        "A",
+        "T",
+        "U",
+        "R",
+        "A"
+      ],
+      "category": "dar",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Mekkaniżmu li jingħalaq biċ-ċavetta",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 258,
+      "batch": 5,
+      "answer": "KAXXA",
+      "tokens": [
+        "K",
+        "A",
+        "X",
+        "X",
+        "A"
+      ],
+      "category": "dar",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Kontenitur b’ġnub u qiegħ",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 259,
+      "batch": 5,
+      "answer": "FLIXKUN",
+      "tokens": [
+        "F",
+        "L",
+        "I",
+        "X",
+        "K",
+        "U",
+        "N"
+      ],
+      "category": "dar",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Kontenitur dejjaq għal-likwidi",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 260,
+      "batch": 5,
+      "answer": "MAGNA",
+      "tokens": [
+        "M",
+        "A",
+        "G",
+        "N",
+        "A"
+      ],
+      "category": "oġġetti",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Tagħmel xogħol bl-użu tal-enerġija",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 261,
+      "batch": 5,
+      "answer": "MUNTANJA",
+      "tokens": [
+        "M",
+        "U",
+        "N",
+        "T",
+        "A",
+        "N",
+        "J",
+        "A"
+      ],
+      "category": "natura",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Elevazzjoni kbira ħafna tal-art",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 262,
+      "batch": 5,
+      "answer": "GĦAR",
+      "tokens": [
+        "GĦ",
+        "A",
+        "R"
+      ],
+      "category": "natura",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Spazju naturali ġewwa l-blat",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 263,
+      "batch": 5,
+      "answer": "GĦERQ",
+      "tokens": [
+        "GĦ",
+        "E",
+        "R",
+        "Q"
+      ],
+      "category": "natura",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Parti tal-pjanta li tikber taħt l-art",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 264,
+      "batch": 5,
+      "answer": "FERGĦA",
+      "tokens": [
+        "F",
+        "E",
+        "R",
+        "GĦ",
+        "A"
+      ],
+      "category": "natura",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Tikber miż-zokk u żżomm il-weraq",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 265,
+      "batch": 5,
+      "answer": "ŻERRIEGĦA",
+      "tokens": [
+        "Ż",
+        "E",
+        "R",
+        "R",
+        "IE",
+        "GĦ",
+        "A"
+      ],
+      "category": "natura",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Minnha tista’ tikber pjanta ġdida",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 266,
+      "batch": 5,
+      "answer": "XITLA",
+      "tokens": [
+        "X",
+        "I",
+        "T",
+        "L",
+        "A"
+      ],
+      "category": "natura",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Pjanta żgħira li għadha qed tikber",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 267,
+      "batch": 5,
+      "answer": "BAJJA",
+      "tokens": [
+        "B",
+        "A",
+        "J",
+        "J",
+        "A"
+      ],
+      "category": "natura",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Daħla tal-baħar bejn żewġt itruf tal-art",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 268,
+      "batch": 5,
+      "answer": "RAMLA",
+      "tokens": [
+        "R",
+        "A",
+        "M",
+        "L",
+        "A"
+      ],
+      "category": "natura",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Xatt miksi bir-ramel",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 269,
+      "batch": 5,
+      "answer": "BLATA",
+      "tokens": [
+        "B",
+        "L",
+        "A",
+        "T",
+        "A"
+      ],
+      "category": "natura",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Biċċa kbira u ċatta tal-ġebel",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 270,
+      "batch": 5,
+      "answer": "ĦAMRIJA",
+      "tokens": [
+        "Ħ",
+        "A",
+        "M",
+        "R",
+        "I",
+        "J",
+        "A"
+      ],
+      "category": "natura",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Materjal fl-art fejn jikbru l-pjanti",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 271,
+      "batch": 5,
+      "answer": "SĦANA",
+      "tokens": [
+        "S",
+        "Ħ",
+        "A",
+        "N",
+        "A"
+      ],
+      "category": "temp",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Temperatura għolja",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 272,
+      "batch": 5,
+      "answer": "KESĦA",
+      "tokens": [
+        "K",
+        "E",
+        "S",
+        "Ħ",
+        "A"
+      ],
+      "category": "temp",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Temperatura baxxa",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 273,
+      "batch": 5,
+      "answer": "DELL",
+      "tokens": [
+        "D",
+        "E",
+        "L",
+        "L"
+      ],
+      "category": "natura",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Post mudlam protett mix-xemx",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 274,
+      "batch": 5,
+      "answer": "DAWL",
+      "tokens": [
+        "D",
+        "A",
+        "W",
+        "L"
+      ],
+      "category": "natura",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Jagħmel l-affarijiet viżibbli",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 275,
+      "batch": 5,
+      "answer": "ART",
+      "tokens": [
+        "A",
+        "R",
+        "T"
+      ],
+      "category": "natura",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Il-wiċċ solidu li nimxu fuqu",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 276,
+      "batch": 5,
+      "answer": "BERQA",
+      "tokens": [
+        "B",
+        "E",
+        "R",
+        "Q",
+        "A"
+      ],
+      "category": "temp",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Dija qawwija waqt maltempata",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 277,
+      "batch": 5,
+      "answer": "RAGĦDA",
+      "tokens": [
+        "R",
+        "A",
+        "GĦ",
+        "D",
+        "A"
+      ],
+      "category": "temp",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Ħoss qawwi li jiġi wara d-dija fis-sema",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 278,
+      "batch": 5,
+      "answer": "MALTEMP",
+      "tokens": [
+        "M",
+        "A",
+        "L",
+        "T",
+        "E",
+        "M",
+        "P"
+      ],
+      "category": "temp",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Temp ħażin b’riħ jew xita qawwija",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 279,
+      "batch": 5,
+      "answer": "ŻIFFA",
+      "tokens": [
+        "Ż",
+        "I",
+        "F",
+        "F",
+        "A"
+      ],
+      "category": "temp",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Riħ ħafif u pjaċevoli",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 280,
+      "batch": 5,
+      "answer": "TEMPERATURA",
+      "tokens": [
+        "T",
+        "E",
+        "M",
+        "P",
+        "E",
+        "R",
+        "A",
+        "T",
+        "U",
+        "R",
+        "A"
+      ],
+      "category": "temp",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Turi kemm hu sħun jew kiesaħ",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 281,
+      "batch": 5,
+      "answer": "ILBIERAĦ",
+      "tokens": [
+        "I",
+        "L",
+        "B",
+        "IE",
+        "R",
+        "A",
+        "Ħ"
+      ],
+      "category": "żmien",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Il-jum ta’ qabel illum",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 282,
+      "batch": 5,
+      "answer": "GĦAXIJA",
+      "tokens": [
+        "GĦ",
+        "A",
+        "X",
+        "I",
+        "J",
+        "A"
+      ],
+      "category": "żmien",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Il-ħin lejn tmiem il-jum",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 283,
+      "batch": 5,
+      "answer": "BIDU",
+      "tokens": [
+        "B",
+        "I",
+        "D",
+        "U"
+      ],
+      "category": "żmien",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "L-ewwel parti ta’ xi ħaġa",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 284,
+      "batch": 5,
+      "answer": "TMIEM",
+      "tokens": [
+        "T",
+        "M",
+        "IE",
+        "M"
+      ],
+      "category": "żmien",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "L-aħħar parti ta’ xi ħaġa",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 285,
+      "batch": 5,
+      "answer": "MUMENT",
+      "tokens": [
+        "M",
+        "U",
+        "M",
+        "E",
+        "N",
+        "T"
+      ],
+      "category": "żmien",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Żmien qasir ħafna",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 286,
+      "batch": 5,
+      "answer": "ILJUN",
+      "tokens": [
+        "I",
+        "L",
+        "J",
+        "U",
+        "N"
+      ],
+      "category": "annimali",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Annimal kbir magħruf bħala s-sultan tal-ġungla",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 287,
+      "batch": 5,
+      "answer": "TIGRA",
+      "tokens": [
+        "T",
+        "I",
+        "G",
+        "R",
+        "A"
+      ],
+      "category": "annimali",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Annimal kbir b’strixxi suwed",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 288,
+      "batch": 5,
+      "answer": "ORS",
+      "tokens": [
+        "O",
+        "R",
+        "S"
+      ],
+      "category": "annimali",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Annimal kbir u b’saħħtu b’ħafna suf",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 289,
+      "batch": 5,
+      "answer": "VOLPI",
+      "tokens": [
+        "V",
+        "O",
+        "L",
+        "P",
+        "I"
+      ],
+      "category": "annimali",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Annimal magħruf għal denbu twil u l-għaqal",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 290,
+      "batch": 5,
+      "answer": "XADINA",
+      "tokens": [
+        "X",
+        "A",
+        "D",
+        "I",
+        "N",
+        "A"
+      ],
+      "category": "annimali",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Annimal li jitla’ mas-siġar u jixbah lill-bniedem",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 291,
+      "batch": 5,
+      "answer": "ŻEBRA",
+      "tokens": [
+        "Ż",
+        "E",
+        "B",
+        "R",
+        "A"
+      ],
+      "category": "annimali",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Annimal bi strixxi suwed u bojod",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 292,
+      "batch": 5,
+      "answer": "ĠIRAFFA",
+      "tokens": [
+        "Ġ",
+        "I",
+        "R",
+        "A",
+        "F",
+        "F",
+        "A"
+      ],
+      "category": "annimali",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Annimal għoli b’għonq twil ħafna",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 293,
+      "batch": 5,
+      "answer": "ILJUNFANT",
+      "tokens": [
+        "I",
+        "L",
+        "J",
+        "U",
+        "N",
+        "F",
+        "A",
+        "N",
+        "T"
+      ],
+      "category": "annimali",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Annimal kbir b’widnejn kbar u mnieħer twil",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 294,
+      "batch": 5,
+      "answer": "QANFUD",
+      "tokens": [
+        "Q",
+        "A",
+        "N",
+        "F",
+        "U",
+        "D"
+      ],
+      "category": "annimali",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Annimal żgħir miksi bix-xewk",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 295,
+      "batch": 5,
+      "answer": "FARFETT",
+      "tokens": [
+        "F",
+        "A",
+        "R",
+        "F",
+        "E",
+        "T",
+        "T"
+      ],
+      "category": "annimali",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Insett bil-ġwienaħ ikkuluriti",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 296,
+      "batch": 5,
+      "answer": "BRIMBA",
+      "tokens": [
+        "B",
+        "R",
+        "I",
+        "M",
+        "B",
+        "A"
+      ],
+      "category": "annimali",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Ħlejqa bi tmien saqajn li tinseġ xibka",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 297,
+      "batch": 5,
+      "answer": "SERP",
+      "tokens": [
+        "S",
+        "E",
+        "R",
+        "P"
+      ],
+      "category": "annimali",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Annimal twil bla saqajn",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 298,
+      "batch": 5,
+      "answer": "ŻRINĠ",
+      "tokens": [
+        "Ż",
+        "R",
+        "I",
+        "N",
+        "Ġ"
+      ],
+      "category": "annimali",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Annimal żgħir li jgħix fl-ilma qabel jikber",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 299,
+      "batch": 5,
+      "answer": "GRANĊ",
+      "tokens": [
+        "G",
+        "R",
+        "A",
+        "N",
+        "Ċ"
+      ],
+      "category": "annimali",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Annimal tal-baħar b’qoxra u żewġ imqassijiet",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 300,
+      "batch": 5,
+      "answer": "GAMBLU",
+      "tokens": [
+        "G",
+        "A",
+        "M",
+        "B",
+        "L",
+        "U"
+      ],
+      "category": "annimali",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Annimal żgħir tal-baħar b’qoxra",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 301,
+      "batch": 5,
+      "answer": "FUTBOL",
+      "tokens": [
+        "F",
+        "U",
+        "T",
+        "B",
+        "O",
+        "L"
+      ],
+      "category": "rikreazzjoni",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Logħba bejn żewġ timijiet b’ballun",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 302,
+      "batch": 5,
+      "answer": "TENNIS",
+      "tokens": [
+        "T",
+        "E",
+        "N",
+        "N",
+        "I",
+        "S"
+      ],
+      "category": "rikreazzjoni",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Sport b’rakketta u ballun fuq xibka",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 303,
+      "batch": 5,
+      "answer": "GĦAWM",
+      "tokens": [
+        "GĦ",
+        "A",
+        "W",
+        "M"
+      ],
+      "category": "rikreazzjoni",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Moviment jew sport fl-ilma",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 304,
+      "batch": 5,
+      "answer": "ĠIRI",
+      "tokens": [
+        "Ġ",
+        "I",
+        "R",
+        "I"
+      ],
+      "category": "rikreazzjoni",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Moviment mgħaġġel ħafna bis-saqajn",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 305,
+      "batch": 5,
+      "answer": "MIXI",
+      "tokens": [
+        "M",
+        "I",
+        "X",
+        "I"
+      ],
+      "category": "rikreazzjoni",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Moviment minn post għal ieħor bis-saqajn",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 306,
+      "batch": 5,
+      "answer": "ŻFIN",
+      "tokens": [
+        "Ż",
+        "F",
+        "I",
+        "N"
+      ],
+      "category": "rikreazzjoni",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Moviment tal-ġisem mar-ritmu",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 307,
+      "batch": 5,
+      "answer": "KANT",
+      "tokens": [
+        "K",
+        "A",
+        "N",
+        "T"
+      ],
+      "category": "rikreazzjoni",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Mużika magħmula bil-vuċi",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 308,
+      "batch": 5,
+      "answer": "MUŻIKA",
+      "tokens": [
+        "M",
+        "U",
+        "Ż",
+        "I",
+        "K",
+        "A"
+      ],
+      "category": "rikreazzjoni",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Ħsejjes organizzati f’ritmu u melodija",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 309,
+      "batch": 5,
+      "answer": "FILM",
+      "tokens": [
+        "F",
+        "I",
+        "L",
+        "M"
+      ],
+      "category": "rikreazzjoni",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Storja murija bi stampi li jiċċaqalqu",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 310,
+      "batch": 5,
+      "answer": "LOGĦBA",
+      "tokens": [
+        "L",
+        "O",
+        "GĦ",
+        "B",
+        "A"
+      ],
+      "category": "rikreazzjoni",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Attività li ssir għall-gost jew kompetizzjoni",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 311,
+      "batch": 5,
+      "answer": "SPTAR",
+      "tokens": [
+        "S",
+        "P",
+        "T",
+        "A",
+        "R"
+      ],
+      "category": "postijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Post fejn jiġu kkurati l-morda",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 312,
+      "batch": 5,
+      "answer": "LUKANDA",
+      "tokens": [
+        "L",
+        "U",
+        "K",
+        "A",
+        "N",
+        "D",
+        "A"
+      ],
+      "category": "postijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Post fejn il-vjaġġaturi jistgħu jorqdu",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 313,
+      "batch": 5,
+      "answer": "RISTORANT",
+      "tokens": [
+        "R",
+        "I",
+        "S",
+        "T",
+        "O",
+        "R",
+        "A",
+        "N",
+        "T"
+      ],
+      "category": "postijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Post fejn jitħejja u jittiekel l-ikel",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 314,
+      "batch": 5,
+      "answer": "MUŻEW",
+      "tokens": [
+        "M",
+        "U",
+        "Ż",
+        "E",
+        "W"
+      ],
+      "category": "postijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Post fejn jintwerew oġġetti storiċi jew artistiċi",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 315,
+      "batch": 5,
+      "answer": "TEATRU",
+      "tokens": [
+        "T",
+        "E",
+        "A",
+        "T",
+        "R",
+        "U"
+      ],
+      "category": "postijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Post fejn jittellgħu drammi u wirjiet",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 316,
+      "batch": 5,
+      "answer": "LIBRERIJA",
+      "tokens": [
+        "L",
+        "I",
+        "B",
+        "R",
+        "E",
+        "R",
+        "I",
+        "J",
+        "A"
+      ],
+      "category": "postijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Post b’ħafna kotba għall-qari jew self",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 317,
+      "batch": 5,
+      "answer": "UFFIĊĊJU",
+      "tokens": [
+        "U",
+        "F",
+        "F",
+        "I",
+        "Ċ",
+        "Ċ",
+        "J",
+        "U"
+      ],
+      "category": "postijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Post fejn isir xogħol amministrattiv",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 318,
+      "batch": 5,
+      "answer": "FABBRIKA",
+      "tokens": [
+        "F",
+        "A",
+        "B",
+        "B",
+        "R",
+        "I",
+        "K",
+        "A"
+      ],
+      "category": "postijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Post fejn jiġu manifatturati prodotti",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 319,
+      "batch": 5,
+      "answer": "RAZZETT",
+      "tokens": [
+        "R",
+        "A",
+        "Z",
+        "Z",
+        "E",
+        "T",
+        "T"
+      ],
+      "category": "postijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Post rurali fejn jitrabbew annimali jew jitkabbru prodotti",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 320,
+      "batch": 5,
+      "answer": "SPIŻERIJA",
+      "tokens": [
+        "S",
+        "P",
+        "I",
+        "Ż",
+        "E",
+        "R",
+        "I",
+        "J",
+        "A"
+      ],
+      "category": "postijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Post fejn jinbiegħu mediċini",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
     }
   ],
   "plainZList": [
