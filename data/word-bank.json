@@ -8861,11 +8861,18 @@
         "easy": "Il-jum ta’ qabel illum",
         "medium": null,
         "hard": null,
-        "grid": "Il-jum ta’ qabel illum"
+        "grid": "Il-jum ta’ qabel"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Yesterday",
+      "status": "komuni-inizjali",
+      "meaning": "Il-jum li għadda minnufih qabel il-jum tal-lum.",
+      "example": "Ilbieraħ morna l-baħar.",
+      "exampleEnglish": "Yesterday we went to the seaside.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 282,
@@ -8885,11 +8892,18 @@
         "easy": "Il-ħin lejn tmiem il-jum",
         "medium": null,
         "hard": null,
-        "grid": "Wara nofsinhar"
+        "grid": "Lejn tmiem il-jum"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Evening",
+      "status": "komuni-inizjali",
+      "meaning": "Il-parti tal-jum bejn wara nofsinhar u l-lejl.",
+      "example": "Filgħaxija noqogħdu flimkien fil-kċina.",
+      "exampleEnglish": "In the evening we sit together in the kitchen.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 283,
@@ -8910,8 +8924,15 @@
         "grid": "L-ewwel parti"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Beginning",
+      "status": "komuni-inizjali",
+      "meaning": "L-ewwel parti jew il-punt minn fejn tibda xi ħaġa.",
+      "example": "Il-bidu tal-ktieb kien interessanti.",
+      "exampleEnglish": "The beginning of the book was interesting.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 284,
@@ -8932,8 +8953,15 @@
         "grid": "L-aħħar parti"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "End",
+      "status": "komuni-inizjali",
+      "meaning": "L-aħħar parti jew il-punt fejn tieqaf jew tintemm xi ħaġa.",
+      "example": "Fl-aħħar wasalna fit-tmiem tat-triq.",
+      "exampleEnglish": "At last we reached the end of the road.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 285,
@@ -8953,11 +8981,18 @@
         "easy": "Żmien qasir ħafna",
         "medium": null,
         "hard": null,
-        "grid": "Żmien qasir"
+        "grid": "Żmien qasir ħafna"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Moment",
+      "status": "komuni-inizjali",
+      "meaning": "Perjodu qasir ħafna ta’ żmien jew punt partikolari fih.",
+      "example": "Stenna mument sakemm niftaħ il-bieb.",
+      "exampleEnglish": "Wait a moment while I open the door.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 286,
@@ -8976,11 +9011,18 @@
         "easy": "Annimal kbir magħruf bħala s-sultan tal-ġungla",
         "medium": null,
         "hard": null,
-        "grid": "🦁"
+        "grid": "Sultan tal-ġungla"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Lion",
+      "status": "komuni-inizjali",
+      "meaning": "Annimal selvaġġ kbir tal-familja tal-qtates; ir-raġel għandu kriniera.",
+      "example": "L-iljun għajjat b’leħen qawwi.",
+      "exampleEnglish": "The lion roared loudly.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 287,
@@ -8999,11 +9041,18 @@
         "easy": "Annimal kbir b’strixxi suwed",
         "medium": null,
         "hard": null,
-        "grid": "🐅"
+        "grid": "B’strixxi suwed"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Tiger",
+      "status": "komuni-inizjali",
+      "meaning": "Annimal selvaġġ kbir tal-familja tal-qtates, magħruf għall-pil oranġjo bi strixxi suwed.",
+      "example": "It-tigra mxiet bil-kwiet qalb is-siġar.",
+      "exampleEnglish": "The tiger moved quietly among the trees.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 288,
@@ -9020,11 +9069,18 @@
         "easy": "Annimal kbir u b’saħħtu b’ħafna suf",
         "medium": null,
         "hard": null,
-        "grid": "🐻"
+        "grid": "Kbir u b’ħafna suf"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Bear",
+      "status": "komuni-inizjali",
+      "meaning": "Annimal kbir u b’saħħtu b’ġisem miksi bil-pil, denb qasir u dwiefer b’saħħithom.",
+      "example": "L-ors fittex l-ikel fil-foresta.",
+      "exampleEnglish": "The bear searched for food in the forest.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 289,
@@ -9043,11 +9099,18 @@
         "easy": "Annimal magħruf għal denbu twil u l-għaqal",
         "medium": null,
         "hard": null,
-        "grid": "🦊"
+        "grid": "B’denb twil u folt"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Fox",
+      "status": "komuni-inizjali",
+      "meaning": "Annimal selvaġġ b’geddum irqiq, widnejn bil-ponta u denb twil u folt.",
+      "example": "Il-volpi ħarġet mill-għar billejl.",
+      "exampleEnglish": "The fox came out of its den at night.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 290,
@@ -9067,11 +9130,18 @@
         "easy": "Annimal li jitla’ mas-siġar u jixbah lill-bniedem",
         "medium": null,
         "hard": null,
-        "grid": "🐒"
+        "grid": "Titla’ mas-siġar"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Monkey",
+      "status": "komuni-inizjali",
+      "meaning": "Annimal intelliġenti b’idejn li jaqbdu u li ħafna speċi tiegħu jgħixu fis-siġar.",
+      "example": "Ix-xadina qabżet minn fergħa għal oħra.",
+      "exampleEnglish": "The monkey jumped from one branch to another.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 291,
@@ -9090,11 +9160,18 @@
         "easy": "Annimal bi strixxi suwed u bojod",
         "medium": null,
         "hard": null,
-        "grid": "🦓"
+        "grid": "Strixxi suwed u bojod"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Zebra",
+      "status": "komuni-inizjali",
+      "meaning": "Annimal Afrikan jixbah liż-żiemel u għandu strixxi suwed u bojod.",
+      "example": "Iż-żebra ġriet mal-merħla.",
+      "exampleEnglish": "The zebra ran with the herd.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 292,
@@ -9115,11 +9192,18 @@
         "easy": "Annimal għoli b’għonq twil ħafna",
         "medium": null,
         "hard": null,
-        "grid": "🦒"
+        "grid": "B’għonq twil ħafna"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Giraffe",
+      "status": "komuni-inizjali",
+      "meaning": "Annimal Afrikan għoli ħafna b’għonq twil u pil imtebba’.",
+      "example": "Il-ġiraffa laħqet il-weraq għoli.",
+      "exampleEnglish": "The giraffe reached the high leaves.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 293,
@@ -9142,11 +9226,18 @@
         "easy": "Annimal kbir b’widnejn kbar u mnieħer twil",
         "medium": null,
         "hard": null,
-        "grid": "🐘"
+        "grid": "B’tromba twila"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Elephant",
+      "status": "komuni-inizjali",
+      "meaning": "Annimal tal-art kbir ħafna b’widnejn kbar, nejbiet u tromba twila.",
+      "example": "L-iljunfant xorob l-ilma bit-tromba.",
+      "exampleEnglish": "The elephant drank water with its trunk.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 294,
@@ -9166,11 +9257,18 @@
         "easy": "Annimal żgħir miksi bix-xewk",
         "medium": null,
         "hard": null,
-        "grid": "🦔"
+        "grid": "Miksi bix-xewk"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Hedgehog",
+      "status": "komuni-inizjali",
+      "meaning": "Annimal żgħir li dahru miksi bix-xewk u li jingħalaq f’ballun biex jiddefendi ruħu.",
+      "example": "Il-qanfud inħeba taħt il-weraq.",
+      "exampleEnglish": "The hedgehog hid under the leaves.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 295,
@@ -9191,11 +9289,18 @@
         "easy": "Insett bil-ġwienaħ ikkuluriti",
         "medium": null,
         "hard": null,
-        "grid": "🦋"
+        "grid": "Ġwienaħ ikkuluriti"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Butterfly",
+      "status": "komuni-inizjali",
+      "meaning": "Insett b’żewġ pari ġwienaħ kbar u spiss ikkuluriti li jiżviluppa minn dudu.",
+      "example": "Il-farfett niżel fuq il-fjura.",
+      "exampleEnglish": "The butterfly landed on the flower.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 296,
@@ -9215,11 +9320,18 @@
         "easy": "Ħlejqa bi tmien saqajn li tinseġ xibka",
         "medium": null,
         "hard": null,
-        "grid": "🕷️"
+        "grid": "Tinseġ xibka"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Spider",
+      "status": "komuni-inizjali",
+      "meaning": "Ħlejqa żgħira bi tmien saqajn li ħafna drabi tagħmel xibka biex taqbad l-ikel.",
+      "example": "Il-brimba nisġet xibka fir-rokna.",
+      "exampleEnglish": "The spider spun a web in the corner.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 297,
@@ -9237,11 +9349,18 @@
         "easy": "Annimal twil bla saqajn",
         "medium": null,
         "hard": null,
-        "grid": "🐍"
+        "grid": "Twil u bla saqajn"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Snake",
+      "status": "komuni-inizjali",
+      "meaning": "Rettilu b’ġisem twil u bla saqajn li jimxi billi jiżżerżaq mal-art.",
+      "example": "Is-serp żelaq bejn il-ġebel.",
+      "exampleEnglish": "The snake slid between the rocks.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 298,
@@ -9265,8 +9384,15 @@
         "grid": "Żrinġ qabel jikber"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Tadpole",
+      "status": "komuni-inizjali",
+      "meaning": "Il-forma żgħira taż-żrinġ li tgħix fl-ilma, għandha denb u għadha bla saqajn fil-bidu.",
+      "example": "Il-marżepp kien jgħum fl-għadira.",
+      "exampleEnglish": "The tadpole was swimming in the pond.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 299,
@@ -9285,11 +9411,18 @@
         "easy": "Annimal tal-baħar b’qoxra u żewġ imqassijiet",
         "medium": null,
         "hard": null,
-        "grid": "🦀"
+        "grid": "B’żewġ imqassijiet"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Crab",
+      "status": "komuni-inizjali",
+      "meaning": "Annimal tal-baħar b’qoxra iebsa, diversi saqajn u żewġ dwiefer kbar bħal imqassijiet.",
+      "example": "Il-granċ mexa fil-ġenb fuq ir-ramel.",
+      "exampleEnglish": "The crab walked sideways on the sand.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 300,
@@ -9309,11 +9442,18 @@
         "easy": "Annimal żgħir tal-baħar b’qoxra",
         "medium": null,
         "hard": null,
-        "grid": "🦐"
+        "grid": "Żgħir b’qoxra"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Shrimp",
+      "status": "komuni-inizjali",
+      "meaning": "Annimal żgħir tal-baħar b’ġisem irqiq, qoxra u saqajn żgħar.",
+      "example": "Il-gamblu jgħix fil-baħar.",
+      "exampleEnglish": "The shrimp lives in the sea.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 301,
