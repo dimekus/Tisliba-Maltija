@@ -31,7 +31,7 @@
         "hard": null,
         "grid": "Il-mara li wellditek"
       },
-      "image": null,
+      "image": "assets/clues/omm.png",
       "english": "Mother",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -62,7 +62,7 @@
         "hard": null,
         "grid": "Ġenitur raġel"
       },
-      "image": null,
+      "image": "assets/clues/missier.png",
       "english": "Father",
       "status": "approvata-ie",
       "batch": 1,
