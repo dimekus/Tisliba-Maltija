@@ -913,12 +913,20 @@
       "clues": {
         "easy": "Tagħti dawl u sħana",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tagħti dawl u sħana"
       },
       "image": null,
-      "english": null,
+      "english": "Sun",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "L-istilla li tagħti dawl u sħana lid-Dinja.",
+      "example": "Ix-xemx telgħet kmieni dalgħodu.",
+      "exampleEnglish": "The sun rose early this morning.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 32,
@@ -935,12 +943,20 @@
       "clues": {
         "easy": "Jidher fis-sema billejl",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jidher fis-sema billejl"
       },
       "image": null,
-      "english": null,
+      "english": "Moon",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Il-ġisem naturali li jdur mad-Dinja u jidher l-aktar billejl.",
+      "example": "Il-qamar kien mimli u jleqq.",
+      "exampleEnglish": "The moon was full and bright.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 33,
@@ -958,12 +974,20 @@
       "clues": {
         "easy": "Punt ta’ dawl fis-sema billejl",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Dawl fis-sema billejl"
       },
       "image": null,
-      "english": null,
+      "english": "Star",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Ġisem kbir u jaħraq fl-ispazju li jidher bħala punt ta’ dawl fis-sema.",
+      "example": "Rajna kewkba tleqq fis-sema.",
+      "exampleEnglish": "We saw a bright star in the sky.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 34,
@@ -979,12 +1003,20 @@
       "clues": {
         "easy": "Jinsab fuq rasna",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jinsab fuq rasna"
       },
       "image": null,
-      "english": null,
+      "english": "Sky",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "L-ispazju li jidher fuq l-art u fejn naraw is-sħab, ix-xemx u l-kwiekeb.",
+      "example": "Is-sema kien ċar u blu.",
+      "exampleEnglish": "The sky was clear and blue.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 35,
@@ -1000,12 +1032,20 @@
       "clues": {
         "easy": "Jidher fis-sema u jista’ jġib ix-xita",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jista’ jġib ix-xita"
       },
       "image": null,
-      "english": null,
+      "english": "Cloud",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Massa ta’ qtar żgħir tal-ilma jew kristalli tas-silġ fl-atmosfera.",
+      "example": "Sħaba skura għaddiet fuq ir-raħal.",
+      "exampleEnglish": "A dark cloud passed over the village.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 36,
@@ -1021,12 +1061,20 @@
       "clues": {
         "easy": "Ilma li jaqa’ mis-sema",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Ilma li jaqa’ mis-sema"
       },
       "image": null,
-      "english": null,
+      "english": "Rain",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Qtar tal-ilma li jaqa’ mis-sħab lejn l-art.",
+      "example": "Ix-xita saqqiet il-ġnien.",
+      "exampleEnglish": "The rain watered the garden.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 37,
@@ -1041,12 +1089,20 @@
       "clues": {
         "easy": "Arja miexja",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Arja miexja"
       },
       "image": null,
-      "english": null,
+      "english": "Wind",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Arja li tiċċaqlaq minn post għal ieħor.",
+      "example": "Ir-riħ ċaqlaq il-friegħi tas-siġar.",
+      "exampleEnglish": "The wind moved the tree branches.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 38,
@@ -1063,12 +1119,20 @@
       "clues": {
         "easy": "Silġ abjad li jaqa’ mis-sema",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Silġ abjad mis-sema"
       },
       "image": null,
-      "english": null,
+      "english": "Snow",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Kristalli bojod tas-silġ li jaqgħu mis-sħab meta jkun kiesaħ ħafna.",
+      "example": "Il-borra għattiet it-triq bl-abjad.",
+      "exampleEnglish": "The snow covered the road in white.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 39,
@@ -1084,12 +1148,20 @@
       "clues": {
         "easy": "Ilma ffriżat",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Ilma ffriżat"
       },
       "image": null,
-      "english": null,
+      "english": "Ice",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Ilma li jkun inbidel f’solidu minħabba temperatura baxxa.",
+      "example": "Poġġa ftit silġ fix-xarba.",
+      "exampleEnglish": "He put some ice in the drink.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 40,
@@ -1105,12 +1177,20 @@
       "clues": {
         "easy": "Inaqqas kemm tista’ tara ’l bogħod",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jaħbi l-bogħod"
       },
       "image": null,
-      "english": null,
+      "english": "Fog",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Sħaba baxxa qrib l-art li tagħmilha diffiċli biex tara ’l bogħod.",
+      "example": "Iċ-ċpar għatta t-triq filgħodu.",
+      "exampleEnglish": "The fog covered the road in the morning.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 41,
@@ -1126,12 +1206,20 @@
       "clues": {
         "easy": "Qtar żgħir tal-ilma ta’ filgħodu",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Qtar tal-ilma filgħodu"
       },
       "image": null,
-      "english": null,
+      "english": "Dew",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Qtar żgħir tal-ilma li jinġabar fuq uċuħ kesħin, l-aktar filgħodu.",
+      "example": "In-nida tleqq fuq il-ħaxix.",
+      "exampleEnglish": "The dew shines on the grass.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 42,
@@ -1148,12 +1236,20 @@
       "clues": {
         "easy": "Firxa kbira ta’ ilma mielaħ",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Ilma mielaħ vast"
       },
       "image": null,
-      "english": null,
+      "english": "Sea",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Firxa kbira ta’ ilma mielaħ, iżgħar minn oċean jew parti minnu.",
+      "example": "Il-baħar kien kalm u ċar.",
+      "exampleEnglish": "The sea was calm and clear.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 43,
@@ -1170,12 +1266,20 @@
       "clues": {
         "easy": "Ilma miexi bejn żewġt ixtut",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Ilma miexi bejn ixtut"
       },
       "image": null,
-      "english": null,
+      "english": "River",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Nixxiegħa kbira ta’ ilma li timxi lejn baħar, lag jew xmara oħra.",
+      "example": "Ix-xmara tgħaddi bejn żewġ irħula.",
+      "exampleEnglish": "The river flows between two villages.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 44,
@@ -1190,12 +1294,20 @@
       "clues": {
         "easy": "Art baxxa bejn għoljiet",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Art baxxa bejn għoljiet"
       },
       "image": null,
-      "english": null,
+      "english": "Valley",
       "status": "approvata-ie",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Medda ta’ art baxxa bejn għoljiet jew muntanji, kultant b’ilma jgħaddi minnha.",
+      "example": "Imxejna fil-wied wara x-xita.",
+      "exampleEnglish": "We walked through the valley after the rain.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 45,
@@ -1213,12 +1325,20 @@
       "clues": {
         "easy": "Medda żgħira ta’ ilma mdawra bl-art",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Ilma mdawwar bl-art"
       },
       "image": null,
-      "english": null,
+      "english": "Pond",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Medda żgħira ta’ ilma wieqaf imdawra bl-art.",
+      "example": "Il-papri kienu jgħumu fl-għadira.",
+      "exampleEnglish": "The ducks were swimming in the pond.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 46,
@@ -1235,12 +1355,20 @@
       "clues": {
         "easy": "Pjanta kbira b’zokk tal-injam",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Pjanta kbira biz-zokk"
       },
       "image": null,
-      "english": null,
+      "english": "Tree",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Pjanta kbira b’zokk tal-injam, friegħi u weraq.",
+      "example": "Is-siġra tagħtina dell fis-sajf.",
+      "exampleEnglish": "The tree gives us shade in summer.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 47,
@@ -1257,12 +1385,20 @@
       "clues": {
         "easy": "Tikber fuq fergħa",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tikber fuq fergħa"
       },
       "image": null,
-      "english": null,
+      "english": "Leaf",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Parti ċatta u normalment ħadra li tikber fuq zokk jew fergħa ta’ pjanta.",
+      "example": "Werqa waqgħet mis-siġra.",
+      "exampleEnglish": "A leaf fell from the tree.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 48,
@@ -1279,12 +1415,20 @@
       "clues": {
         "easy": "Parti kkulurita ta’ pjanta",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Kulur fuq pjanta"
       },
       "image": null,
-      "english": null,
+      "english": "Flower",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Il-parti ta’ pjanta li ħafna drabi tkun ikkulurita u tipproduċi ż-żerriegħa.",
+      "example": "Il-fjura fetħet fir-rebbiegħa.",
+      "exampleEnglish": "The flower opened in spring.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 49,
@@ -1301,12 +1445,20 @@
       "clues": {
         "easy": "Pjanti ħodor baxxi",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Pjanti ħodor baxxi"
       },
       "image": null,
-      "english": null,
+      "english": "Grass",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Pjanti rqaq u ħodor li jikbru qrib l-art.",
+      "example": "Il-ħaxix kiber wara x-xita.",
+      "exampleEnglish": "The grass grew after the rain.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 50,
@@ -1323,12 +1475,20 @@
       "clues": {
         "easy": "Biċċa iebsa mill-art",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Biċċa iebsa mill-art"
       },
       "image": null,
-      "english": null,
+      "english": "Stone",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Biċċa iebsa ta’ materjal naturali li tifforma parti mill-art.",
+      "example": "Sabet ġebla lixxa max-xatt.",
+      "exampleEnglish": "She found a smooth stone by the shore.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 51,
@@ -1344,12 +1504,20 @@
       "clues": {
         "easy": "Annimal domestiku li jinbaħ",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Annimal li jinbaħ"
       },
       "image": null,
-      "english": null,
+      "english": "Dog",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Annimal domestiku magħruf għal-lealtà tiegħu u għall-ħoss tal-inbiħ.",
+      "example": "Il-kelb qed jilgħab bil-ballun.",
+      "exampleEnglish": "The dog is playing with the ball.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 52,
@@ -1367,12 +1535,20 @@
       "clues": {
         "easy": "Annimal domestiku li jnewwaħ",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Annimal li jnewwaħ"
       },
       "image": null,
-      "english": null,
+      "english": "Cat",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Annimal domestiku żgħir b’suf artab, dwiefer u mustaċċi.",
+      "example": "Il-qattus rieqed fuq is-siġġu.",
+      "exampleEnglish": "The cat is sleeping on the chair.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 53,
@@ -1387,12 +1563,20 @@
       "clues": {
         "easy": "Annimal żgħir b’denb twil",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Annimal żgħir b’denb"
       },
       "image": null,
-      "english": null,
+      "english": "Mouse",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Annimal żgħir b’denb twil li spiss jgħix qrib in-nies.",
+      "example": "Il-far daħal minn toqba żgħira.",
+      "exampleEnglish": "The mouse entered through a small hole.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 54,
@@ -1409,12 +1593,20 @@
       "clues": {
         "easy": "Annimal kbir li wieħed jista’ jirkeb",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Annimal li jinkiseb"
       },
       "image": null,
-      "english": null,
+      "english": "Horse",
       "status": "approvata-ie",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Annimal kbir u b’saħħtu b’erba’ saqajn li jista’ jintuża għall-irkib jew ix-xogħol.",
+      "example": "Iż-żiemel ġera madwar l-għalqa.",
+      "exampleEnglish": "The horse ran around the field.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 55,
@@ -1431,12 +1623,20 @@
       "clues": {
         "easy": "Annimal li jagħti l-ħalib",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tagħti l-ħalib"
       },
       "image": null,
-      "english": null,
+      "english": "Cow",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Annimal kbir tar-razzett li jitkabbar għall-ħalib jew il-laħam.",
+      "example": "Il-baqra qed tirgħa fl-għalqa.",
+      "exampleEnglish": "The cow is grazing in the field.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 56,
@@ -1453,12 +1653,20 @@
       "clues": {
         "easy": "Annimal b’qrun li jagħti l-ħalib",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Qrun u tagħti ħalib"
       },
       "image": null,
-      "english": null,
+      "english": "Goat",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Annimal tar-razzett b’qrun li jitkabbar għall-ħalib, il-laħam jew is-suf.",
+      "example": "Il-mogħża telgħet fuq il-blat.",
+      "exampleEnglish": "The goat climbed onto the rocks.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 57,
@@ -1475,12 +1683,20 @@
       "clues": {
         "easy": "Annimal li jagħti s-suf",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tagħti s-suf"
       },
       "image": null,
-      "english": null,
+      "english": "Sheep",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Annimal tar-razzett b’suf oħxon li jitkabbar għas-suf, il-ħalib jew il-laħam.",
+      "example": "In-nagħġa qed tirgħa mal-merħla.",
+      "exampleEnglish": "The sheep is grazing with the flock.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 58,
@@ -1497,12 +1713,20 @@
       "clues": {
         "easy": "Annimal b’widnejn twal",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Annimal b’widnejn twal"
       },
       "image": null,
-      "english": null,
+      "english": "Rabbit",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Annimal żgħir b’widnejn twal u saqajn ta’ wara b’saħħithom.",
+      "example": "Il-fenek qabeż fil-ħaxix.",
+      "exampleEnglish": "The rabbit jumped through the grass.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 59,
@@ -1520,12 +1744,20 @@
       "clues": {
         "easy": "Annimal żgħir bil-ġwienaħ u r-rix",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Żgħir bil-ġwienaħ"
       },
       "image": null,
-      "english": null,
+      "english": "Bird",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Annimal bil-ġwienaħ, ir-rix u munqar; ħafna għasafar jistgħu jtiru.",
+      "example": "Għasfur bena bejta fis-siġra.",
+      "exampleEnglish": "A bird built a nest in the tree.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 60,
@@ -1541,12 +1773,20 @@
       "clues": {
         "easy": "Annimal li jgħix fl-ilma",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Annimal li jgħix fl-ilma"
       },
       "image": null,
-      "english": null,
+      "english": "Fish",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Annimal li jgħix fl-ilma, jieħu n-nifs bil-garġi u normalment għandu xewk.",
+      "example": "Il-ħuta għamet qrib il-blat.",
+      "exampleEnglish": "The fish swam near the rocks.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 61,
