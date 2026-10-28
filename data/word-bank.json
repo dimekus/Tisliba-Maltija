@@ -9473,11 +9473,18 @@
         "easy": "Logħba bejn żewġ timijiet b’ballun",
         "medium": null,
         "hard": null,
-        "grid": "⚽"
+        "grid": "Logħba b’ballun"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Football",
+      "status": "komuni-inizjali",
+      "meaning": "Sport bejn żewġ timijiet li jippruvaw idaħħlu ballun fix-xibka tal-avversarju, l-aktar bis-saqajn.",
+      "example": "It-tfal lagħbu l-futbol fil-grawnd.",
+      "exampleEnglish": "The children played football in the playground.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 302,
@@ -9497,11 +9504,18 @@
         "easy": "Sport b’rakketta u ballun fuq xibka",
         "medium": null,
         "hard": null,
-        "grid": "🎾"
+        "grid": "Sport b’rakketta"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Tennis",
+      "status": "komuni-inizjali",
+      "meaning": "Sport li fih il-plejers jolqtu ballun b’rakketta minn fuq xibka.",
+      "example": "Lagħbu t-tennis fil-court il-ġdid.",
+      "exampleEnglish": "They played tennis on the new court.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 303,
@@ -9519,11 +9533,18 @@
         "easy": "Moviment jew sport fl-ilma",
         "medium": null,
         "hard": null,
-        "grid": "🏊"
+        "grid": "Sport fl-ilma"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Swimming",
+      "status": "komuni-inizjali",
+      "meaning": "L-attività jew l-isport li fih persuna timxi fl-ilma billi ċċaqlaq dirgħajha u saqajha.",
+      "example": "L-għawm jgħin biex issaħħaħ il-ġisem.",
+      "exampleEnglish": "Swimming helps strengthen the body.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 304,
@@ -9541,11 +9562,18 @@
         "easy": "Moviment mgħaġġel ħafna bis-saqajn",
         "medium": null,
         "hard": null,
-        "grid": "🏃"
+        "grid": "Moviment mgħaġġel"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Running",
+      "status": "komuni-inizjali",
+      "meaning": "Moviment mgħaġġel bis-saqajn li fih il-ġisem javvanza aktar malajr mill-mixi.",
+      "example": "Il-ġiri ta’ filgħodu jagħtih l-enerġija.",
+      "exampleEnglish": "Morning running gives him energy.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 305,
@@ -9563,11 +9591,18 @@
         "easy": "Moviment minn post għal ieħor bis-saqajn",
         "medium": null,
         "hard": null,
-        "grid": "🚶"
+        "grid": "Moviment bis-saqajn"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Walking",
+      "status": "komuni-inizjali",
+      "meaning": "Moviment minn post għal ieħor billi tagħmel passi bis-saqajn.",
+      "example": "Il-mixi fil-kampanja kien pjaċevoli.",
+      "exampleEnglish": "The walk in the countryside was pleasant.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 306,
@@ -9585,11 +9620,18 @@
         "easy": "Moviment tal-ġisem mar-ritmu",
         "medium": null,
         "hard": null,
-        "grid": "💃"
+        "grid": "Moviment mar-ritmu"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Dancing",
+      "status": "komuni-inizjali",
+      "meaning": "Moviment tal-ġisem skont ritmu jew mużika, għall-gost, l-arti jew ċelebrazzjoni.",
+      "example": "Iż-żfin beda malli daqqet il-mużika.",
+      "exampleEnglish": "The dancing began as soon as the music played.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 307,
@@ -9607,11 +9649,18 @@
         "easy": "Mużika magħmula bil-vuċi",
         "medium": null,
         "hard": null,
-        "grid": "🎤"
+        "grid": "Mużika bil-vuċi"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Singing",
+      "status": "komuni-inizjali",
+      "meaning": "L-att li bih persuna tuża leħinha biex tagħmel melodija jew kanzunetta.",
+      "example": "Il-kant tal-kor mela t-teatru.",
+      "exampleEnglish": "The choir’s singing filled the theatre.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 308,
@@ -9631,11 +9680,18 @@
         "easy": "Ħsejjes organizzati f’ritmu u melodija",
         "medium": null,
         "hard": null,
-        "grid": "🎵"
+        "grid": "Ritmu u melodija"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Music",
+      "status": "komuni-inizjali",
+      "meaning": "Ħsejjes organizzati f’ritmu, melodija u armonija biex joħolqu forma ta’ arti.",
+      "example": "Il-mużika kienet ħelwa u ferriħija.",
+      "exampleEnglish": "The music was sweet and cheerful.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 309,
@@ -9653,11 +9709,18 @@
         "easy": "Storja murija bi stampi li jiċċaqalqu",
         "medium": null,
         "hard": null,
-        "grid": "🎬"
+        "grid": "Storja fuq l-iskrin"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Film",
+      "status": "komuni-inizjali",
+      "meaning": "Storja jew xogħol viżiv magħmul minn stampi li jiċċaqalqu u ħoss.",
+      "example": "Rajna film Malti fiċ-ċinema.",
+      "exampleEnglish": "We watched a Maltese film at the cinema.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 310,
@@ -9676,11 +9739,18 @@
         "easy": "Attività li ssir għall-gost jew kompetizzjoni",
         "medium": null,
         "hard": null,
-        "grid": "🎲"
+        "grid": "Attività għall-gost"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Game",
+      "status": "komuni-inizjali",
+      "meaning": "Attività b’regoli li ssir għall-gost, it-tagħlim jew il-kompetizzjoni.",
+      "example": "Il-logħba damet siegħa.",
+      "exampleEnglish": "The game lasted an hour.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 311,
@@ -9699,11 +9769,18 @@
         "easy": "Post fejn jiġu kkurati l-morda",
         "medium": null,
         "hard": null,
-        "grid": "🏥"
+        "grid": "Jikkura lill-morda"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Hospital",
+      "status": "komuni-inizjali",
+      "meaning": "Post b’tobba, infermiera u tagħmir fejn jiġu kkurati persuni morda jew midruba.",
+      "example": "Ħaduh l-isptar għall-kura.",
+      "exampleEnglish": "They took him to hospital for treatment.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 312,
@@ -9724,11 +9801,18 @@
         "easy": "Post fejn il-vjaġġaturi jistgħu jorqdu",
         "medium": null,
         "hard": null,
-        "grid": "🏨"
+        "grid": "Post fejn toqgħod"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Hotel",
+      "status": "komuni-inizjali",
+      "meaning": "Bini li joffri kmamar u servizzi lil vjaġġaturi jew turisti għal żmien qasir.",
+      "example": "Qagħdu f’lukanda qrib il-baħar.",
+      "exampleEnglish": "They stayed in a hotel near the sea.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 313,
@@ -9751,11 +9835,18 @@
         "easy": "Post fejn jitħejja u jittiekel l-ikel",
         "medium": null,
         "hard": null,
-        "grid": "🍽️"
+        "grid": "Post fejn tiekol"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Restaurant",
+      "status": "komuni-inizjali",
+      "meaning": "Post fejn jitħejja u jiġi servut l-ikel lill-klijenti biex jieklu hemmhekk.",
+      "example": "Kilna f’ristorant żgħir fil-belt.",
+      "exampleEnglish": "We ate at a small restaurant in the city.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 314,
@@ -9774,11 +9865,18 @@
         "easy": "Post fejn jintwerew oġġetti storiċi jew artistiċi",
         "medium": null,
         "hard": null,
-        "grid": "Oġġetti storiċi"
+        "grid": "Juri oġġetti storiċi"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Museum",
+      "status": "komuni-inizjali",
+      "meaning": "Post li jiġbor, iħares u juri oġġetti storiċi, artistiċi, xjentifiċi jew kulturali.",
+      "example": "Il-mużew kellu kollezzjoni ta’ fdalijiet antiki.",
+      "exampleEnglish": "The museum had a collection of ancient remains.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 315,
@@ -9798,11 +9896,18 @@
         "easy": "Post fejn jittellgħu drammi u wirjiet",
         "medium": null,
         "hard": null,
-        "grid": "🎭"
+        "grid": "Post tad-drammi"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Theatre",
+      "status": "komuni-inizjali",
+      "meaning": "Bini bi palk u siġġijiet fejn jittellgħu drammi, kunċerti u wirjiet.",
+      "example": "Rajna dramm fit-teatru.",
+      "exampleEnglish": "We watched a play at the theatre.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 316,
@@ -9825,11 +9930,18 @@
         "easy": "Post b’ħafna kotba għall-qari jew self",
         "medium": null,
         "hard": null,
-        "grid": "📚"
+        "grid": "Post b’ħafna kotba"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Library",
+      "status": "komuni-inizjali",
+      "meaning": "Post li jiġbor kotba u materjal ieħor għall-qari, l-istudju jew is-self.",
+      "example": "Issellfet ktieb mil-librerija.",
+      "exampleEnglish": "She borrowed a book from the library.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 317,
@@ -9851,11 +9963,18 @@
         "easy": "Post fejn isir xogħol amministrattiv",
         "medium": null,
         "hard": null,
-        "grid": "Xogħol amministrattiv"
+        "grid": "Post tax-xogħol"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Office",
+      "status": "komuni-inizjali",
+      "meaning": "Kamra jew post fejn isir xogħol amministrattiv, professjonali jew kummerċjali.",
+      "example": "L-uffiċċju jiftaħ fit-tmienja.",
+      "exampleEnglish": "The office opens at eight.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 318,
@@ -9877,11 +9996,18 @@
         "easy": "Post fejn jiġu manifatturati prodotti",
         "medium": null,
         "hard": null,
-        "grid": "🏭"
+        "grid": "Post li jagħmel prodotti"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Factory",
+      "status": "komuni-inizjali",
+      "meaning": "Bini fejn ħaddiema u magni jipproduċu jew jiġbru oġġetti fuq skala kbira.",
+      "example": "Il-fabbrika tipproduċi għamara.",
+      "exampleEnglish": "The factory produces furniture.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 319,
@@ -9902,11 +10028,18 @@
         "easy": "Post rurali fejn jitrabbew annimali jew jitkabbru prodotti",
         "medium": null,
         "hard": null,
-        "grid": "🚜"
+        "grid": "Post rurali"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Farm",
+      "status": "komuni-inizjali",
+      "meaning": "Post rurali b’art u bini fejn jitkabbru prodotti agrikoli jew jitrabbew l-annimali.",
+      "example": "Fir-razzett jitkabbru l-ħaxix u jitrabbew it-tiġieġ.",
+      "exampleEnglish": "Vegetables are grown and chickens are raised on the farm.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 320,
@@ -9929,11 +10062,18 @@
         "easy": "Post fejn jinbiegħu mediċini",
         "medium": null,
         "hard": null,
-        "grid": "💊"
+        "grid": "Post tal-mediċini"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Pharmacy",
+      "status": "komuni-inizjali",
+      "meaning": "Ħanut jew post tas-saħħa fejn jitħejjew u jinbiegħu mediċini u jingħata parir dwarhom.",
+      "example": "Xtrat il-mediċina mill-ispiżerija.",
+      "exampleEnglish": "She bought the medicine from the pharmacy.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     }
   ],
   "plainZList": [
