@@ -6712,23 +6712,25 @@
     {
       "id": 298,
       "batch": 5,
-      "answer": "ŻRINĠ",
+      "answer": "MARŻEPP",
       "tokens": [
-        "Ż",
+        "M",
+        "A",
         "R",
-        "I",
-        "N",
-        "Ġ"
+        "Ż",
+        "E",
+        "P",
+        "P"
       ],
       "category": "annimali",
-      "difficulty": "faċli",
+      "difficulty": "diffiċli",
       "clues": {
-        "easy": "Annimal żgħir li jgħix fl-ilma qabel jikber",
+        "easy": "Il-forma żgħira taż-żrinġ qabel jikber",
         "medium": null,
         "hard": null,
-        "grid": "🐸"
+        "grid": "Żrinġ qabel jikber"
       },
-      "image": null,
+      "image": "assets/clues/marzepp.png",
       "english": null,
       "status": "komuni-inizjali"
     },
