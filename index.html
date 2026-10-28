@@ -1,7 +1,7 @@
 <!doctype html><html lang="mt"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 <meta name="color-scheme" content="light only">
-<title>Tisliba Maltija · Grilja v45</title>
+<title>Tisliba Maltija · Grilja v46</title>
 
 <style>
 :root{color-scheme:light;--bg:#102b40;--grid:#27455c;--answer:#f7efdd;--clue:#9bb6c7;--ink:#142d43;--panel:#1c3a53;--tile:#f5e7cb;--accent:#e9bd68}
@@ -112,9 +112,12 @@ header .total-score{font-size:clamp(15px,4vw,21px)!important;font-weight:900;pad
 .inline-actions{grid-area:actions;display:grid;grid-template-columns:repeat(2,minmax(88px,auto));gap:7px}
 .inline-actions button{min-width:88px;white-space:nowrap}
 @media(max-width:520px){.inline-end.open{grid-template-columns:1fr;grid-template-areas:"title" "question" "actions";row-gap:5px;padding:8px}.inline-end>span{text-align:center}.inline-actions{grid-template-columns:repeat(2,minmax(105px,1fr));width:100%}.inline-actions button{min-width:0}}
+
+/* V46: complete game-ending screen */
+.goodbye{display:none;min-height:100dvh;align-items:center;justify-content:center;padding:22px;background:#102b40}.goodbye.open{display:flex}.goodbye-card{width:min(92vw,480px);background:#1c3a53;border:2px solid #7198b3;border-radius:20px;padding:30px 24px;text-align:center;box-shadow:0 12px 35px #06131e88}.goodbye-card h2{margin:0 0 12px;font-size:clamp(27px,7vw,38px)}.goodbye-card p{font-size:clamp(17px,4.5vw,22px);line-height:1.45;color:#f7efdd}.goodbye-card button{margin-top:13px;border:0;border-radius:11px;padding:12px 18px;background:#55d879;color:#102b40;font-size:17px;font-weight:900;box-shadow:0 3px 0 #248848}
 </style>
 </head><body><main class="app">
-<header><strong>Tisliba Maltija <small class="version">V45</small></strong><div class="header-stats"><span class="total-score" id="totalScore" aria-live="polite">Punti: 0</span><span class="level">Livell 1</span></div></header>
+<header><strong>Tisliba Maltija <small class="version">V46</small></strong><div class="header-stats"><span class="total-score" id="totalScore" aria-live="polite">Punti: 0</span><span class="level">Livell 1</span></div></header>
 <section class="board" id="board" aria-label="Tisliba"></section>
 <div class="verify-row"><button id="verify">✓ Iċċekkja</button><div class="inline-end" id="inlineEnd"><strong id="inlineEndTitle"></strong><span id="inlineEndQuestion"></span><div class="inline-actions"><button id="inlineNewPuzzle">Iva, kompli</button><button id="inlineFinishGame">Le, spiċċajt</button></div></div></div>
 <section class="panel">
@@ -123,6 +126,7 @@ header .total-score{font-size:clamp(15px,4vw,21px)!important;font-weight:900;pad
 <div class="tip" id="tip">Mexxi l-ittri bid-drag-and-drop.</div><div class="progress" id="progress"></div>
 </section>
 <div class="solve-row"><button id="solve">🧩 Għaqqadli t-tisliba</button></div></main>
+<section class="goodbye" id="goodbye" aria-live="polite"><div class="goodbye-card"><h2>Grazzi talli lgħabt!</h2><p>Nispera li nerġgħu nilagħbu flimkien ma ndumux.</p><button id="restartGame">Ibda logħba ġdida</button></div></section>
 
 <div class="modal" id="modal">
  <div class="card" id="card">
@@ -169,7 +173,9 @@ function revealHint(c){if(!c||c.dataset.locked==='1'||hintsUsed>=3)return;const 
 function showEnd(){const finalLevel=activePuzzle===puzzles.length-1,panel=document.getElementById('inlineEnd');document.getElementById('verify').style.display='none';document.getElementById('inlineEndTitle').textContent=finalLevel?'Prosit! Lestejt il-'+puzzles.length+' livelli b’'+total+' punti!':'Prosit! Lestejt il-livell. Punti totali: '+total;document.getElementById('inlineEndQuestion').textContent=finalLevel?'Trid terġa’ tibda mil-Livell 1?':'Trid tkompli għal-Livell '+(activePuzzle+2)+'?';document.getElementById('inlineNewPuzzle').textContent=finalLevel?'Erġa’ ibda':'Iva, kompli';panel.classList.add('open')}
 function loadPuzzle(index){hintsUsed=0;updateJoker();const restarting=activePuzzle===puzzles.length-1&&index===0;activePuzzle=index;if(restarting)total=0;words=puzzles[index].words;solution=puzzles[index].solution;document.querySelector('.level').textContent='Livell '+(index+1);buildBoard();answers=[...document.querySelectorAll('.answer')];byKey=Object.fromEntries(answers.map(c=>[c.dataset.key,c]));bindAnswerCells();bindClues();tiles.innerHTML='';selectedCell=null;selectedTile=null;turn=1;won=false;document.getElementById('endActions').classList.remove('open');document.getElementById('inlineEnd').classList.remove('open');document.getElementById('verify').style.display='';modal.classList.remove('open');refill();refresh();fitMobileBoard();say(index===0?'Mexxi l-ittri bil-mess jew drag-and-drop, imbagħad agħfas Iċċekkja.':'')}
 document.getElementById('solve').onclick=()=>{const userCells=pending();let good=0,bad=0;userCells.forEach(c=>{if(c.textContent===solution[c.dataset.key])good++;else bad++});total+=good-bad;answers.forEach(c=>{c.textContent=solution[c.dataset.key];c.classList.toggle('long',c.textContent.length>1);c.classList.remove('bad','sel');c.classList.add('good');c.dataset.locked='1';delete c.dataset.pending;delete c.dataset.tileId});tiles.innerHTML='';selectedCell=null;selectedTile=null;refresh();say(userCells.length?'It-tisliba tlestiet. Ingħaddu biss l-ittri li poġġejt int.':'It-tisliba tlestiet mingħajr punti awtomatiċi.');showEnd()};
-document.getElementById('newPuzzle').onclick=()=>loadPuzzle((activePuzzle+1)%puzzles.length);document.getElementById('finishGame').onclick=()=>modal.classList.remove('open');document.getElementById('inlineNewPuzzle').onclick=()=>loadPuzzle((activePuzzle+1)%puzzles.length);document.getElementById('inlineFinishGame').onclick=()=>document.getElementById('inlineEnd').classList.remove('open');
+function finishGameSession(){modal.classList.remove('open');document.getElementById('inlineEnd').classList.remove('open');document.querySelector('.app').style.display='none';document.getElementById('goodbye').classList.add('open')}
+function restartGameSession(){document.getElementById('goodbye').classList.remove('open');document.querySelector('.app').style.display='flex';total=0;loadPuzzle(0)}
+document.getElementById('newPuzzle').onclick=()=>loadPuzzle((activePuzzle+1)%puzzles.length);document.getElementById('finishGame').onclick=finishGameSession;document.getElementById('inlineNewPuzzle').onclick=()=>loadPuzzle((activePuzzle+1)%puzzles.length);document.getElementById('inlineFinishGame').onclick=finishGameSession;document.getElementById('restartGame').onclick=restartGameSession;
 function bindClues(){document.querySelectorAll('.clue').forEach(c=>c.addEventListener('click',()=>{const w=words[+c.dataset.word];document.getElementById('endActions').classList.remove('open');document.getElementById('bigClue').textContent=w.detailClue||w.clue;document.getElementById('bigArrow').textContent=w.direction==='across'?'→':'↓';modal.classList.add('open')}))}bindClues();
 document.getElementById('close').onclick=()=>modal.classList.remove('open');modal.onclick=e=>{if(e.target===modal)modal.classList.remove('open')};refill();refresh();fitMobileBoard();say('Mexxi l-ittri bid-drag-and-drop, imbagħad agħfas Iċċekkja.');
 })();</script>
