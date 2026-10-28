@@ -28,12 +28,20 @@
       "clues": {
         "easy": "Il-mara li wellditek",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Il-mara li wellditek"
       },
       "image": null,
-      "english": null,
+      "english": "Mother",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Mara li għandha jew trabbi wild.",
+      "example": "Ommi tħejji l-ikel għall-familja.",
+      "exampleEnglish": "My mother prepares food for the family.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 2,
@@ -51,12 +59,20 @@
       "clues": {
         "easy": "Ir-raġel li hu ġenitur tiegħek",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Ġenitur raġel"
       },
       "image": null,
-      "english": null,
+      "english": "Father",
       "status": "approvata-ie",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Raġel li għandu jew irabbi wild.",
+      "example": "Missieri jaħdem fil-ġnien.",
+      "exampleEnglish": "My father works in the garden.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 3,
@@ -70,12 +86,20 @@
       "clues": {
         "easy": "Tifel tal-istess ġenituri",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tifel fl-istess familja"
       },
       "image": null,
-      "english": null,
+      "english": "Brother",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Tifel jew raġel li għandu l-istess ġenituri tiegħek.",
+      "example": "Ħija jilgħab il-futbol miegħi.",
+      "exampleEnglish": "My brother plays football with me.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 4,
@@ -90,12 +114,20 @@
       "clues": {
         "easy": "Tifla tal-istess ġenituri",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tifla fl-istess familja"
       },
       "image": null,
-      "english": null,
+      "english": "Sister",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Tifla jew mara li għandha l-istess ġenituri tiegħek.",
+      "example": "Oħti taqra ktieb fil-kamra.",
+      "exampleEnglish": "My sister reads a book in the room.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 5,
@@ -111,12 +143,20 @@
       "clues": {
         "easy": "Tifel ta’ omm jew missier",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tifel tal-ġenituri"
       },
       "image": null,
-      "english": null,
+      "english": "Son",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Tifel jew raġel fir-rabta tiegħu mal-ġenituri.",
+      "example": "Binhom imur l-iskola kuljum.",
+      "exampleEnglish": "Their son goes to school every day.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 6,
@@ -132,12 +172,20 @@
       "clues": {
         "easy": "Tifla ta’ omm jew missier",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tifla tal-ġenituri"
       },
       "image": null,
-      "english": null,
+      "english": "Daughter",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Tifla jew mara fir-rabta tagħha mal-ġenituri.",
+      "example": "Binthom tħobb iddoqq il-pjanu.",
+      "exampleEnglish": "Their daughter likes playing the piano.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 7,
@@ -154,12 +202,20 @@
       "clues": {
         "easy": "Omm wieħed mill-ġenituri",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Omm ta’ ġenitur"
       },
       "image": null,
-      "english": null,
+      "english": "Grandmother",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Omm wieħed mill-ġenituri tiegħek.",
+      "example": "In-nanna rrakkontatli storja antika.",
+      "exampleEnglish": "Grandmother told me an old story.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 8,
@@ -176,12 +232,20 @@
       "clues": {
         "easy": "Missier wieħed mill-ġenituri",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Missier ta’ ġenitur"
       },
       "image": null,
-      "english": null,
+      "english": "Grandfather",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Missier wieħed mill-ġenituri tiegħek.",
+      "example": "In-nannu jimxi sal-ħanut kull filgħodu.",
+      "exampleEnglish": "Grandfather walks to the shop every morning.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 9,
@@ -196,12 +260,20 @@
       "clues": {
         "easy": "Fuqha jkollok ix-xagħar",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Fuqha hemm ix-xagħar"
       },
       "image": null,
-      "english": null,
+      "english": "Head",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Il-parti ta’ fuq tal-ġisem li fiha l-moħħ, l-għajnejn u l-wiċċ.",
+      "example": "Poġġa kappell fuq rasu.",
+      "exampleEnglish": "He put a hat on his head.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 10,
@@ -215,12 +287,20 @@
       "clues": {
         "easy": "Għandha ħames swaba’",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Għandha ħames swaba’"
       },
       "image": null,
-      "english": null,
+      "english": "Hand",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Il-parti fit-tarf tad-driegħ li għandha s-swaba’.",
+      "example": "Kitbet isimha b’idha l-leminija.",
+      "exampleEnglish": "She wrote her name with her right hand.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 11,
@@ -235,12 +315,20 @@
       "clues": {
         "easy": "Timxi biha",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Timxi biha"
       },
       "image": null,
-      "english": null,
+      "english": "Leg",
       "status": "approvata-ie",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Il-parti tal-ġisem li tintuża biex toqgħod bilwieqfa u timxi.",
+      "example": "Weġġa’ siequ waqt il-logħba.",
+      "exampleEnglish": "He injured his leg during the game.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 12,
@@ -256,12 +344,20 @@
       "clues": {
         "easy": "Tara biha",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tara biha"
       },
       "image": null,
-      "english": null,
+      "english": "Eye",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "L-organu tal-ġisem li bih tara.",
+      "example": "Daħlitilha tikka trab f’għajnejha.",
+      "exampleEnglish": "A speck of dust went into her eye.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 13,
@@ -278,12 +374,20 @@
       "clues": {
         "easy": "Tisma’ biha",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tisma’ biha"
       },
       "image": null,
-      "english": null,
+      "english": "Ear",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "L-organu fuq kull naħa tar-ras li bih tisma’.",
+      "example": "Semgħet ħoss qawwi b’widnejha.",
+      "exampleEnglish": "She heard a loud sound with her ears.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 14,
@@ -299,12 +403,20 @@
       "clues": {
         "easy": "Tiekol u titkellem bih",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tiekol u titkellem bih"
       },
       "image": null,
-      "english": null,
+      "english": "Mouth",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Il-parti tal-wiċċ li tintuża biex tiekol, tixrob u titkellem.",
+      "example": "Fetaħ ħalqu biex jitkellem.",
+      "exampleEnglish": "He opened his mouth to speak.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 15,
@@ -323,12 +435,20 @@
       "clues": {
         "easy": "Xomm bih",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Xomm bih"
       },
       "image": null,
-      "english": null,
+      "english": "Nose",
       "status": "approvata-ie",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Il-parti tal-wiċċ li biha tieħu n-nifs u xxomm.",
+      "example": "Xamm il-fjura b’imnieħru.",
+      "exampleEnglish": "He smelled the flower with his nose.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 16,
@@ -343,12 +463,20 @@
       "clues": {
         "easy": "Post fejn tgħix",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Post fejn tgħix"
       },
       "image": null,
-      "english": null,
+      "english": "House",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Bini fejn jgħixu persuna jew familja.",
+      "example": "Id-dar tagħhom għandha ġnien żgħir.",
+      "exampleEnglish": "Their house has a small garden.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 17,
@@ -363,12 +491,20 @@
       "clues": {
         "easy": "Tiftaħ biex tidħol",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tiftaħ biex tidħol"
       },
       "image": null,
-      "english": null,
+      "english": "Door",
       "status": "approvata-ie",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Biċċa li tinfetaħ u tingħalaq biex tidħol jew toħroġ minn post.",
+      "example": "Agħlaq il-bieb qabel toħroġ.",
+      "exampleEnglish": "Close the door before you leave.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 18,
@@ -384,12 +520,20 @@
       "clues": {
         "easy": "Minnha jidħol id-dawl",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Minnha jidħol id-dawl"
       },
       "image": null,
-      "english": null,
+      "english": "Window",
       "status": "approvata-ie",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Fetħa bil-ħġieġ f’ħajt li ddaħħal id-dawl u l-arja.",
+      "example": "Fetħet it-tieqa biex tidħol l-arja.",
+      "exampleEnglish": "She opened the window to let in some air.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 19,
@@ -406,12 +550,20 @@
       "clues": {
         "easy": "Fuqha tiekol",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Fuqha tiekol"
       },
       "image": null,
-      "english": null,
+      "english": "Table",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Għamara b’wiċċ ċatt u saqajn li tintuża biex tqiegħed affarijiet fuqha.",
+      "example": "Poġġejna l-platti fuq il-mejda.",
+      "exampleEnglish": "We put the plates on the table.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 20,
@@ -428,12 +580,20 @@
       "clues": {
         "easy": "Tpoġġi bilqiegħda fuqu",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tpoġġi bilqiegħda fuqu"
       },
       "image": null,
-      "english": null,
+      "english": "Chair",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Għamara b’sedil u dahar magħmula biex persuna tpoġġi bilqiegħda.",
+      "example": "Poġġa bilqiegħda fuq is-siġġu.",
+      "exampleEnglish": "He sat down on the chair.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 21,
@@ -450,12 +610,20 @@
       "clues": {
         "easy": "Torqod fuqha",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Torqod fuqha"
       },
       "image": null,
-      "english": null,
+      "english": "Bed",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Għamara magħmula biex persuna timtedd u torqod fuqha.",
+      "example": "It-tifel mar fis-sodda kmieni.",
+      "exampleEnglish": "The boy went to bed early.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 22,
@@ -472,12 +640,20 @@
       "clues": {
         "easy": "Parti magħluqa minn dar",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Parti magħluqa minn dar"
       },
       "image": null,
-      "english": null,
+      "english": "Room",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Parti magħluqa minn bini, mifruda b’ħitan u bieb.",
+      "example": "Il-kamra tas-sodda tinsab fuq.",
+      "exampleEnglish": "The bedroom is upstairs.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 23,
@@ -494,12 +670,20 @@
       "clues": {
         "easy": "Fiha ssajjar",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Fiha ssajjar"
       },
       "image": null,
-      "english": null,
+      "english": "Kitchen",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Kamra fejn jitħejja u jissajjar l-ikel.",
+      "example": "Qed tipprepara l-ikla fil-kċina.",
+      "exampleEnglish": "She is preparing the meal in the kitchen.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 24,
@@ -515,12 +699,20 @@
       "clues": {
         "easy": "Il-parti ta’ fuq ta’ bini",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Fuq nett tal-bini"
       },
       "image": null,
-      "english": null,
+      "english": "Roof",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Il-parti ta’ barra fil-quċċata ta’ bini li tipproteġih mix-xita u x-xemx.",
+      "example": "Il-ħamiem niżel fuq il-bejt.",
+      "exampleEnglish": "The pigeon landed on the roof.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 25,
@@ -537,12 +729,20 @@
       "clues": {
         "easy": "Jgħatti kamra minn fuq",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Fuq ġewwa tal-kamra"
       },
       "image": null,
-      "english": null,
+      "english": "Ceiling",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Il-wiċċ ta’ fuq minn ġewwa ta’ kamra.",
+      "example": "Il-lampa hija mwaħħla mas-saqaf.",
+      "exampleEnglish": "The lamp is attached to the ceiling.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 26,
@@ -558,12 +758,20 @@
       "clues": {
         "easy": "Jifred kamra minn oħra",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jifred kamra minn oħra"
       },
       "image": null,
-      "english": null,
+      "english": "Wall",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Struttura wieqfa li tagħlaq jew tifred spazju minn ieħor.",
+      "example": "Dendlu l-kwadru mal-ħajt.",
+      "exampleEnglish": "They hung the picture on the wall.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 27,
@@ -580,12 +788,20 @@
       "clues": {
         "easy": "Titla’ u tinżel fuqu",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Titla’ u tinżel fuqu"
       },
       "image": null,
-      "english": null,
+      "english": "Stairs",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Serje ta’ turġien li tintuża biex titla’ jew tinżel bejn livelli.",
+      "example": "Tela’ t-taraġ bil-mod.",
+      "exampleEnglish": "He went up the stairs slowly.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 28,
@@ -604,12 +820,20 @@
       "clues": {
         "easy": "Tiftaħ serratura biha",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tiftaħ serratura biha"
       },
       "image": null,
-      "english": null,
+      "english": "Key",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Oġġett żgħir li jintuża biex jinfetaħ jew jingħalaq serratura.",
+      "example": "Fetaħ il-bieb biċ-ċavetta.",
+      "exampleEnglish": "He opened the door with the key.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 29,
@@ -630,12 +854,20 @@
       "clues": {
         "easy": "Tiekol biha",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Mgħarfa żgħira"
       },
       "image": null,
-      "english": null,
+      "english": "Teaspoon",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Mgħarfa żgħira li tintuża għat-te, il-kafè jew ammonti żgħar ta’ ikel.",
+      "example": "Ħawwad il-kafè bil-kuċċarina.",
+      "exampleEnglish": "Stir the coffee with the teaspoon.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 30,
@@ -652,12 +884,20 @@
       "clues": {
         "easy": "Tixrob minnha",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tixrob minnha"
       },
       "image": null,
-      "english": null,
+      "english": "Cup",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Kontenitur żgħir, ħafna drabi b’manku, li minnu jinxtorbu xarbiet.",
+      "example": "Xorbot tazza te sħun.",
+      "exampleEnglish": "She drank a cup of hot tea.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 31,
