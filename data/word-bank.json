@@ -2701,12 +2701,20 @@
       "clues": {
         "easy": "Post kbir fejn jgħixu u jaħdmu n-nies",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Post kbir fejn jgħixu"
       },
       "image": null,
-      "english": null,
+      "english": "City",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Post kbir u mibni fejn jgħixu u jaħdmu ħafna nies.",
+      "example": "Il-belt tkun mimlija nies matul il-ġurnata.",
+      "exampleEnglish": "The city is full of people during the day.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 92,
@@ -2722,12 +2730,20 @@
       "clues": {
         "easy": "Minnha jgħaddu l-karozzi",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Minnha jgħaddu l-karozzi"
       },
       "image": null,
-      "english": null,
+      "english": "Road",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Medda pavimentata jew magħmula għall-mixi u għall-vetturi bejn post u ieħor.",
+      "example": "Il-karozza waqfet fit-tarf tat-triq.",
+      "exampleEnglish": "The car stopped at the side of the road.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 93,
@@ -2743,12 +2759,20 @@
       "clues": {
         "easy": "Jgħaqqad żewġ naħat fuq spazju",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jgħaqqad żewġ naħat"
       },
       "image": null,
-      "english": null,
+      "english": "Bridge",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Struttura li tgħaddi fuq ilma, triq jew wied biex tgħaqqad żewġ naħat.",
+      "example": "Qasmu x-xmara minn fuq il-pont.",
+      "exampleEnglish": "They crossed the river over the bridge.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 94,
@@ -2767,12 +2791,20 @@
       "clues": {
         "easy": "Vettura b’erba’ roti",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Vettura b’erba’ roti"
       },
       "image": null,
-      "english": null,
+      "english": "Car",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Vettura b’magna u normalment b’erba’ roti li tintuża fit-toroq.",
+      "example": "Saq il-karozza lejn ix-xogħol.",
+      "exampleEnglish": "He drove the car to work.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 95,
@@ -2788,12 +2820,20 @@
       "clues": {
         "easy": "Vettura b’żewġ roti u pedali",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Żewġ roti u pedali"
       },
       "image": null,
-      "english": null,
+      "english": "Bicycle",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Vettura ħafifa b’żewġ roti li titmexxa bil-pedali.",
+      "example": "Marret l-iskola bir-rota.",
+      "exampleEnglish": "She went to school by bicycle.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 96,
@@ -2811,12 +2851,20 @@
       "clues": {
         "easy": "Vettura li timxi fuq l-ilma",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Timxi fuq l-ilma"
       },
       "image": null,
-      "english": null,
+      "english": "Boat",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Bastiment żgħir li jżomm f’wiċċ l-ilma u jintuża għat-trasport jew is-sajd.",
+      "example": "Id-dgħajsa daħlet fil-port.",
+      "exampleEnglish": "The boat entered the harbour.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 97,
@@ -2836,12 +2884,20 @@
       "clues": {
         "easy": "Vettura li ttir fis-sema",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Vettura li ttir"
       },
       "image": null,
-      "english": null,
+      "english": "Aeroplane",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Vettura bil-ġwienaħ u b’magna li ttir fl-ajru u ġġorr nies jew tagħbija.",
+      "example": "L-ajruplan telaq fil-ħin.",
+      "exampleEnglish": "The aeroplane departed on time.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 98,
@@ -2856,12 +2912,20 @@
       "clues": {
         "easy": "Minn filgħodu sa billejl",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Minn filgħodu sa billejl"
       },
       "image": null,
-      "english": null,
+      "english": "Day",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Perjodu ta’ erbgħa u għoxrin siegħa, jew il-ħin meta jkun hemm id-dawl.",
+      "example": "Kien jum sabiħ u xemxi.",
+      "exampleEnglish": "It was a beautiful sunny day.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 99,
@@ -2877,12 +2941,20 @@
       "clues": {
         "easy": "Il-ħin meta jkun mudlam",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Il-ħin meta jkun mudlam"
       },
       "image": null,
-      "english": null,
+      "english": "Night",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Il-parti mudlama tal-ġurnata bejn inżul u tlugħ ix-xemx.",
+      "example": "Il-kwiekeb jidhru sew billejl.",
+      "exampleEnglish": "The stars are clearly visible at night.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 100,
@@ -2898,12 +2970,20 @@
       "clues": {
         "easy": "Tnax-il xahar",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tnax-il xahar"
       },
       "image": null,
-      "english": null,
+      "english": "Year",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Perjodu ta’ tnax-il xahar jew madwar 365 jum.",
+      "example": "Din is-sena se nibda kors ġdid.",
+      "exampleEnglish": "This year I will start a new course.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 101,
@@ -2920,12 +3000,20 @@
       "clues": {
         "easy": "Tiżdied mal-ikel biex tagħtih aktar togħma",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tagħti togħma lill-ikel"
       },
       "image": null,
-      "english": null,
+      "english": "Sauce",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Taħlita likwida jew ħoxna li tiżdied mal-ikel biex tagħtih togħma jew umdità.",
+      "example": "Ferrgħet iz-zalza fuq l-għaġin.",
+      "exampleEnglish": "She poured the sauce over the pasta.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 102,
@@ -2941,12 +3029,20 @@
       "clues": {
         "easy": "Il-parti ewlenija tal-injam ta’ siġra",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Injam ewlieni tas-siġra"
       },
       "image": null,
-      "english": null,
+      "english": "Trunk",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Il-parti ewlenija u iebsa ta’ siġra li żżomm il-friegħi.",
+      "example": "Iz-zokk tas-siġra kien oħxon.",
+      "exampleEnglish": "The tree trunk was thick.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 103,
@@ -2962,12 +3058,20 @@
       "clues": {
         "easy": "Oħt ommok jew missierek",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Oħt wieħed mill-ġenituri"
       },
       "image": null,
-      "english": null,
+      "english": "Aunt",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Oħt ommok jew missierek, jew il-mara ta’ zijuk.",
+      "example": "Iz-zija ġiet iżżurna l-Ħadd.",
+      "exampleEnglish": "Our aunt came to visit us on Sunday.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 104,
@@ -2983,12 +3087,20 @@
       "clues": {
         "easy": "Ħu ommok jew missierek",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Ħu wieħed mill-ġenituri"
       },
       "image": null,
-      "english": null,
+      "english": "Uncle",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Ħu ommok jew missierek, jew ir-raġel ta’ zijtek.",
+      "example": "Iz-ziju ħadna mixja mal-baħar.",
+      "exampleEnglish": "Our uncle took us for a walk by the sea.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 105,
@@ -3009,12 +3121,20 @@
       "clues": {
         "easy": "Ħaxixa twila u oranġjo",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Ħaxixa twila oranġjo"
       },
       "image": null,
-      "english": null,
+      "english": "Carrot",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Ħaxixa oranġjo b’għerq twil li tikber taħt l-art.",
+      "example": "Qattgħet iz-zunnarija għas-soppa.",
+      "exampleEnglish": "She chopped the carrot for the soup.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 106,
@@ -3031,12 +3151,22 @@
       "clues": {
         "easy": "Libsa li tintlibes fuq il-parti ta’ fuq tal-ġisem",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Fuq il-parti ta’ fuq"
       },
       "image": null,
       "english": null,
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Biċċa ħwejjeġ li tintlibes fuq il-parti ta’ fuq tal-ġisem.",
+      "example": "Libes flokk komdu għall-mixja.",
+      "exampleEnglish": null,
+      "translationReview": [
+        "Top",
+        "Jumper",
+        "Sweater"
+      ],
+      "eduStatus": "needs-user-translation-review"
     },
     {
       "id": 107,
@@ -3054,12 +3184,20 @@
       "clues": {
         "easy": "Jintlibsu mar-riġlejn",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jintlibsu mar-riġlejn"
       },
       "image": null,
-      "english": null,
+      "english": "Trousers",
       "status": "approvata-ie",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Ħwejjeġ li jgħattu l-ġisem mill-qadd ’l isfel u għandhom parti għal kull sieq.",
+      "example": "Libes qalziet skur għax-xogħol.",
+      "exampleEnglish": "He wore dark trousers to work.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 108,
@@ -3075,12 +3213,20 @@
       "clues": {
         "easy": "Libsa b’buttuni li tintlibes fuq il-ġisem",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Libsa bil-buttuni"
       },
       "image": null,
-      "english": null,
+      "english": "Shirt",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Biċċa ħwejjeġ għall-parti ta’ fuq tal-ġisem, normalment b’għonq u buttuni.",
+      "example": "Libes qmis bajda għall-festa.",
+      "exampleEnglish": "He wore a white shirt for the celebration.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 109,
@@ -3100,12 +3246,20 @@
       "clues": {
         "easy": "Libsa li tintlibes fuq ħwejjeġ oħra",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Fuq ħwejjeġ oħra"
       },
       "image": null,
-      "english": null,
+      "english": "Jacket",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Biċċa ħwejjeġ ta’ barra, b’kmiem, li tintlibes fuq ħwejjeġ oħra.",
+      "example": "Ħadet ġakketta għax kien kiesaħ.",
+      "exampleEnglish": "She took a jacket because it was cold.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 110,
@@ -3125,12 +3279,20 @@
       "clues": {
         "easy": "Jintlibsu fis-saqajn taħt iż-żarbun",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Taħt iż-żarbun"
       },
       "image": null,
-      "english": null,
+      "english": "Socks",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Ħwejjeġ rotob li jintlibsu fuq is-saqajn, taħt iż-żraben.",
+      "example": "Libes kalzetti nodfa dalgħodu.",
+      "exampleEnglish": "He put on clean socks this morning.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 111,
@@ -3148,12 +3310,20 @@
       "clues": {
         "easy": "Jintlibes fis-sieq",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jintlibes fis-sieq"
       },
       "image": null,
-      "english": null,
+      "english": "Shoe",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Oġġett li jintlibes fuq is-sieq biex jipproteġiha waqt il-mixi.",
+      "example": "Rabtet il-lazz taż-żarbun.",
+      "exampleEnglish": "She tied the shoelace of her shoe.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 112,
@@ -3172,12 +3342,20 @@
       "clues": {
         "easy": "Jintlibes fuq ir-ras",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jintlibes fuq ir-ras"
       },
       "image": null,
-      "english": null,
+      "english": "Hat",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Għata għall-ras li tintlibes għall-protezzjoni, is-sħana jew id-dehra.",
+      "example": "Libes kappell kontra x-xemx.",
+      "exampleEnglish": "He wore a hat to protect himself from the sun.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 113,
@@ -3194,12 +3372,20 @@
       "clues": {
         "easy": "Ħwejjeġ li jintlibsu fuq il-ġisem",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tinżel minn fuq il-ġisem"
       },
       "image": null,
-      "english": null,
+      "english": "Dress",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Biċċa ħwejjeġ waħda li tgħatti l-parti ta’ fuq tal-ġisem u tinżel taħt il-qadd.",
+      "example": "Libset libsa blu għall-festa.",
+      "exampleEnglish": "She wore a blue dress to the celebration.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 114,
@@ -3216,12 +3402,20 @@
       "clues": {
         "easy": "Libsa li tinżel mill-qadd",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tinżel mill-qadd"
       },
       "image": null,
-      "english": null,
+      "english": "Skirt",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Biċċa ħwejjeġ li tintlibes mill-qadd u tinżel madwar ir-riġlejn.",
+      "example": "Il-falda ħamra kienet twila.",
+      "exampleEnglish": "The red skirt was long.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 115,
@@ -3241,12 +3435,20 @@
       "clues": {
         "easy": "Jintlibsu fl-idejn",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jintlibsu fl-idejn"
       },
       "image": null,
-      "english": null,
+      "english": "Gloves",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Par għata għall-idejn, b’partijiet separati għas-swaba’ jew mingħajrhom.",
+      "example": "Libset l-ingwanti biex idejha ma jiksaħux.",
+      "exampleEnglish": "She wore gloves to keep her hands warm.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 116,
@@ -3262,12 +3464,20 @@
       "clues": {
         "easy": "Ġabra ta’ paġni li taqra",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Paġni marbuta li taqra"
       },
       "image": null,
-      "english": null,
+      "english": "Book",
       "status": "approvata-ie",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Ġabra ta’ paġni miktuba jew stampati, marbuta flimkien biex jinqraw.",
+      "example": "Qrajt ktieb interessanti fil-librerija.",
+      "exampleEnglish": "I read an interesting book in the library.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 117,
@@ -3287,12 +3497,20 @@
       "clues": {
         "easy": "Tikkomponi jew tpinġi bihom",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tikteb jew tpinġi bihom"
       },
       "image": null,
-      "english": null,
+      "english": "Pencils",
       "status": "approvata-ie",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Għodod irqaq b’qalba tal-grafita jew kulur, użati għall-kitba jew it-tpinġija.",
+      "example": "It-tfal pinġew bil-lapsijiet tal-kulur.",
+      "exampleEnglish": "The children drew with coloured pencils.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 118,
@@ -3309,12 +3527,20 @@
       "clues": {
         "easy": "Tikteb biha bil-linka",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tikteb biha bil-linka"
       },
       "image": null,
-      "english": null,
+      "english": "Pen",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Għodda żgħira li tintuża biex tikteb bil-linka.",
+      "example": "Iffirmat il-formola b’pinna blu.",
+      "exampleEnglish": "He signed the form with a blue pen.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 119,
@@ -3331,12 +3557,20 @@
       "clues": {
         "easy": "Tikteb jew tpinġi fuqha",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tikteb jew tpinġi fuqha"
       },
       "image": null,
-      "english": null,
+      "english": "Paper",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Materjal irqiq magħmul f’folji, użat għall-kitba, l-istampar jew it-tgeżwir.",
+      "example": "Kitbet in-nota fuq biċċa karta.",
+      "exampleEnglish": "She wrote the note on a piece of paper.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 120,
@@ -3353,12 +3587,20 @@
       "clues": {
         "easy": "Iġġorr kotba u affarijiet fiha",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Iġġorr affarijiet fiha"
       },
       "image": null,
-      "english": null,
+      "english": "Bag",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Kontenitur flessibbli b’manku jew ċineg, użat biex jinġarru affarijiet.",
+      "example": "Poġġiet il-kotba fil-borża.",
+      "exampleEnglish": "She put the books in the bag.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 121,
