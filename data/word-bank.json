@@ -3257,7 +3257,7 @@
       "category": "natura",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Art għolja iżda iżgħar minn muntanja",
+        "easy": "Elevazzjoni naturali tal-art, iżgħar minn muntanja",
         "medium": null,
         "hard": null
       },
@@ -3502,7 +3502,7 @@
       "category": "kuluri",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Kulur kannella bħall-qoxra tas-siġar",
+        "easy": "Kulur tal-qoxra tas-siġar u taċ-ċikkulata",
         "medium": null,
         "hard": null
       },
@@ -3636,7 +3636,7 @@
       "category": "xorb",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Xarba sħuna magħmula mill-kafè mitħun",
+        "easy": "Xarba sħuna skura li spiss tittieħed filgħodu",
         "medium": null,
         "hard": null
       },
@@ -4468,5 +4468,8 @@
     "DUBBIENA",
     "TIĠIEĠA",
     "TUFFIEĦ"
-  ]
+  ],
+  "validationRules": {
+    "noAnswerInsideClue": true
+  }
 }
