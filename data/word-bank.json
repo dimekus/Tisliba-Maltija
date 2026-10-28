@@ -438,17 +438,17 @@
         "hard": null,
         "grid": "Xomm bih"
       },
-      "image": null,
+      "image": "assets/clues/imnieher.png",
       "english": "Nose",
       "status": "approvata-ie",
       "batch": 1,
       "meaning": "Il-parti tal-wiċċ li biha tieħu n-nifs u xxomm.",
       "example": "Xamm il-fjura b’imnieħru.",
       "exampleEnglish": "He smelled the flower with his nose.",
-      "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "eduImage": "assets/education/imnieher.jpg",
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete"
     },
     {
       "id": 16,
@@ -466,17 +466,17 @@
         "hard": null,
         "grid": "Post fejn tgħix"
       },
-      "image": null,
+      "image": "assets/clues/dar.png",
       "english": "House",
       "status": "komuni-inizjali",
       "batch": 1,
       "meaning": "Bini fejn jgħixu persuna jew familja.",
       "example": "Id-dar tagħhom għandha ġnien żgħir.",
       "exampleEnglish": "Their house has a small garden.",
-      "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "eduImage": "assets/education/dar.jpg",
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete"
     },
     {
       "id": 17,
