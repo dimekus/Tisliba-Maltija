@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="mt"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>L-aħħar 45 kelma · Tisliba Maltija</title>
+<title>L-aħħar 50 kelma · Tisliba Maltija</title>
 <style>
 *{box-sizing:border-box}body{margin:0;background:#102b40;color:#fff;font-family:Arial,sans-serif;padding:16px}.wrap{max-width:1050px;margin:auto}
 h1{font-size:clamp(22px,5vw,34px);margin:8px 0}.note{color:#dce8f0;line-height:1.5}.tools{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}
@@ -15,7 +15,7 @@ th,td{padding:10px;border-bottom:1px solid #52758d;vertical-align:top}.word{font
 <div class="table"><table><thead><tr><th>Kelma</th><th>Kaxxi</th><th>Kategorija</th><th>Ħjiel</th><th class="hide-mobile">Status</th></tr></thead><tbody id="rows"></tbody></table></div>
 </main><script>
 const latestOnly=true;let bank=[];const rows=document.getElementById('rows'),search=document.getElementById('search'),category=document.getElementById('category'),count=document.getElementById('count');
-function draw(){const q=search.value.trim().toLocaleUpperCase('mt'),cat=category.value;const list=bank.filter(w=>(!latestOnly||w.id>105)&&(!cat||w.category===cat)&&(!q||w.answer.includes(q)||(w.clues.easy||'').toLocaleUpperCase('mt').includes(q)));rows.replaceChildren();for(const w of list){const tr=document.createElement('tr');const cells=[['word',w.answer],['tokens',''],['',w.category],['',w.clues.easy],['hide-mobile '+(w.status.includes('approvata')?'approved':'review'),w.status.replaceAll('-',' ')]];for(const [cls,text] of cells){const td=document.createElement('td');td.className=cls;if(cls==='tokens')for(const token of w.tokens){const s=document.createElement('span');s.className='token';s.textContent=token;td.append(s)}else td.textContent=text;tr.append(td)}rows.append(tr)}count.textContent=list.length+' minn '+bank.length}
-fetch('data/word-bank.json?review=6').then(r=>r.json()).then(data=>{bank=data.words;const cats=[...new Set(bank.map(w=>w.category))].sort();for(const c of cats){const o=document.createElement('option');o.value=c;o.textContent=c;category.append(o)}draw()}).catch(()=>count.textContent='Ma setax jitgħabba');
+function draw(){const q=search.value.trim().toLocaleUpperCase('mt'),cat=category.value;const latestBatch=Math.max(...bank.map(x=>x.batch||1));const list=bank.filter(w=>(!latestOnly||w.batch===latestBatch)&&(!cat||w.category===cat)&&(!q||w.answer.includes(q)||(w.clues.easy||'').toLocaleUpperCase('mt').includes(q)));rows.replaceChildren();for(const w of list){const tr=document.createElement('tr');const cells=[['word',w.answer],['tokens',''],['',w.category],['',w.clues.easy],['hide-mobile '+(w.status.includes('approvata')?'approved':'review'),w.status.replaceAll('-',' ')]];for(const [cls,text] of cells){const td=document.createElement('td');td.className=cls;if(cls==='tokens')for(const token of w.tokens){const s=document.createElement('span');s.className='token';s.textContent=token;td.append(s)}else td.textContent=text;tr.append(td)}rows.append(tr)}count.textContent=list.length+' minn '+bank.length}
+fetch('data/word-bank.json?review=7').then(r=>r.json()).then(data=>{bank=data.words;const cats=[...new Set(bank.map(w=>w.category))].sort();for(const c of cats){const o=document.createElement('option');o.value=c;o.textContent=c;category.append(o)}draw()}).catch(()=>count.textContent='Ma setax jitgħabba');
 search.addEventListener('input',draw);category.addEventListener('change',draw);
 </script></body></html>
