@@ -5439,11 +5439,19 @@
       "clues": {
         "easy": "Jagħmel bieb jew tieqa miftuħa",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jagħmel xi ħaġa miftuħa"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "He opens",
+      "status": "komuni-inizjali",
+      "meaning": "Jagħmel bieb, tieqa jew oġġett ieħor miftuħ biex ikun jista’ jidħol, joħroġ jew jaċċessa xi ħaġa.",
+      "example": "Huwa jiftaħ il-bieb bil-mod.",
+      "exampleEnglish": "He opens the door slowly.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 182,
@@ -5462,11 +5470,19 @@
       "clues": {
         "easy": "Jagħmel bieb jew tieqa magħluqa",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jagħmel xi ħaġa magħluqa"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "He closes",
+      "status": "komuni-inizjali",
+      "meaning": "Jagħmel bieb, tieqa jew oġġett ieħor magħluq biex iwaqqaf id-dħul jew jipproteġi dak li hemm ġewwa.",
+      "example": "Huwa jagħlaq it-tieqa qabel joħroġ.",
+      "exampleEnglish": "He closes the window before leaving.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 183,
@@ -5485,11 +5501,19 @@
       "clues": {
         "easy": "Juri l-ferħ b’ħoss u tbissima",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Ferħ b’ħoss u tbissima"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "He laughs",
+      "status": "komuni-inizjali",
+      "meaning": "Juri ferħ jew divertiment permezz ta’ ħoss, tbissima u moviment tal-wiċċ.",
+      "example": "Huwa jidħak bl-istorja tad-daħk.",
+      "exampleEnglish": "He laughs at the funny story.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 184,
@@ -5507,11 +5531,19 @@
       "clues": {
         "easy": "Joħroġ id-dmugħ meta jkun imdejjaq",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Joħroġ id-dmugħ"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "He cries",
+      "status": "komuni-inizjali",
+      "meaning": "Joħroġ id-dmugħ minħabba dwejjaq, uġigħ, ferħ qawwi jew emozzjoni oħra.",
+      "example": "It-tifel jibki meta jweġġa’.",
+      "exampleEnglish": "The boy cries when he gets hurt.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 185,
@@ -5530,11 +5562,19 @@
       "clues": {
         "easy": "Jieħu sehem f’logħba",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jieħu sehem f’logħba"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "He plays",
+      "status": "komuni-inizjali",
+      "meaning": "Jieħu sehem f’logħba jew attività magħmula għall-gost, l-eżerċizzju jew il-kompetizzjoni.",
+      "example": "Huwa jilgħab il-futbol ma’ sħabu.",
+      "exampleEnglish": "He plays football with his friends.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 186,
@@ -5551,11 +5591,19 @@
       "clues": {
         "easy": "Jimxi fl-ilma billi jċaqlaq ġismu",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jiċċaqlaq fl-ilma"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "He swims",
+      "status": "komuni-inizjali",
+      "meaning": "Jiċċaqlaq fl-ilma billi juża dirgħajh, saqajh u ġismu.",
+      "example": "Huwa jgħum fil-baħar fis-sajf.",
+      "exampleEnglish": "He swims in the sea in summer.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 187,
@@ -5572,11 +5620,19 @@
       "clues": {
         "easy": "Juża għajnejh biex iħares",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Juża għajnejh"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "He sees",
+      "status": "komuni-inizjali",
+      "meaning": "Juża għajnejh biex jinduna b’persuna, oġġett jew dak li qed jiġri.",
+      "example": "Huwa jara d-dgħajsa mill-bogħod.",
+      "exampleEnglish": "He sees the boat from a distance.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 188,
@@ -5597,11 +5653,19 @@
       "clues": {
         "easy": "Jagħmel mistoqsija",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jagħmel mistoqsija"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "He asks",
+      "status": "komuni-inizjali",
+      "meaning": "Jagħmel mistoqsija biex jikseb tweġiba jew informazzjoni.",
+      "example": "Huwa jistaqsi lill-għalliem dwar il-lezzjoni.",
+      "exampleEnglish": "He asks the teacher about the lesson.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 189,
@@ -5623,11 +5687,19 @@
       "clues": {
         "easy": "Iħejji l-ikel bis-sħana",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Iħejji l-ikel"
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "meaning": null,
+      "example": null,
+      "exampleEnglish": null,
+      "translationReview": [
+        "JISSAJJAR jista’ jfisser ‘is being cooked’; jekk l-azzjoni hi ‘he cooks’, il-forma mistennija tista’ tkun JSAJJAR"
+      ],
+      "eduStatus": "needs-user-word-review"
     },
     {
       "id": 190,
@@ -5649,11 +5721,19 @@
       "clues": {
         "easy": "Juża l-kliem biex jikkomunika",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jikkomunika bil-kliem"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "He speaks",
+      "status": "komuni-inizjali",
+      "meaning": "Juża l-vuċi u l-kliem biex jikkomunika ma’ persuni oħra.",
+      "example": "Huwa jitkellem bil-Malti d-dar.",
+      "exampleEnglish": "He speaks Maltese at home.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 191,
