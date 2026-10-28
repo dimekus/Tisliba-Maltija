@@ -1,21 +1,35 @@
 <!doctype html>
 <html lang="mt"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Reviżjoni tad-Dizzjunarju · Tisliba Maltija</title>
+<title>Lista Sħiħa tad-Dizzjunarju · Tisliba Maltija</title>
 <style>
-*{box-sizing:border-box}body{margin:0;background:#102b40;color:#fff;font-family:Arial,sans-serif;padding:16px}.wrap{max-width:1050px;margin:auto}
-h1{font-size:clamp(22px,5vw,34px);margin:8px 0}.note{color:#dce8f0;line-height:1.5}.tools{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}
+*{box-sizing:border-box}body{margin:0;background:#102b40;color:#fff;font-family:Arial,sans-serif;padding:14px}.wrap{max-width:1450px;margin:auto}
+h1{font-size:clamp(23px,4vw,35px);margin:8px 0}.note{color:#dce8f0;line-height:1.45;margin:6px 0}.legend{display:flex;gap:9px;flex-wrap:wrap;margin:12px 0}.tag{background:#294963;border:1px solid #6089a6;border-radius:999px;padding:6px 10px}
+.tools{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0;position:sticky;top:0;z-index:5;background:#102b40;padding:7px 0}
 input,select{font:inherit;padding:10px;border-radius:9px;border:1px solid #7198b3;min-width:180px}.count{background:#e9bd68;color:#142d43;padding:10px 13px;border-radius:9px;font-weight:bold}
-.table{overflow:auto;border-radius:12px;border:1px solid #6089a6}table{width:100%;border-collapse:collapse;background:#18364d}th{position:sticky;top:0;background:#294963;text-align:left}
-th,td{padding:10px;border-bottom:1px solid #52758d;vertical-align:top}.word{font-weight:900;font-size:18px}.tokens{display:flex;gap:3px;flex-wrap:wrap}
-.token{background:#f7efdd;color:#142d43;min-width:28px;text-align:center;padding:5px;border-radius:5px;font-weight:bold}
-.review{color:#ffd47a;font-weight:bold}.approved{color:#a9e5b2;font-weight:bold}@media(max-width:650px){.hide-mobile{display:none}th,td{padding:8px 6px;font-size:13px}.word{font-size:16px}}
-</style></head><body><main class="wrap"><h1>Reviżjoni tad-Dizzjunarju</h1>
-<p class="note"><span id="scopeText">Din il-paġna turi l-bank intern; mhix parti mil-logħba.</span> “Kaxxi” turi kif il-kelma tinqasam fil-grilja.</p>
-<div class="tools"><input id="search" placeholder="Fittex kelma jew ħjiel…"><select id="category"><option value="">Il-kategoriji kollha</option></select><span class="count" id="count">Qed jitgħabba…</span></div>
-<div class="table"><table><thead><tr><th>Kelma</th><th>Kaxxi</th><th>Kategorija</th><th>Ħjiel</th><th class="hide-mobile">Status</th></tr></thead><tbody id="rows"></tbody></table></div>
+.table{overflow:auto;border-radius:12px;border:1px solid #6089a6;max-height:76vh}table{width:100%;border-collapse:collapse;background:#18364d;min-width:1160px}
+th{position:sticky;top:0;background:#294963;text-align:left;z-index:2}th,td{padding:9px;border-bottom:1px solid #52758d;vertical-align:top}
+.word{font-weight:900;font-size:17px;white-space:nowrap}.tokens{display:flex;gap:3px;flex-wrap:wrap;min-width:115px}.token{background:#f7efdd;color:#142d43;min-width:27px;text-align:center;padding:5px;border-radius:5px;font-weight:bold}
+.meaning{max-width:300px;line-height:1.35}.gridclue{font-weight:800;color:#fff2bf;max-width:210px}.review{color:#ffd47a;font-weight:bold}.approved{color:#a9e5b2;font-weight:bold}
+.pic{width:58px;text-align:center}.pic img{width:48px;height:48px;object-fit:contain;border-radius:7px;background:#eff6fa}.none{color:#9fb6c5}
+@media(max-width:650px){body{padding:8px}.tools{position:static}.table{max-height:none}th,td{padding:7px 6px;font-size:13px}.word{font-size:15px}}
+</style></head><body><main class="wrap"><h1>Lista Sħiħa tad-Dizzjunarju</h1>
+<p class="note">Hawn jinsabu l-kliem kollha. <b>Tifsira</b> hi l-ispjegazzjoni sħiħa; <b>Ħjiel fil-grilja</b> hu l-verżjoni qasira li trid tidħol fil-kaxxa.</p>
+<div class="legend"><span class="tag">GĦ = kaxxa waħda</span><span class="tag">IE = kaxxa waħda</span><span class="tag">L-istampi jintużaw biss fejn jgħinu</span></div>
+<div class="tools"><input id="search" placeholder="Fittex kelma jew ħjiel…"><select id="category"><option value="">Il-kategoriji kollha</option></select><select id="difficulty"><option value="">Il-livelli kollha</option></select><select id="picture"><option value="">Kollha</option><option value="yes">B’stampa</option><option value="no">Mingħajr stampa</option></select><span class="count" id="count">Qed jitgħabba…</span></div>
+<div class="table"><table><thead><tr><th>Kelma</th><th>Kaxxi</th><th>Kategorija</th><th>Livell</th><th>Tifsira</th><th>Ħjiel fil-grilja</th><th>Stampa</th><th>Status</th></tr></thead><tbody id="rows"></tbody></table></div>
 </main><script>
-const latestOnly=new URLSearchParams(location.search).get('batch')==='latest';let bank=[];const rows=document.getElementById('rows'),search=document.getElementById('search'),category=document.getElementById('category'),count=document.getElementById('count');
-function draw(){const q=search.value.trim().toLocaleUpperCase('mt'),cat=category.value;const latestBatch=Math.max(...bank.map(x=>x.batch||1));const list=bank.filter(w=>(!latestOnly||w.batch===latestBatch)&&(!cat||w.category===cat)&&(!q||w.answer.includes(q)||(w.clues.easy||'').toLocaleUpperCase('mt').includes(q)));rows.replaceChildren();for(const w of list){const tr=document.createElement('tr');const cells=[['word',w.answer],['tokens',''],['',w.category],['',w.clues.grid||w.clues.easy],['hide-mobile '+(w.status.includes('approvata')?'approved':'review'),w.status.replaceAll('-',' ')]];for(const [cls,text] of cells){const td=document.createElement('td');td.className=cls;if(cls==='tokens')for(const token of w.tokens){const s=document.createElement('span');s.className='token';s.textContent=token;td.append(s)}else td.textContent=text;tr.append(td)}rows.append(tr)}count.textContent=list.length+' minn '+bank.length}
-fetch('data/word-bank.json?review=13').then(r=>r.json()).then(data=>{bank=data.words;const cats=[...new Set(bank.map(w=>w.category))].sort();for(const c of cats){const o=document.createElement('option');o.value=c;o.textContent=c;category.append(o)}draw()}).catch(()=>count.textContent='Ma setax jitgħabba');
-if(latestOnly){document.querySelector('h1').textContent='L-aħħar 45 kelma miżjuda';document.getElementById('scopeText').textContent='Din il-lista turi biss l-aħħar batch; mhix parti mil-logħba.'}search.addEventListener('input',draw);category.addEventListener('change',draw);
+let bank=[];const rows=document.getElementById('rows'),search=document.getElementById('search'),category=document.getElementById('category'),difficulty=document.getElementById('difficulty'),picture=document.getElementById('picture'),count=document.getElementById('count');
+function hasPic(w){return !!(w.image&&String(w.image).trim())}
+function draw(){const q=search.value.trim().toLocaleUpperCase('mt'),cat=category.value,diff=difficulty.value,pic=picture.value;const list=bank.filter(w=>(!cat||w.category===cat)&&(!diff||w.difficulty===diff)&&(!pic||(pic==='yes')===hasPic(w))&&(!q||[w.answer,w.category,w.difficulty,w.clues.easy,w.clues.grid].filter(Boolean).join(' ').toLocaleUpperCase('mt').includes(q)));rows.replaceChildren();
+for(const w of list){const tr=document.createElement('tr');
+const word=document.createElement('td');word.className='word';word.textContent=w.answer;tr.append(word);
+const tok=document.createElement('td');tok.className='tokens';for(const t of w.tokens){const s=document.createElement('span');s.className='token';s.textContent=t;tok.append(s)}tr.append(tok);
+for(const val of [w.category,w.difficulty]){const td=document.createElement('td');td.textContent=val||'—';tr.append(td)}
+const meaning=document.createElement('td');meaning.className='meaning';meaning.textContent=w.clues.easy||'—';tr.append(meaning);
+const grid=document.createElement('td');grid.className='gridclue';grid.textContent=w.clues.grid||w.clues.easy||'—';tr.append(grid);
+const image=document.createElement('td');image.className='pic';if(hasPic(w)){const img=document.createElement('img');img.src=w.image;img.alt='Stampa għal '+w.answer;image.append(img)}else{image.className+=' none';image.textContent='—'}tr.append(image);
+const status=document.createElement('td');status.className=(w.status||'').includes('approvata')?'approved':'review';status.textContent=(w.status||'—').replaceAll('-',' ');tr.append(status);rows.append(tr)}
+count.textContent=list.length+' minn '+bank.length}
+fetch('data/word-bank.json?full=7').then(r=>r.json()).then(data=>{bank=data.words;for(const [el,vals] of [[category,[...new Set(bank.map(w=>w.category))].sort()],[difficulty,[...new Set(bank.map(w=>w.difficulty))].filter(Boolean).sort()]])for(const v of vals){const o=document.createElement('option');o.value=v;o.textContent=v;el.append(o)}draw()}).catch(()=>count.textContent='Ma setax jitgħabba');
+for(const el of [search,category,difficulty,picture])el.addEventListener(el===search?'input':'change',draw);
 </script></body></html>
