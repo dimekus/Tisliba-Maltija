@@ -175,17 +175,17 @@
         "hard": null,
         "grid": "Tifla tal-ġenituri"
       },
-      "image": null,
+      "image": "assets/clues/bint.png",
       "english": "Daughter",
       "status": "komuni-inizjali",
       "batch": 1,
       "meaning": "Tifla jew mara fir-rabta tagħha mal-ġenituri.",
       "example": "Binthom tħobb iddoqq il-pjanu.",
       "exampleEnglish": "Their daughter likes playing the piano.",
-      "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "eduImage": "assets/education/bint.jpg",
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete"
     },
     {
       "id": 7,
