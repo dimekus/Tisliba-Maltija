@@ -1,7 +1,7 @@
 <!doctype html><html lang="mt"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 <meta name="color-scheme" content="light only">
-<title>Tisliba Maltija · Grilja v28</title>
+<title>Tisliba Maltija · Grilja v29</title>
 
 <style>
 :root{color-scheme:light;--bg:#102b40;--grid:#27455c;--answer:#f7efdd;--clue:#9bb6c7;--ink:#142d43;--panel:#1c3a53;--tile:#f5e7cb;--accent:#e9bd68}
@@ -81,7 +81,7 @@ function place(t,c){if(!t||!c||c.dataset.locked==='1')return;if(c.dataset.pendin
 function target(x,y){let e=document.elementFromPoint(x,y);return e&&e.closest?e.closest('.answer:not([data-locked="1"])'):null}
 function overRack(x,y){const rack=tiles.getBoundingClientRect(),board=document.getElementById('board').getBoundingClientRect();return y>=rack.top-35&&y<=rack.bottom+65&&x>=rack.left-40&&x<=rack.right+40||y>board.bottom+20&&y<window.innerHeight-25}
 function clearDrag(){if(drag&&drag.t)drag.t.style.opacity='';if(drag&&drag.c)drag.c.style.color='';answers.forEach(c=>c.classList.remove('drop-target'));if(ghost){ghost.remove();ghost=null}drag=null}
-function dragTarget(e){const board=document.getElementById('board'),rect=board.getBoundingClientRect();const cellSize=rect.width/11;const x=e.clientX,y=e.clientY-(e.pointerType==='touch'?75:0);if(x<rect.left-cellSize*.25||x>rect.right+cellSize*.25||y<rect.top-cellSize*.25||y>rect.bottom+cellSize*.25)return null;let nearest=null,best=Infinity;for(const c of answers){if(c.dataset.locked==='1')continue;const b=c.getBoundingClientRect(),cx=b.left+b.width/2,cy=b.top+b.height/2;const d=Math.hypot(x-cx,y-cy);if(d<best){best=d;nearest=c}}return best<=cellSize*.95?nearest:null}
+function dragTarget(e){const board=document.getElementById('board'),rect=board.getBoundingClientRect();const cellSize=rect.width/11;const x=e.clientX,y=e.clientY-(e.pointerType==='touch'?75:58);if(x<rect.left-cellSize*.25||x>rect.right+cellSize*.25||y<rect.top-cellSize*.25||y>rect.bottom+cellSize*.25)return null;let nearest=null,best=Infinity;for(const c of answers){if(c.dataset.locked==='1')continue;const b=c.getBoundingClientRect(),cx=b.left+b.width/2,cy=b.top+b.height/2;const d=Math.hypot(x-cx,y-cy);if(d<best){best=d;nearest=c}}return best<=cellSize*.95?nearest:null}
 function showDragPreview(x,y,letter,destination){const ghostY=Math.max(28,y-58);ghost.style.left=x+'px';ghost.style.top=ghostY+'px'}
 function bind(t){t.addEventListener('pointerdown',e=>{if(e.pointerType==='mouse'&&e.button!==0)return;drag={t,id:e.pointerId,x:e.clientX,y:e.clientY,moved:false};try{t.setPointerCapture(e.pointerId)}catch(_){}});
 t.addEventListener('pointermove',e=>{if(!drag||drag.t!==t||drag.id!==e.pointerId)return;if(!drag.moved&&Math.hypot(e.clientX-drag.x,e.clientY-drag.y)<8)return;if(!drag.moved){drag.moved=true;t.style.opacity='0';ghost=document.createElement('div');ghost.className='drag-ghost';ghost.textContent=t.dataset.letter;document.body.appendChild(ghost)}answers.forEach(c=>c.classList.remove('drop-target'));let c=dragTarget(e);showDragPreview(e.clientX,e.clientY,t.dataset.letter,c);if(c){c.classList.add('drop-target');ghost.classList.add('valid');}else ghost.classList.remove('valid');e.preventDefault()});
