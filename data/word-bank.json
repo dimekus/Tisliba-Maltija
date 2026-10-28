@@ -7,8 +7,8 @@
     "Ħ": "ittra separata u ppronunzjata"
   },
   "counts": {
-    "total": 100,
-    "common": 90,
+    "total": 105,
+    "common": 95,
     "ieReview": 10
   },
   "ieReviewList": [
@@ -2092,6 +2092,122 @@
       "image": null,
       "english": null,
       "status": "komuni-inizjali"
+    },
+    {
+      "id": 101,
+      "answer": "ZALZA",
+      "tokens": [
+        "Z",
+        "A",
+        "L",
+        "Z",
+        "A"
+      ],
+      "category": "ikel",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Tiżdied mal-ikel biex tagħtih aktar togħma",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 102,
+      "answer": "ZOKK",
+      "tokens": [
+        "Z",
+        "O",
+        "K",
+        "K"
+      ],
+      "category": "natura",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Il-parti ewlenija tal-injam ta’ siġra",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 103,
+      "answer": "ZIJA",
+      "tokens": [
+        "Z",
+        "I",
+        "J",
+        "A"
+      ],
+      "category": "familja",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Oħt ommok jew missierek",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 104,
+      "answer": "ZIJU",
+      "tokens": [
+        "Z",
+        "I",
+        "J",
+        "U"
+      ],
+      "category": "familja",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Ħu ommok jew missierek",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 105,
+      "answer": "ZUNNARIJA",
+      "tokens": [
+        "Z",
+        "U",
+        "N",
+        "N",
+        "A",
+        "R",
+        "I",
+        "J",
+        "A"
+      ],
+      "category": "ikel",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Ħaxixa twila u oranġjo",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
     }
+  ],
+  "plainZList": [
+    "TAZZA",
+    "ZOKKOR",
+    "KAROZZA",
+    "ZALZA",
+    "ZOKK",
+    "ZIJA",
+    "ZIJU",
+    "ZUNNARIJA"
   ]
 }
