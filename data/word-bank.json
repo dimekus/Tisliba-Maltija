@@ -89,17 +89,17 @@
         "hard": null,
         "grid": "Tifel fl-istess familja"
       },
-      "image": null,
+      "image": "assets/clues/hu.png",
       "english": "Brother",
       "status": "komuni-inizjali",
       "batch": 1,
       "meaning": "Tifel jew raġel li għandu l-istess ġenituri tiegħek.",
       "example": "Ħija jilgħab il-futbol miegħi.",
       "exampleEnglish": "My brother plays football with me.",
-      "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "eduImage": "assets/education/hu.jpg",
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete"
     },
     {
       "id": 4,
