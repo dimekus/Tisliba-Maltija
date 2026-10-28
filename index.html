@@ -1,7 +1,7 @@
 <!doctype html><html lang="mt"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 <meta name="color-scheme" content="light only">
-<title>Tisliba Maltija · Grilja v57</title>
+<title>Tisliba Maltija · Grilja v58</title>
 
 <style>
 :root{color-scheme:light;--bg:#102b40;--grid:#27455c;--answer:#f7efdd;--clue:#9bb6c7;--ink:#142d43;--panel:#1c3a53;--tile:#f5e7cb;--accent:#e9bd68}
@@ -131,10 +131,10 @@ header .total-score{font-size:clamp(15px,4vw,21px)!important;font-weight:900;pad
 .tiles:empty{display:none!important;height:0!important;min-height:0!important}
 
 /* V56: educational word explorer */
-.board.explain-mode{touch-action:none;cursor:help}.board .cell.answer.explain-highlight{background:#ffe29a!important;outline:3px solid #f0a928;outline-offset:-3px;z-index:3}.inline-actions #explainWords{background:#b47a29!important}.edu-card{width:min(92vw,480px);max-height:86dvh;overflow:auto;background:#f7efdd;color:#19364c;border:4px solid #27455c;border-radius:18px;padding:22px;text-align:left;position:relative}.edu-card h2{text-align:center;margin:4px 30px 8px;font-size:30px}.edu-card section{background:#fff8e9;border:1px solid #d5c8ad;border-radius:10px;padding:9px 11px;margin-top:9px}.edu-card section p{margin:4px 0 0;line-height:1.35}.edu-tokens{display:flex;justify-content:center;gap:4px;flex-wrap:wrap}.edu-tokens span{background:#294963;color:#fff;border-radius:6px;padding:5px 8px;font-weight:900}.edu-card #eduImage{text-align:center}.edu-card #eduImage img{width:min(48vw,180px);height:min(48vw,180px);object-fit:contain}.edu-card #eduImage .emoji{font-size:88px;line-height:1}
+.board.explain-mode{touch-action:none;cursor:help}.board .cell.answer.explain-highlight{background:#ffe29a!important;outline:3px solid #f0a928;outline-offset:-3px;z-index:3}.inline-actions #inlineNewPuzzle{background:#3f78a5!important}.inline-actions #inlineFinishGame{background:#294963!important}.inline-actions #explainWords{background:#52758d!important;color:#eef5f8!important}.edu-card{width:min(92vw,480px);max-height:86dvh;overflow:auto;background:#f7efdd;color:#19364c;border:4px solid #27455c;border-radius:18px;padding:22px;text-align:left;position:relative}.edu-card h2{text-align:center;margin:4px 30px 8px;font-size:30px}.edu-card section{background:#fff8e9;border:1px solid #d5c8ad;border-radius:10px;padding:9px 11px;margin-top:9px}.edu-card section p{margin:4px 0 0;line-height:1.35}.edu-tokens{display:flex;justify-content:center;gap:4px;flex-wrap:wrap}.edu-tokens span{background:#294963;color:#fff;border-radius:6px;padding:5px 8px;font-weight:900}.edu-card #eduImage{text-align:center}.edu-card #eduImage img{width:min(48vw,180px);height:min(48vw,180px);object-fit:contain}.edu-card #eduImage .emoji{font-size:88px;line-height:1}
 </style>
 </head><body><main class="app">
-<header><strong>Tisliba Maltija <small class="version">V57</small></strong><div class="header-stats"><span class="total-score" id="totalScore" aria-live="polite">Punti: 0</span><span class="level">Novizz · 1</span></div></header>
+<header><strong>Tisliba Maltija <small class="version">V58</small></strong><div class="header-stats"><span class="total-score" id="totalScore" aria-live="polite">Punti: 0</span><span class="level">Novizz · 1</span></div></header>
 <section class="board" id="board" aria-label="Tisliba"></section>
 <div class="verify-row"><button id="verify">✓ Iċċekkja</button><div class="inline-end" id="inlineEnd"><div class="inline-summary"><strong id="inlineEndTitle"></strong><span class="inline-score" id="inlineEndScore"></span></div><span id="inlineEndQuestion"></span><div class="inline-actions"><button id="inlineNewPuzzle">Iva, kompli</button><button id="inlineFinishGame">Le, spiċċajt</button><button id="explainWords">Fissirli</button></div></div></div>
 <section class="panel">
