@@ -146,17 +146,17 @@
         "hard": null,
         "grid": "Tifel tal-ġenituri"
       },
-      "image": null,
+      "image": "assets/clues/iben.png",
       "english": "Son",
       "status": "komuni-inizjali",
       "batch": 1,
       "meaning": "Tifel jew raġel fir-rabta tiegħu mal-ġenituri.",
       "example": "Binhom imur l-iskola kuljum.",
       "exampleEnglish": "Their son goes to school every day.",
-      "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "eduImage": "assets/education/iben.jpg",
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete"
     },
     {
       "id": 6,
