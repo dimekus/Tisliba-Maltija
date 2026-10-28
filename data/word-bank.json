@@ -318,17 +318,17 @@
         "hard": null,
         "grid": "Timxi biha"
       },
-      "image": null,
+      "image": "assets/clues/sieq.png",
       "english": "Leg",
       "status": "approvata-ie",
       "batch": 1,
       "meaning": "Il-parti tal-ġisem li tintuża biex toqgħod bilwieqfa u timxi.",
       "example": "Weġġa’ siequ waqt il-logħba.",
       "exampleEnglish": "He injured his leg during the game.",
-      "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "eduImage": "assets/education/sieq.jpg",
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete"
     },
     {
       "id": 12,
@@ -347,17 +347,17 @@
         "hard": null,
         "grid": "Tara biha"
       },
-      "image": null,
+      "image": "assets/clues/ghajn.png",
       "english": "Eye",
       "status": "komuni-inizjali",
       "batch": 1,
       "meaning": "L-organu tal-ġisem li bih tara.",
       "example": "Daħlitilha tikka trab f’għajnejha.",
       "exampleEnglish": "A speck of dust went into her eye.",
-      "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "eduImage": "assets/education/ghajn.jpg",
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete"
     },
     {
       "id": 13,
