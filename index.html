@@ -1,7 +1,7 @@
 <!doctype html><html lang="mt"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 <meta name="color-scheme" content="light only">
-<title>Tisliba Maltija · Grilja v33</title>
+<title>Tisliba Maltija · Grilja v34</title>
 
 <style>
 :root{color-scheme:light;--bg:#102b40;--grid:#27455c;--answer:#f7efdd;--clue:#9bb6c7;--ink:#142d43;--panel:#1c3a53;--tile:#f5e7cb;--accent:#e9bd68}
@@ -62,9 +62,16 @@ header strong{font-size:clamp(21px,6vw,30px)}.version{display:inline-block;verti
  .board .cell.clue.across b{right:-4px;border-top-width:4px;border-bottom-width:4px;border-left-width:5px}
  .board .cell.clue.down b{bottom:-4px;border-left-width:4px;border-right-width:4px;border-top-width:5px}
 }
+
+/* V34: lighter mobile pointers */
+@media(pointer:coarse){
+ .board .cell.clue b{filter:none!important}
+ .board .cell.clue.across b{right:-3px!important;border-top-width:3px!important;border-bottom-width:3px!important;border-left-width:4px!important}
+ .board .cell.clue.down b{bottom:-3px!important;border-left-width:3px!important;border-right-width:3px!important;border-top-width:4px!important}
+}
 </style>
 </head><body><main class="app">
-<header><strong>🇲🇹 Tisliba Maltija <small class="version">V33</small></strong><span class="level">Livell 1</span></header>
+<header><strong>🇲🇹 Tisliba Maltija <small class="version">V34</small></strong><span class="level">Livell 1</span></header>
 <section class="board" id="board" aria-label="Tisliba"></section>
 <div class="total-score" id="totalScore" aria-live="polite">Punti totali: 0</div>
 <div class="verify-row"><button id="verify">✓ Iċċekkja</button></div>
