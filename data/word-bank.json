@@ -205,17 +205,17 @@
         "hard": null,
         "grid": "Omm ta’ ġenitur"
       },
-      "image": null,
+      "image": "assets/clues/nanna.png",
       "english": "Grandmother",
       "status": "komuni-inizjali",
       "batch": 1,
       "meaning": "Omm wieħed mill-ġenituri tiegħek.",
       "example": "In-nanna rrakkontatli storja antika.",
       "exampleEnglish": "Grandmother told me an old story.",
-      "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "eduImage": "assets/education/nanna.jpg",
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete"
     },
     {
       "id": 8,
@@ -235,17 +235,17 @@
         "hard": null,
         "grid": "Missier ta’ ġenitur"
       },
-      "image": null,
+      "image": "assets/clues/nannu.png",
       "english": "Grandfather",
       "status": "komuni-inizjali",
       "batch": 1,
       "meaning": "Missier wieħed mill-ġenituri tiegħek.",
       "example": "In-nannu jimxi sal-ħanut kull filgħodu.",
       "exampleEnglish": "Grandfather walks to the shop every morning.",
-      "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "eduImage": "assets/education/nannu.jpg",
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete"
     },
     {
       "id": 9,
