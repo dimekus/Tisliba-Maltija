@@ -4929,6 +4929,9 @@
     "TUFFIEĦ"
   ],
   "validationRules": {
-    "noAnswerInsideClue": true
+    "noAnswerInsideClue": true,
+    "maxGridClueCharacters": 24,
+    "preferPictureWhenClueWouldBeLong": true,
+    "showLongExplanationOnTap": true
   }
 }
