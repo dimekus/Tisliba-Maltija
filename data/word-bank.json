@@ -263,17 +263,17 @@
         "hard": null,
         "grid": "Fuqha hemm ix-xagħar"
       },
-      "image": null,
+      "image": "assets/clues/ras.png",
       "english": "Head",
       "status": "komuni-inizjali",
       "batch": 1,
       "meaning": "Il-parti ta’ fuq tal-ġisem li fiha l-moħħ, l-għajnejn u l-wiċċ.",
       "example": "Poġġa kappell fuq rasu.",
       "exampleEnglish": "He put a hat on his head.",
-      "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "eduImage": "assets/education/ras.jpg",
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete"
     },
     {
       "id": 10,
