@@ -2521,19 +2521,17 @@
     },
     {
       "id": 121,
-      "answer": "LINJAL",
+      "answer": "RIGA",
       "tokens": [
-        "L",
+        "R",
         "I",
-        "N",
-        "J",
-        "A",
-        "L"
+        "G",
+        "A"
       ],
       "category": "skola",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Tkejjel jew tiġbed linja dritta bih",
+        "easy": "Tkejjel jew tiġbed linja dritta biha",
         "medium": null,
         "hard": null
       },
