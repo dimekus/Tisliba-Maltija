@@ -7,10 +7,10 @@
     "Ħ": "ittra separata u ppronunzjata"
   },
   "counts": {
-    "total": 150,
-    "common": 134,
+    "total": 200,
+    "common": 183,
     "ieReview": 0,
-    "ieApproved": 16
+    "ieApproved": 17
   },
   "ieReviewList": [],
   "words": [
@@ -31,7 +31,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 2,
@@ -53,7 +54,8 @@
       },
       "image": null,
       "english": null,
-      "status": "approvata-ie"
+      "status": "approvata-ie",
+      "batch": 1
     },
     {
       "id": 3,
@@ -71,7 +73,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 4,
@@ -90,7 +93,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 5,
@@ -110,7 +114,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 6,
@@ -130,7 +135,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 7,
@@ -151,7 +157,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 8,
@@ -172,7 +179,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 9,
@@ -191,7 +199,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 10,
@@ -209,7 +218,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 11,
@@ -228,7 +238,8 @@
       },
       "image": null,
       "english": null,
-      "status": "approvata-ie"
+      "status": "approvata-ie",
+      "batch": 1
     },
     {
       "id": 12,
@@ -248,7 +259,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 13,
@@ -269,7 +281,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 14,
@@ -289,7 +302,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 15,
@@ -312,7 +326,8 @@
       },
       "image": null,
       "english": null,
-      "status": "approvata-ie"
+      "status": "approvata-ie",
+      "batch": 1
     },
     {
       "id": 16,
@@ -331,7 +346,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 17,
@@ -350,7 +366,8 @@
       },
       "image": null,
       "english": null,
-      "status": "approvata-ie"
+      "status": "approvata-ie",
+      "batch": 1
     },
     {
       "id": 18,
@@ -370,7 +387,8 @@
       },
       "image": null,
       "english": null,
-      "status": "approvata-ie"
+      "status": "approvata-ie",
+      "batch": 1
     },
     {
       "id": 19,
@@ -391,7 +409,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 20,
@@ -412,7 +431,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 21,
@@ -433,7 +453,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 22,
@@ -454,7 +475,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 23,
@@ -475,7 +497,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 24,
@@ -495,7 +518,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 25,
@@ -516,7 +540,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 26,
@@ -536,7 +561,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 27,
@@ -557,7 +583,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 28,
@@ -580,7 +607,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 29,
@@ -605,7 +633,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 30,
@@ -626,7 +655,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 31,
@@ -646,7 +676,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 32,
@@ -667,7 +698,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 33,
@@ -689,7 +721,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 34,
@@ -709,7 +742,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 35,
@@ -729,7 +763,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 36,
@@ -749,7 +784,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 37,
@@ -768,7 +804,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 38,
@@ -789,7 +826,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 39,
@@ -809,7 +847,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 40,
@@ -829,7 +868,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 41,
@@ -849,7 +889,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 42,
@@ -870,7 +911,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 43,
@@ -891,7 +933,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 44,
@@ -910,7 +953,8 @@
       },
       "image": null,
       "english": null,
-      "status": "approvata-ie"
+      "status": "approvata-ie",
+      "batch": 1
     },
     {
       "id": 45,
@@ -932,7 +976,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 46,
@@ -953,7 +998,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 47,
@@ -974,7 +1020,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 48,
@@ -995,7 +1042,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 49,
@@ -1016,7 +1064,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 50,
@@ -1037,7 +1086,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 51,
@@ -1057,7 +1107,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 52,
@@ -1079,7 +1130,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 53,
@@ -1098,7 +1150,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 54,
@@ -1119,7 +1172,8 @@
       },
       "image": null,
       "english": null,
-      "status": "approvata-ie"
+      "status": "approvata-ie",
+      "batch": 1
     },
     {
       "id": 55,
@@ -1140,7 +1194,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 56,
@@ -1161,7 +1216,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 57,
@@ -1182,7 +1238,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 58,
@@ -1203,7 +1260,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 59,
@@ -1225,7 +1283,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 60,
@@ -1245,7 +1304,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 61,
@@ -1266,7 +1326,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 62,
@@ -1287,7 +1348,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 63,
@@ -1310,7 +1372,8 @@
       },
       "image": null,
       "english": null,
-      "status": "approvata-ie"
+      "status": "approvata-ie",
+      "batch": 1
     },
     {
       "id": 64,
@@ -1332,7 +1395,8 @@
       },
       "image": null,
       "english": null,
-      "status": "approvata-ie"
+      "status": "approvata-ie",
+      "batch": 1
     },
     {
       "id": 65,
@@ -1354,7 +1418,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 66,
@@ -1374,7 +1439,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 67,
@@ -1395,7 +1461,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 68,
@@ -1415,7 +1482,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 69,
@@ -1435,7 +1503,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 70,
@@ -1457,7 +1526,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 71,
@@ -1477,7 +1547,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 72,
@@ -1497,7 +1568,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 73,
@@ -1518,7 +1590,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 74,
@@ -1539,7 +1612,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 75,
@@ -1558,7 +1632,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 76,
@@ -1578,7 +1653,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 77,
@@ -1599,7 +1675,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 78,
@@ -1621,7 +1698,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 79,
@@ -1642,7 +1720,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 80,
@@ -1664,7 +1743,8 @@
       },
       "image": null,
       "english": null,
-      "status": "approvata-ie"
+      "status": "approvata-ie",
+      "batch": 1
     },
     {
       "id": 81,
@@ -1686,7 +1766,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 82,
@@ -1706,7 +1787,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 83,
@@ -1728,7 +1810,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 84,
@@ -1749,7 +1832,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 85,
@@ -1770,7 +1854,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 86,
@@ -1791,7 +1876,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 87,
@@ -1812,7 +1898,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 88,
@@ -1831,7 +1918,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 89,
@@ -1853,7 +1941,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 90,
@@ -1874,7 +1963,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 91,
@@ -1894,7 +1984,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 92,
@@ -1914,7 +2005,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 93,
@@ -1934,7 +2026,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 94,
@@ -1957,7 +2050,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 95,
@@ -1977,7 +2071,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 96,
@@ -1999,7 +2094,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 97,
@@ -2023,7 +2119,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 98,
@@ -2042,7 +2139,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 99,
@@ -2062,7 +2160,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 100,
@@ -2082,7 +2181,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 101,
@@ -2103,7 +2203,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 102,
@@ -2123,7 +2224,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 103,
@@ -2143,7 +2245,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 104,
@@ -2163,7 +2266,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 105,
@@ -2188,7 +2292,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 1
     },
     {
       "id": 106,
@@ -2209,7 +2314,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 107,
@@ -2231,7 +2337,8 @@
       },
       "image": null,
       "english": null,
-      "status": "approvata-ie"
+      "status": "approvata-ie",
+      "batch": 2
     },
     {
       "id": 108,
@@ -2251,7 +2358,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 109,
@@ -2275,7 +2383,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 110,
@@ -2299,7 +2408,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 111,
@@ -2321,7 +2431,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 112,
@@ -2344,7 +2455,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 113,
@@ -2365,7 +2477,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 114,
@@ -2386,7 +2499,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 115,
@@ -2410,7 +2524,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 116,
@@ -2430,7 +2545,8 @@
       },
       "image": null,
       "english": null,
-      "status": "approvata-ie"
+      "status": "approvata-ie",
+      "batch": 2
     },
     {
       "id": 117,
@@ -2454,7 +2570,8 @@
       },
       "image": null,
       "english": null,
-      "status": "approvata-ie"
+      "status": "approvata-ie",
+      "batch": 2
     },
     {
       "id": 118,
@@ -2475,7 +2592,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 119,
@@ -2496,7 +2614,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 120,
@@ -2517,7 +2636,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 121,
@@ -2537,7 +2657,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 122,
@@ -2558,7 +2679,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 123,
@@ -2580,7 +2702,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 124,
@@ -2602,7 +2725,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 125,
@@ -2624,7 +2748,8 @@
       },
       "image": null,
       "english": null,
-      "status": "approvata-ie"
+      "status": "approvata-ie",
+      "batch": 2
     },
     {
       "id": 126,
@@ -2645,7 +2770,8 @@
       },
       "image": null,
       "english": null,
-      "status": "approvata-ie"
+      "status": "approvata-ie",
+      "batch": 2
     },
     {
       "id": 127,
@@ -2667,7 +2793,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 128,
@@ -2689,7 +2816,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 129,
@@ -2710,7 +2838,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 130,
@@ -2731,7 +2860,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 131,
@@ -2752,7 +2882,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 132,
@@ -2774,7 +2905,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 133,
@@ -2794,7 +2926,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 134,
@@ -2814,7 +2947,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 135,
@@ -2834,7 +2968,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 136,
@@ -2856,7 +2991,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 137,
@@ -2879,7 +3015,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 138,
@@ -2904,7 +3041,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 139,
@@ -2925,7 +3063,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 140,
@@ -2949,7 +3088,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 141,
@@ -2970,7 +3110,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 142,
@@ -2990,7 +3131,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 143,
@@ -3010,7 +3152,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 144,
@@ -3031,7 +3174,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 145,
@@ -3054,7 +3198,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 146,
@@ -3074,7 +3219,8 @@
       },
       "image": null,
       "english": null,
-      "status": "approvata-ie"
+      "status": "approvata-ie",
+      "batch": 2
     },
     {
       "id": 147,
@@ -3095,7 +3241,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 148,
@@ -3116,7 +3263,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 149,
@@ -3137,7 +3285,8 @@
       },
       "image": null,
       "english": null,
-      "status": "komuni-inizjali"
+      "status": "komuni-inizjali",
+      "batch": 2
     },
     {
       "id": 150,
@@ -3153,6 +3302,1143 @@
       "difficulty": "faċli",
       "clues": {
         "easy": "Frak fin li ssibu max-xatt",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali",
+      "batch": 2
+    },
+    {
+      "id": 151,
+      "batch": 3,
+      "answer": "AĦMAR",
+      "tokens": [
+        "A",
+        "Ħ",
+        "M",
+        "A",
+        "R"
+      ],
+      "category": "kuluri",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Il-kulur tad-demm",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 152,
+      "batch": 3,
+      "answer": "AĦDAR",
+      "tokens": [
+        "A",
+        "Ħ",
+        "D",
+        "A",
+        "R"
+      ],
+      "category": "kuluri",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Il-kulur tal-ħaxix frisk",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 153,
+      "batch": 3,
+      "answer": "ABJAD",
+      "tokens": [
+        "A",
+        "B",
+        "J",
+        "A",
+        "D"
+      ],
+      "category": "kuluri",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Il-kulur tal-borra",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 154,
+      "batch": 3,
+      "answer": "ISWED",
+      "tokens": [
+        "I",
+        "S",
+        "W",
+        "E",
+        "D"
+      ],
+      "category": "kuluri",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Il-kulur tal-faħam",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 155,
+      "batch": 3,
+      "answer": "IKĦAL",
+      "tokens": [
+        "I",
+        "K",
+        "Ħ",
+        "A",
+        "L"
+      ],
+      "category": "kuluri",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Kulur li spiss naraw fis-sema ċar",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 156,
+      "batch": 3,
+      "answer": "ISFAR",
+      "tokens": [
+        "I",
+        "S",
+        "F",
+        "A",
+        "R"
+      ],
+      "category": "kuluri",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Il-kulur tal-lumi",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 157,
+      "batch": 3,
+      "answer": "ROŻA",
+      "tokens": [
+        "R",
+        "O",
+        "Ż",
+        "A"
+      ],
+      "category": "kuluri",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Kulur ċar bejn l-aħmar u l-abjad",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 158,
+      "batch": 3,
+      "answer": "VJOLA",
+      "tokens": [
+        "V",
+        "J",
+        "O",
+        "L",
+        "A"
+      ],
+      "category": "kuluri",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Kulur bejn l-ikħal u l-aħmar",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 159,
+      "batch": 3,
+      "answer": "KANNELLA",
+      "tokens": [
+        "K",
+        "A",
+        "N",
+        "N",
+        "E",
+        "L",
+        "L",
+        "A"
+      ],
+      "category": "kuluri",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Kulur kannella bħall-qoxra tas-siġar",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 160,
+      "batch": 3,
+      "answer": "GRIŻ",
+      "tokens": [
+        "G",
+        "R",
+        "I",
+        "Ż"
+      ],
+      "category": "kuluri",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Kulur bejn l-abjad u l-iswed",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 161,
+      "batch": 3,
+      "answer": "PLATT",
+      "tokens": [
+        "P",
+        "L",
+        "A",
+        "T",
+        "T"
+      ],
+      "category": "kċina",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Tiekol l-ikel minn fuqu",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 162,
+      "batch": 3,
+      "answer": "SIKKINA",
+      "tokens": [
+        "S",
+        "I",
+        "K",
+        "K",
+        "I",
+        "N",
+        "A"
+      ],
+      "category": "kċina",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Taqta’ l-ikel biha",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 163,
+      "batch": 3,
+      "answer": "FURKETTA",
+      "tokens": [
+        "F",
+        "U",
+        "R",
+        "K",
+        "E",
+        "T",
+        "T",
+        "A"
+      ],
+      "category": "kċina",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Għodda bis-snien li tiekol biha",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 164,
+      "batch": 3,
+      "answer": "FORN",
+      "tokens": [
+        "F",
+        "O",
+        "R",
+        "N"
+      ],
+      "category": "kċina",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Issajjar jew taħmi fih",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 165,
+      "batch": 3,
+      "answer": "KAFÈ",
+      "tokens": [
+        "K",
+        "A",
+        "F",
+        "È"
+      ],
+      "category": "xorb",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Xarba sħuna magħmula mill-kafè mitħun",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 166,
+      "batch": 3,
+      "answer": "TE",
+      "tokens": [
+        "T",
+        "E"
+      ],
+      "category": "xorb",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Xarba sħuna magħmula mill-weraq",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 167,
+      "batch": 3,
+      "answer": "SOPPA",
+      "tokens": [
+        "S",
+        "O",
+        "P",
+        "P",
+        "A"
+      ],
+      "category": "ikel",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Ikel likwidu li jittiekel sħun",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 168,
+      "batch": 3,
+      "answer": "INSALATA",
+      "tokens": [
+        "I",
+        "N",
+        "S",
+        "A",
+        "L",
+        "A",
+        "T",
+        "A"
+      ],
+      "category": "ikel",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Taħlita ta’ ħaxix nej",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 169,
+      "batch": 3,
+      "answer": "KEJK",
+      "tokens": [
+        "K",
+        "E",
+        "J",
+        "K"
+      ],
+      "category": "ikel",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Ħelu moħmi li jinqata’ f’biċċiet",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 170,
+      "batch": 3,
+      "answer": "FRIĠĠ",
+      "tokens": [
+        "F",
+        "R",
+        "I",
+        "Ġ",
+        "Ġ"
+      ],
+      "category": "kċina",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Iżomm l-ikel u x-xorb kesħin",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 171,
+      "batch": 3,
+      "answer": "XARABANK",
+      "tokens": [
+        "X",
+        "A",
+        "R",
+        "A",
+        "B",
+        "A",
+        "N",
+        "K"
+      ],
+      "category": "trasport",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Vettura kbira li ġġorr ħafna passiġġieri",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 172,
+      "batch": 3,
+      "answer": "VANN",
+      "tokens": [
+        "V",
+        "A",
+        "N",
+        "N"
+      ],
+      "category": "trasport",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Vettura magħluqa akbar minn karozza",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 173,
+      "batch": 3,
+      "answer": "TRAKK",
+      "tokens": [
+        "T",
+        "R",
+        "A",
+        "K",
+        "K"
+      ],
+      "category": "trasport",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Vettura kbira li ġġorr tagħbija",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 174,
+      "batch": 3,
+      "answer": "MUTUR",
+      "tokens": [
+        "M",
+        "U",
+        "T",
+        "U",
+        "R"
+      ],
+      "category": "trasport",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Vettura b’żewġ roti u magna",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 175,
+      "batch": 3,
+      "answer": "MITJAR",
+      "tokens": [
+        "M",
+        "I",
+        "T",
+        "J",
+        "A",
+        "R"
+      ],
+      "category": "postijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Post minn fejn jitilqu u jinżlu l-ajruplani",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 176,
+      "batch": 3,
+      "answer": "PORT",
+      "tokens": [
+        "P",
+        "O",
+        "R",
+        "T"
+      ],
+      "category": "postijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Post fejn jidħlu u jorbtu l-bastimenti",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 177,
+      "batch": 3,
+      "answer": "STAZZJON",
+      "tokens": [
+        "S",
+        "T",
+        "A",
+        "Z",
+        "Z",
+        "J",
+        "O",
+        "N"
+      ],
+      "category": "postijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Post fejn jieqaf jew jitlaq it-trasport",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 178,
+      "batch": 3,
+      "answer": "WAQFA",
+      "tokens": [
+        "W",
+        "A",
+        "Q",
+        "F",
+        "A"
+      ],
+      "category": "postijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Post fejn tieqaf ix-xarabank",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 179,
+      "batch": 3,
+      "answer": "BANKINA",
+      "tokens": [
+        "B",
+        "A",
+        "N",
+        "K",
+        "I",
+        "N",
+        "A"
+      ],
+      "category": "postijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Parti mgħollija maġenb it-triq għall-mixi",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 180,
+      "batch": 3,
+      "answer": "MINA",
+      "tokens": [
+        "M",
+        "I",
+        "N",
+        "A"
+      ],
+      "category": "postijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Passaġġ taħt l-art jew ġo muntanja",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 181,
+      "batch": 3,
+      "answer": "JIFTAĦ",
+      "tokens": [
+        "J",
+        "I",
+        "F",
+        "T",
+        "A",
+        "Ħ"
+      ],
+      "category": "azzjonijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Jagħmel bieb jew tieqa miftuħa",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 182,
+      "batch": 3,
+      "answer": "JAGĦLAQ",
+      "tokens": [
+        "J",
+        "A",
+        "GĦ",
+        "L",
+        "A",
+        "Q"
+      ],
+      "category": "azzjonijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Jagħmel bieb jew tieqa magħluqa",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 183,
+      "batch": 3,
+      "answer": "JIDĦAK",
+      "tokens": [
+        "J",
+        "I",
+        "D",
+        "Ħ",
+        "A",
+        "K"
+      ],
+      "category": "azzjonijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Juri l-ferħ b’ħoss u tbissima",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 184,
+      "batch": 3,
+      "answer": "JIBKI",
+      "tokens": [
+        "J",
+        "I",
+        "B",
+        "K",
+        "I"
+      ],
+      "category": "azzjonijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Joħroġ id-dmugħ meta jkun imdejjaq",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 185,
+      "batch": 3,
+      "answer": "JILGĦAB",
+      "tokens": [
+        "J",
+        "I",
+        "L",
+        "GĦ",
+        "A",
+        "B"
+      ],
+      "category": "azzjonijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Jieħu sehem f’logħba",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 186,
+      "batch": 3,
+      "answer": "JGĦUM",
+      "tokens": [
+        "J",
+        "GĦ",
+        "U",
+        "M"
+      ],
+      "category": "azzjonijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Jimxi fl-ilma billi jċaqlaq ġismu",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 187,
+      "batch": 3,
+      "answer": "JARA",
+      "tokens": [
+        "J",
+        "A",
+        "R",
+        "A"
+      ],
+      "category": "azzjonijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Juża għajnejh biex iħares",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 188,
+      "batch": 3,
+      "answer": "JISTAQSI",
+      "tokens": [
+        "J",
+        "I",
+        "S",
+        "T",
+        "A",
+        "Q",
+        "S",
+        "I"
+      ],
+      "category": "azzjonijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Jagħmel mistoqsija",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 189,
+      "batch": 3,
+      "answer": "JISSAJJAR",
+      "tokens": [
+        "J",
+        "I",
+        "S",
+        "S",
+        "A",
+        "J",
+        "J",
+        "A",
+        "R"
+      ],
+      "category": "azzjonijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Iħejji l-ikel bis-sħana",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 190,
+      "batch": 3,
+      "answer": "JITKELLEM",
+      "tokens": [
+        "J",
+        "I",
+        "T",
+        "K",
+        "E",
+        "L",
+        "L",
+        "E",
+        "M"
+      ],
+      "category": "azzjonijiet",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Juża l-kliem biex jikkomunika",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 191,
+      "batch": 3,
+      "answer": "ĠIMGĦA",
+      "tokens": [
+        "Ġ",
+        "I",
+        "M",
+        "GĦ",
+        "A"
+      ],
+      "category": "żmien",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Perjodu ta’ sebat ijiem",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 192,
+      "batch": 3,
+      "answer": "XAHAR",
+      "tokens": [
+        "X",
+        "A",
+        "H",
+        "A",
+        "R"
+      ],
+      "category": "żmien",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Wieħed mit-tnax tas-sena",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 193,
+      "batch": 3,
+      "answer": "SIEGĦA",
+      "tokens": [
+        "S",
+        "IE",
+        "GĦ",
+        "A"
+      ],
+      "category": "żmien",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Perjodu ta’ sittin minuta",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-ie"
+    },
+    {
+      "id": 194,
+      "batch": 3,
+      "answer": "MINUTA",
+      "tokens": [
+        "M",
+        "I",
+        "N",
+        "U",
+        "T",
+        "A"
+      ],
+      "category": "żmien",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Perjodu ta’ sittin sekonda",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 195,
+      "batch": 3,
+      "answer": "SEKONDA",
+      "tokens": [
+        "S",
+        "E",
+        "K",
+        "O",
+        "N",
+        "D",
+        "A"
+      ],
+      "category": "żmien",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Unità qasira ħafna tal-ħin",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 196,
+      "batch": 3,
+      "answer": "FILGĦODU",
+      "tokens": [
+        "F",
+        "I",
+        "L",
+        "GĦ",
+        "O",
+        "D",
+        "U"
+      ],
+      "category": "żmien",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Il-parti bikrija tal-jum",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 197,
+      "batch": 3,
+      "answer": "NOFSINHAR",
+      "tokens": [
+        "N",
+        "O",
+        "F",
+        "S",
+        "I",
+        "N",
+        "H",
+        "A",
+        "R"
+      ],
+      "category": "żmien",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "In-nofs tal-jum",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 198,
+      "batch": 3,
+      "answer": "FILGĦAXIJA",
+      "tokens": [
+        "F",
+        "I",
+        "L",
+        "GĦ",
+        "A",
+        "X",
+        "I",
+        "J",
+        "A"
+      ],
+      "category": "żmien",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Il-ħin bejn wara nofsinhar u billejl",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 199,
+      "batch": 3,
+      "answer": "BILLEJL",
+      "tokens": [
+        "B",
+        "I",
+        "L",
+        "L",
+        "E",
+        "J",
+        "L"
+      ],
+      "category": "żmien",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Matul il-parti mudlama tal-jum",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "komuni-inizjali"
+    },
+    {
+      "id": 200,
+      "batch": 3,
+      "answer": "ILLUM",
+      "tokens": [
+        "I",
+        "L",
+        "L",
+        "U",
+        "M"
+      ],
+      "category": "żmien",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Il-jum li qegħdin fih",
         "medium": null,
         "hard": null
       },
