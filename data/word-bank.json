@@ -2,27 +2,17 @@
   "schemaVersion": 1,
   "tokenRules": {
     "GĦ": "kaxxa waħda",
-    "IE": "kaxxa waħda bħala regola; teħtieġ konferma tal-utent",
+    "IE": "kaxxa waħda — regola kkonfermata mill-utent",
     "H": "kaxxa waħda normali; tista’ tkun siekta",
     "Ħ": "ittra separata u ppronunzjata"
   },
   "counts": {
     "total": 105,
     "common": 95,
-    "ieReview": 10
+    "ieReview": 0,
+    "ieApproved": 10
   },
-  "ieReviewList": [
-    "MISSIER",
-    "SIEQ",
-    "IMNIEĦER",
-    "BIEB",
-    "TIEQA",
-    "WIED",
-    "ŻIEMEL",
-    "DUBBIENA",
-    "TIĠIEĠA",
-    "TUFFIEĦ"
-  ],
+  "ieReviewList": [],
   "words": [
     {
       "id": 1,
@@ -63,7 +53,7 @@
       },
       "image": null,
       "english": null,
-      "status": "għal-reviżjoni-ie"
+      "status": "approvata-ie"
     },
     {
       "id": 3,
@@ -238,7 +228,7 @@
       },
       "image": null,
       "english": null,
-      "status": "għal-reviżjoni-ie"
+      "status": "approvata-ie"
     },
     {
       "id": 12,
@@ -322,7 +312,7 @@
       },
       "image": null,
       "english": null,
-      "status": "għal-reviżjoni-ie"
+      "status": "approvata-ie"
     },
     {
       "id": 16,
@@ -360,7 +350,7 @@
       },
       "image": null,
       "english": null,
-      "status": "għal-reviżjoni-ie"
+      "status": "approvata-ie"
     },
     {
       "id": 18,
@@ -380,7 +370,7 @@
       },
       "image": null,
       "english": null,
-      "status": "għal-reviżjoni-ie"
+      "status": "approvata-ie"
     },
     {
       "id": 19,
@@ -919,7 +909,7 @@
       },
       "image": null,
       "english": null,
-      "status": "għal-reviżjoni-ie"
+      "status": "approvata-ie"
     },
     {
       "id": 45,
@@ -1128,7 +1118,7 @@
       },
       "image": null,
       "english": null,
-      "status": "għal-reviżjoni-ie"
+      "status": "approvata-ie"
     },
     {
       "id": 55,
@@ -1319,7 +1309,7 @@
       },
       "image": null,
       "english": null,
-      "status": "għal-reviżjoni-ie"
+      "status": "approvata-ie"
     },
     {
       "id": 64,
@@ -1341,7 +1331,7 @@
       },
       "image": null,
       "english": null,
-      "status": "għal-reviżjoni-ie"
+      "status": "approvata-ie"
     },
     {
       "id": 65,
@@ -1673,7 +1663,7 @@
       },
       "image": null,
       "english": null,
-      "status": "għal-reviżjoni-ie"
+      "status": "approvata-ie"
     },
     {
       "id": 81,
@@ -2209,5 +2199,17 @@
     "ZIJA",
     "ZIJU",
     "ZUNNARIJA"
+  ],
+  "ieApprovedList": [
+    "MISSIER",
+    "SIEQ",
+    "IMNIEĦER",
+    "BIEB",
+    "TIEQA",
+    "WIED",
+    "ŻIEMEL",
+    "DUBBIENA",
+    "TIĠIEĠA",
+    "TUFFIEĦ"
   ]
 }
