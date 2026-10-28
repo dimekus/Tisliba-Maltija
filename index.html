@@ -1,7 +1,7 @@
 <!doctype html><html lang="mt"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 <meta name="color-scheme" content="light only">
-<title>Tisliba Maltija · Grilja v34</title>
+<title>Tisliba Maltija · Grilja v35</title>
 
 <style>
 :root{color-scheme:light;--bg:#102b40;--grid:#27455c;--answer:#f7efdd;--clue:#9bb6c7;--ink:#142d43;--panel:#1c3a53;--tile:#f5e7cb;--accent:#e9bd68}
@@ -69,9 +69,17 @@ header strong{font-size:clamp(21px,6vw,30px)}.version{display:inline-block;verti
  .board .cell.clue.across b{right:-3px!important;border-top-width:3px!important;border-bottom-width:3px!important;border-left-width:4px!important}
  .board .cell.clue.down b{bottom:-3px!important;border-left-width:3px!important;border-right-width:3px!important;border-top-width:4px!important}
 }
+
+/* V35: visible, clean mobile direction pointers */
+@media(pointer:coarse){
+ .board .cell.clue{z-index:5!important}
+ .board .cell.clue b{display:block!important;visibility:visible!important;opacity:1!important;filter:none!important}
+ .board .cell.clue.across b{right:-6px!important;top:50%!important;bottom:auto!important;border-top:5px solid transparent!important;border-bottom:5px solid transparent!important;border-left:7px solid #f0bd55!important;transform:translateY(-50%)!important}
+ .board .cell.clue.down b{left:50%!important;right:auto!important;bottom:-6px!important;border-left:5px solid transparent!important;border-right:5px solid transparent!important;border-top:7px solid #f0bd55!important;transform:translateX(-50%)!important}
+}
 </style>
 </head><body><main class="app">
-<header><strong>🇲🇹 Tisliba Maltija <small class="version">V34</small></strong><span class="level">Livell 1</span></header>
+<header><strong>🇲🇹 Tisliba Maltija <small class="version">V35</small></strong><span class="level">Livell 1</span></header>
 <section class="board" id="board" aria-label="Tisliba"></section>
 <div class="total-score" id="totalScore" aria-live="polite">Punti totali: 0</div>
 <div class="verify-row"><button id="verify">✓ Iċċekkja</button></div>
