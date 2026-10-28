@@ -4529,11 +4529,19 @@
       "clues": {
         "easy": "Il-kulur tad-demm",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Il-kulur tad-demm"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Red",
+      "status": "komuni-inizjali",
+      "meaning": "Kulur qawwi bħal dak tad-demm jew tat-tadam misjur.",
+      "example": "Il-karozza l-ħamra waqfet quddiem id-dar.",
+      "exampleEnglish": "The red car stopped in front of the house.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 152,
@@ -4551,11 +4559,19 @@
       "clues": {
         "easy": "Il-kulur tal-ħaxix frisk",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Il-kulur tal-ħaxix"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Green",
+      "status": "komuni-inizjali",
+      "meaning": "Kulur komuni fin-natura, bħal dak tal-ħaxix u ħafna weraq.",
+      "example": "Il-ħaxix sar aħdar wara x-xita.",
+      "exampleEnglish": "The grass turned green after the rain.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 153,
@@ -4573,11 +4589,19 @@
       "clues": {
         "easy": "Il-kulur tal-borra",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Il-kulur tal-borra"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "White",
+      "status": "komuni-inizjali",
+      "meaning": "Kulur ċar ħafna bħal dak tal-borra jew tal-ħalib.",
+      "example": "Libes qmis bajda għall-festa.",
+      "exampleEnglish": "He wore a white shirt to the celebration.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 154,
@@ -4595,11 +4619,19 @@
       "clues": {
         "easy": "Il-kulur tal-faħam",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Il-kulur tal-faħam"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Black",
+      "status": "komuni-inizjali",
+      "meaning": "L-aktar kulur skur, bħal dak tal-faħam.",
+      "example": "Il-qattus iswed qasam it-triq.",
+      "exampleEnglish": "The black cat crossed the road.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 155,
@@ -4617,11 +4649,19 @@
       "clues": {
         "easy": "Kulur li spiss naraw fis-sema ċar",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Kulur tas-sema ċar"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Blue",
+      "status": "komuni-inizjali",
+      "meaning": "Kulur li naraw ħafna fis-sema ċar u fil-baħar.",
+      "example": "Is-sema kien ikħal u bla sħab.",
+      "exampleEnglish": "The sky was blue and cloudless.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 156,
@@ -4639,11 +4679,19 @@
       "clues": {
         "easy": "Il-kulur tal-lumi",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Il-kulur tal-lumi"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Yellow",
+      "status": "komuni-inizjali",
+      "meaning": "Kulur jgħajjat bħal dak tal-lumi jew tax-xemx f’xi tpinġijiet.",
+      "example": "Il-fjura s-safra kibret fil-ġnien.",
+      "exampleEnglish": "The yellow flower grew in the garden.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 157,
@@ -4660,11 +4708,19 @@
       "clues": {
         "easy": "Kulur ċar bejn l-aħmar u l-abjad",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Bejn aħmar u abjad"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Pink",
+      "status": "komuni-inizjali",
+      "meaning": "Kulur ċar li jinsab bejn l-aħmar u l-abjad.",
+      "example": "Libset ġakketta roża.",
+      "exampleEnglish": "She wore a pink jacket.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 158,
@@ -4682,11 +4738,19 @@
       "clues": {
         "easy": "Kulur bejn l-ikħal u l-aħmar",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Bejn ikħal u aħmar"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Purple",
+      "status": "komuni-inizjali",
+      "meaning": "Kulur magħmul minn taħlita ta’ aħmar u ikħal.",
+      "example": "Il-purtiera vjola kienet twila.",
+      "exampleEnglish": "The purple curtain was long.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 159,
@@ -4707,11 +4771,19 @@
       "clues": {
         "easy": "Kulur tal-qoxra tas-siġar u taċ-ċikkulata",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Kulur taċ-ċikkulata"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Brown",
+      "status": "komuni-inizjali",
+      "meaning": "Kulur skur u sħun bħal dak tal-injam, il-ħamrija jew iċ-ċikkulata.",
+      "example": "Iż-żarbun kannella huwa ġdid.",
+      "exampleEnglish": "The brown shoe is new.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 160,
@@ -4728,11 +4800,19 @@
       "clues": {
         "easy": "Kulur bejn l-abjad u l-iswed",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Bejn abjad u iswed"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Grey",
+      "status": "komuni-inizjali",
+      "meaning": "Kulur newtrali bejn l-abjad u l-iswed.",
+      "example": "Is-sħab griż ġab ix-xita.",
+      "exampleEnglish": "The grey clouds brought rain.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 161,
