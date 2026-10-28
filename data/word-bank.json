@@ -7038,8 +7038,15 @@
         "grid": "Tħabbat fis-sider"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Heart",
+      "status": "komuni-inizjali",
+      "meaning": "Organu li jippompja d-demm u jżomm iċ-ċirkolazzjoni għaddejja.",
+      "example": "Il-qalb tħabbat aktar malajr waqt il-ġiri.",
+      "exampleEnglish": "The heart beats faster while running.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 222,
@@ -7057,11 +7064,18 @@
         "easy": "Likwidu aħmar li jiċċirkola fil-ġisem",
         "medium": null,
         "hard": null,
-        "grid": "Likwidu aħmar"
+        "grid": "Likwidu aħmar fil-ġisem"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Blood",
+      "status": "komuni-inizjali",
+      "meaning": "Likwidu aħmar li jiċċirkola fil-ġisem u jwassal l-ossiġnu u sustanzi meħtieġa.",
+      "example": "Id-demm jiċċirkola mal-ġisem kollu.",
+      "exampleEnglish": "Blood circulates throughout the body.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 223,
@@ -7080,11 +7094,18 @@
         "easy": "Partijiet ibsin li jsostnu l-ġisem",
         "medium": null,
         "hard": null,
-        "grid": "Isostni l-ġisem"
+        "grid": "Isostnu l-ġisem"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Bones",
+      "status": "komuni-inizjali",
+      "meaning": "Partijiet ibsin ġewwa l-ġisem li jagħtuh forma u sostenn.",
+      "example": "L-għadam iżomm il-ġisem wieqaf.",
+      "exampleEnglish": "Bones keep the body upright.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 224,
@@ -7106,8 +7127,15 @@
         "grid": "Tgħatti l-ġisem"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Skin",
+      "status": "komuni-inizjali",
+      "meaning": "Is-saff ta’ barra li jgħatti u jipproteġi l-ġisem.",
+      "example": "Il-ġilda tipproteġi l-ġisem mix-xemx.",
+      "exampleEnglish": "Skin protects the body from the sun.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 225,
@@ -7125,11 +7153,18 @@
         "easy": "Jgħaqqad ir-ras mal-ġisem",
         "medium": null,
         "hard": null,
-        "grid": "Bejn ir-ras u l-ġisem"
+        "grid": "Jgħaqqad ras u ġisem"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Neck",
+      "status": "komuni-inizjali",
+      "meaning": "Il-parti li tgħaqqad ir-ras mal-ispallejn u t-tronk.",
+      "example": "Libes xalpa madwar għonqu.",
+      "exampleEnglish": "He wore a scarf around his neck.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 226,
@@ -7149,11 +7184,18 @@
         "easy": "Parti bejn l-għonq u d-driegħ",
         "medium": null,
         "hard": null,
-        "grid": "Bejn l-għonq u d-driegħ"
+        "grid": "Bejn għonq u driegħ"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Shoulder",
+      "status": "komuni-inizjali",
+      "meaning": "Il-parti fejn id-driegħ jingħaqad mal-parti ta’ fuq tal-ġisem.",
+      "example": "Refgħet il-basket fuq spallitha.",
+      "exampleEnglish": "She lifted the bag onto her shoulder.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 227,
@@ -7176,8 +7218,15 @@
         "grid": "Ġog f’nofs id-driegħ"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Elbow",
+      "status": "komuni-inizjali",
+      "meaning": "Il-ġog f’nofs id-driegħ li jippermettilu jitgħawweġ.",
+      "example": "Għawweġ minkbu biex jerfa’ t-tazza.",
+      "exampleEnglish": "He bent his elbow to lift the cup.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 228,
@@ -7201,8 +7250,15 @@
         "grid": "Ġog f’nofs ir-riġel"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Knee",
+      "status": "komuni-inizjali",
+      "meaning": "Il-ġog bejn il-koxxa u l-parti t’isfel tar-riġel.",
+      "example": "Weġġgħet irkopptu waqt il-logħba.",
+      "exampleEnglish": "He hurt his knee during the game.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 229,
@@ -7224,8 +7280,15 @@
         "grid": "Wara tal-ġisem"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Back",
+      "status": "komuni-inizjali",
+      "meaning": "Il-parti ta’ wara tal-ġisem, mill-ispallejn sal-qadd.",
+      "example": "Poġġa l-basket fuq dahru.",
+      "exampleEnglish": "He put the bag on his back.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 230,
@@ -7244,11 +7307,18 @@
         "easy": "Il-parti ta’ quddiem bejn l-għonq u ż-żaqq",
         "medium": null,
         "hard": null,
-        "grid": "Quddiem, fuq iż-żaqq"
+        "grid": "Quddiem taħt l-għonq"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Chest",
+      "status": "komuni-inizjali",
+      "meaning": "Il-parti ta’ quddiem tal-ġisem bejn l-għonq u ż-żaqq.",
+      "example": "Ħa nifs qawwi u mtela sidru bl-arja.",
+      "exampleEnglish": "He took a deep breath and filled his chest with air.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 231,
@@ -7269,8 +7339,15 @@
         "grid": "Taħt is-sider"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Belly",
+      "status": "komuni-inizjali",
+      "meaning": "Il-parti ta’ quddiem tal-ġisem bejn is-sider u l-ġenbejn.",
+      "example": "Wara l-ikla ħass żaqqu mimlija.",
+      "exampleEnglish": "After the meal his belly felt full.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 232,
@@ -7292,8 +7369,15 @@
         "grid": "Fit-truf tal-idejn"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Fingers",
+      "status": "komuni-inizjali",
+      "meaning": "Partijiet mobbli fit-truf tal-idejn li jgħinu fil-qbid u fil-mess.",
+      "example": "Għaddiet iż-żibeġ bejn subgħajha.",
+      "exampleEnglish": "She passed the beads through her fingers.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 233,
@@ -7313,11 +7397,18 @@
         "easy": "Jikbru fit-truf tas-swaba’",
         "medium": null,
         "hard": null,
-        "grid": "Fit-truf tas-swaba’"
+        "grid": "Jikbru fuq is-swaba’"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Nails",
+      "status": "komuni-inizjali",
+      "meaning": "Partijiet iebsin li jikbru fit-truf tas-swaba’ tal-idejn u s-saqajn.",
+      "example": "Qatgħet id-dwiefer b’attenzjoni.",
+      "exampleEnglish": "She trimmed her nails carefully.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 234,
@@ -7338,8 +7429,15 @@
         "grid": "Tomgħod bihom"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Teeth",
+      "status": "komuni-inizjali",
+      "meaning": "Partijiet ibsin fil-ħalq li jintużaw biex taqta’ u tomgħod l-ikel.",
+      "example": "Jaħsel snienu darbtejn kuljum.",
+      "exampleEnglish": "He brushes his teeth twice a day.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 235,
@@ -7358,11 +7456,18 @@
         "easy": "Jgħin fit-taħdit u fit-togħma",
         "medium": null,
         "hard": null,
-        "grid": "Taħdit u togħma"
+        "grid": "Tgħin fit-togħma"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Tongue",
+      "status": "komuni-inizjali",
+      "meaning": "Parti mobbli fil-ħalq li tgħin fit-togħma, fit-taħdit u fil-tibla’.",
+      "example": "L-ilsien jagħraf it-togħma ħelwa.",
+      "exampleEnglish": "The tongue detects the sweet taste.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 236,
@@ -7381,11 +7486,18 @@
         "easy": "Persuna adulta maskili",
         "medium": null,
         "hard": null,
-        "grid": "👨"
+        "grid": "Persuna adulta maskili"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Man",
+      "status": "komuni-inizjali",
+      "meaning": "Persuna adulta tas-sess maskili.",
+      "example": "Ir-raġel qiegħed jaqra l-gazzetta.",
+      "exampleEnglish": "The man is reading the newspaper.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 237,
@@ -7403,11 +7515,18 @@
         "easy": "Persuna adulta femminili",
         "medium": null,
         "hard": null,
-        "grid": "👩"
+        "grid": "Persuna adulta femminili"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Woman",
+      "status": "komuni-inizjali",
+      "meaning": "Persuna adulta tas-sess femminili.",
+      "example": "Il-mara qed tixtri l-ħobż.",
+      "exampleEnglish": "The woman is buying bread.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 238,
@@ -7426,11 +7545,18 @@
         "easy": "Persuna maskili ta’ età żgħira",
         "medium": null,
         "hard": null,
-        "grid": "👦"
+        "grid": "Persuna maskili żgħira"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Boy",
+      "status": "komuni-inizjali",
+      "meaning": "Persuna maskili li għadha ma saritx adulta.",
+      "example": "It-tifel jilgħab bil-ballun fil-ġnien.",
+      "exampleEnglish": "The boy plays with the ball in the garden.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 239,
@@ -7449,11 +7575,18 @@
         "easy": "Persuna femminili ta’ età żgħira",
         "medium": null,
         "hard": null,
-        "grid": "👧"
+        "grid": "Persuna femminili żgħira"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Girl",
+      "status": "komuni-inizjali",
+      "meaning": "Persuna femminili li għadha ma saritx adulta.",
+      "example": "It-tifla taqra storja qabel torqod.",
+      "exampleEnglish": "The girl reads a story before sleeping.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 240,
@@ -7474,11 +7607,18 @@
         "easy": "Persuna fl-ewwel snin tal-ħajja",
         "medium": null,
         "hard": null,
-        "grid": "👶"
+        "grid": "Fl-ewwel snin tal-ħajja"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Baby",
+      "status": "komuni-inizjali",
+      "meaning": "Tifel jew tifla ta’ età żgħira ħafna, speċjalment qabel jibda jimxi jew jitkellem.",
+      "example": "It-tarbija rieqda fil-benniena.",
+      "exampleEnglish": "The baby is asleep in the cradle.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 241,
@@ -7497,11 +7637,18 @@
         "easy": "Raġel li għandek relazzjoni tajba miegħu",
         "medium": null,
         "hard": null,
-        "grid": "Raġel qrib tiegħek"
+        "grid": "Persuna qrib tiegħek"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Male friend",
+      "status": "komuni-inizjali",
+      "meaning": "Raġel jew tifel li miegħu għandek relazzjoni ta’ ħbiberija u fiduċja.",
+      "example": "Il-ħabib tiegħi għenni fix-xogħol.",
+      "exampleEnglish": "My friend helped me with the work.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 242,
@@ -7521,11 +7668,18 @@
         "easy": "Mara li għandek relazzjoni tajba magħha",
         "medium": null,
         "hard": null,
-        "grid": "Mara qrib tiegħek"
+        "grid": "Persuna qrib tiegħek"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Female friend",
+      "status": "komuni-inizjali",
+      "meaning": "Mara jew tifla li magħha għandek relazzjoni ta’ ħbiberija u fiduċja.",
+      "example": "Il-ħabiba tiegħi ċemplitli filgħaxija.",
+      "exampleEnglish": "My friend called me in the evening.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 243,
@@ -7542,11 +7696,18 @@
         "easy": "Raġel li jgħix qrib tiegħek",
         "medium": null,
         "hard": null,
-        "grid": "Raġel bieb ma’ bieb"
+        "grid": "Jgħix qrib tiegħek"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Male neighbour",
+      "status": "komuni-inizjali",
+      "meaning": "Raġel jew tifel li jgħix f’dar qrib tiegħek.",
+      "example": "Il-ġar sellmilna minn fuq il-gallarija.",
+      "exampleEnglish": "The neighbour greeted us from the balcony.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 244,
@@ -7564,11 +7725,18 @@
         "easy": "Mara li tgħix qrib tiegħek",
         "medium": null,
         "hard": null,
-        "grid": "Mara bieb ma’ bieb"
+        "grid": "Tgħix qrib tiegħek"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Female neighbour",
+      "status": "komuni-inizjali",
+      "meaning": "Mara jew tifla li tgħix f’dar qrib tiegħek.",
+      "example": "Il-ġara tatna ftit lumi mill-ġnien.",
+      "exampleEnglish": "The neighbour gave us some lemons from the garden.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 245,
@@ -7589,11 +7757,18 @@
         "easy": "Grupp magħmul minn ġenituri u wlied",
         "medium": null,
         "hard": null,
-        "grid": "👪"
+        "grid": "Ġenituri u wlied"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Family",
+      "status": "komuni-inizjali",
+      "meaning": "Grupp ta’ nies marbutin bil-parentela, bħall-ġenituri, l-ulied u qraba oħra.",
+      "example": "Il-familja nġabret għall-ikla tal-Ħadd.",
+      "exampleEnglish": "The family gathered for Sunday lunch.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 246,
@@ -7614,11 +7789,18 @@
         "easy": "Għamara magħluqa fejn jinżammu l-ħwejjeġ",
         "medium": null,
         "hard": null,
-        "grid": "Għall-ħwejjeġ"
+        "grid": "Għamara għall-ħwejjeġ"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Wardrobe",
+      "status": "komuni-inizjali",
+      "meaning": "Għamara magħluqa bi xkafef jew spazju biex jinżammu l-ħwejjeġ.",
+      "example": "Dendel il-qmis fl-armarju.",
+      "exampleEnglish": "He hung the shirt in the wardrobe.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 247,
@@ -7637,11 +7819,18 @@
         "easy": "Għamara ratba fejn joqogħdu diversi persuni",
         "medium": null,
         "hard": null,
-        "grid": "🛋️"
+        "grid": "Sedil twil u artab"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Sofa",
+      "status": "komuni-inizjali",
+      "meaning": "Għamara twila u ratba fejn jistgħu joqogħdu diversi persuni.",
+      "example": "Poġġejna fuq is-sufan biex naraw film.",
+      "exampleEnglish": "We sat on the sofa to watch a film.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 248,
@@ -7660,11 +7849,18 @@
         "easy": "Tagħti dawl ġewwa jew barra",
         "medium": null,
         "hard": null,
-        "grid": "💡"
+        "grid": "Tagħti d-dawl"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Lamp",
+      "status": "komuni-inizjali",
+      "meaning": "Oġġett li juża l-elettriku jew fjuwil biex jagħti d-dawl.",
+      "example": "Xegħlet il-lampa ħdejn is-sodda.",
+      "exampleEnglish": "She switched on the lamp beside the bed.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 249,
@@ -7685,11 +7881,18 @@
         "easy": "Drapp li jgħatti tieqa",
         "medium": null,
         "hard": null,
-        "grid": "Drapp fuq it-tieqa"
+        "grid": "Drapp li jgħatti tieqa"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Curtain",
+      "status": "komuni-inizjali",
+      "meaning": "Biċċa drapp mdendla quddiem tieqa biex iżżomm id-dawl jew tagħti privatezza.",
+      "example": "Fetħet il-purtiera biex jidħol id-dawl.",
+      "exampleEnglish": "She opened the curtain to let in the light.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 250,
@@ -7708,11 +7911,18 @@
         "easy": "Kisja tad-drapp mifruxa mal-art",
         "medium": null,
         "hard": null,
-        "grid": "Drapp mifrux mal-art"
+        "grid": "Kisja mifruxa mal-art"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Carpet",
+      "status": "komuni-inizjali",
+      "meaning": "Kisja ħoxna tad-drapp li titqiegħed mal-art għas-sħana jew għat-tiżjin.",
+      "example": "It-tapit il-ġdid jinsab taħt il-mejda.",
+      "exampleEnglish": "The new carpet is under the table.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 251,
