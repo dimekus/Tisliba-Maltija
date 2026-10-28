@@ -3616,12 +3616,20 @@
       "clues": {
         "easy": "Tkejjel jew tiġbed linja dritta biha",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tkejjel linja dritta"
       },
       "image": null,
-      "english": null,
+      "english": "Ruler",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Għodda dritta mmarkata b’unitajiet, użata biex tkejjel jew tiġbed linji.",
+      "example": "Kejjel il-karta bir-riga.",
+      "exampleEnglish": "He measured the paper with the ruler.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 122,
@@ -3638,12 +3646,20 @@
       "clues": {
         "easy": "Tħassar il-kitba tal-lapes biha",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tħassar il-lapes"
       },
       "image": null,
-      "english": null,
+      "english": "Eraser",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Oġġett tal-gomma li jneħħi marki magħmula bil-lapes.",
+      "example": "Ħassret il-kelma bil-gomma.",
+      "exampleEnglish": "She erased the word with the eraser.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 123,
@@ -3661,12 +3677,20 @@
       "clues": {
         "easy": "Jintużaw biex tpinġi b’diversi lwien",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Għat-tpinġija bl-ilwien"
       },
       "image": null,
-      "english": null,
+      "english": "Colours",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Lwien differenti li naraw jew nużaw fit-tpinġija u d-disinn.",
+      "example": "Uża kuluri jleqqu fit-tpinġija.",
+      "exampleEnglish": "He used bright colours in the drawing.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 124,
@@ -3684,12 +3708,20 @@
       "clues": {
         "easy": "Grupp ta’ studenti li jitgħallmu flimkien",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Grupp ta’ studenti"
       },
       "image": null,
-      "english": null,
+      "english": "Class",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Grupp ta’ studenti li jitgħallmu flimkien, jew il-lezzjoni u l-kamra tagħhom.",
+      "example": "Il-klassi bdiet fit-tmienja.",
+      "exampleEnglish": "The class started at eight.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 125,
@@ -3707,12 +3739,20 @@
       "clues": {
         "easy": "Raġel li jgħallem",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Raġel li jgħallem"
       },
       "image": null,
-      "english": null,
+      "english": "Teacher",
       "status": "approvata-ie",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Raġel li jgħallem suġġett jew ħila lil studenti.",
+      "example": "L-għalliem spjega l-lezzjoni.",
+      "exampleEnglish": "The teacher explained the lesson.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 126,
@@ -3729,12 +3769,20 @@
       "clues": {
         "easy": "Jagħmel użu mill-ikel",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jikkonsma l-ikel"
       },
       "image": null,
-      "english": null,
+      "english": "He eats",
       "status": "approvata-ie",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Jikkonsma l-ikel billi jdaħħlu f’ħalqu, jomogħdu u jibilgħu.",
+      "example": "Huwa jiekol frotta kuljum.",
+      "exampleEnglish": "He eats a piece of fruit every day.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 127,
@@ -3752,12 +3800,20 @@
       "clues": {
         "easy": "Jieħu xarba",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jieħu xarba"
       },
       "image": null,
-      "english": null,
+      "english": "He drinks",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Jieħu likwidu minn tazza, flixkun jew kontenitur ieħor.",
+      "example": "Huwa jixrob l-ilma wara l-ġiri.",
+      "exampleEnglish": "He drinks water after running.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 128,
@@ -3775,12 +3831,20 @@
       "clues": {
         "easy": "Jistrieħ waqt l-irqad",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jistrieħ waqt l-irqad"
       },
       "image": null,
-      "english": null,
+      "english": "He sleeps",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Jistrieħ fi stat naturali b’għajnejh magħluqa u b’inqas għarfien tal-madwar.",
+      "example": "It-tifel jorqod kmieni.",
+      "exampleEnglish": "The boy sleeps early.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 129,
@@ -3797,12 +3861,20 @@
       "clues": {
         "easy": "Jersaq minn post għal ieħor bis-saqajn",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jersaq bis-saqajn"
       },
       "image": null,
-      "english": null,
+      "english": "He walks",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Jersaq minn post għal ieħor billi jqiegħed sieq wara l-oħra.",
+      "example": "Huwa jimxi lejn ix-xogħol.",
+      "exampleEnglish": "He walks to work.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 130,
@@ -3819,12 +3891,20 @@
       "clues": {
         "easy": "Jimxi b’pass mgħaġġel ħafna",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jersaq b’pass mgħaġġel"
       },
       "image": null,
-      "english": null,
+      "english": "He runs",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Jersaq malajr bis-saqajn, b’pass aktar mgħaġġel mill-mixi.",
+      "example": "Huwa jiġri fil-park kull filgħodu.",
+      "exampleEnglish": "He runs in the park every morning.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 131,
