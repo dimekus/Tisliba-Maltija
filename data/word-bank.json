@@ -6723,11 +6723,19 @@
       "clues": {
         "easy": "Joħroġ id-dmugħ mill-għajnejn.",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Joħroġ id-dmugħ"
       },
       "image": null,
-      "english": null,
-      "status": "approvata-utent"
+      "english": "You cry",
+      "status": "approvata-utent",
+      "meaning": "Toħroġ id-dmugħ minħabba dwejjaq, uġigħ jew emozzjoni qawwija.",
+      "example": "Int tibki meta tweġġa’.",
+      "exampleEnglish": "You cry when you get hurt.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 212,
@@ -6746,11 +6754,19 @@
       "clues": {
         "easy": "Tieħu sehem f’logħba.",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tieħu sehem f’logħba"
       },
       "image": null,
-      "english": null,
-      "status": "approvata-utent"
+      "english": "You play",
+      "status": "approvata-utent",
+      "meaning": "Tieħu sehem f’logħba jew attività għall-gost, l-eżerċizzju jew il-kompetizzjoni.",
+      "example": "Int tilgħab il-futbol ma’ sħabek.",
+      "exampleEnglish": "You play football with your friends.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 213,
@@ -6767,11 +6783,19 @@
       "clues": {
         "easy": "Timxi fl-ilma billi ċċaqlaq il-ġisem.",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tiċċaqlaq fl-ilma"
       },
       "image": null,
-      "english": null,
-      "status": "approvata-utent"
+      "english": "You swim",
+      "status": "approvata-utent",
+      "meaning": "Tiċċaqlaq fl-ilma billi tuża dirgħajk, saqajk u ġismek.",
+      "example": "Int tgħum fil-baħar fis-sajf.",
+      "exampleEnglish": "You swim in the sea in summer.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 214,
@@ -6788,11 +6812,19 @@
       "clues": {
         "easy": "Tuża l-għajnejn biex tħares.",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tuża għajnejk"
       },
       "image": null,
-      "english": null,
-      "status": "approvata-utent"
+      "english": "You see",
+      "status": "approvata-utent",
+      "meaning": "Tuża għajnejk biex tinduna b’persuna, oġġett jew dak li qed jiġri.",
+      "example": "Int tara d-dgħajsa mill-bogħod.",
+      "exampleEnglish": "You see the boat from a distance.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 215,
@@ -6813,11 +6845,19 @@
       "clues": {
         "easy": "Titlob tweġiba għal xi ħaġa.",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tagħmel mistoqsija"
       },
       "image": null,
-      "english": null,
-      "status": "approvata-utent"
+      "english": "You ask",
+      "status": "approvata-utent",
+      "meaning": "Tagħmel mistoqsija biex tikseb tweġiba jew informazzjoni.",
+      "example": "Int tistaqsi lill-għalliem dwar il-lezzjoni.",
+      "exampleEnglish": "You ask the teacher about the lesson.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 216,
@@ -6838,11 +6878,19 @@
       "clues": {
         "easy": "Tħejji l-ikel bis-sħana.",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tħejji l-ikel"
       },
       "image": null,
-      "english": null,
-      "status": "approvata-utent"
+      "english": "You cook",
+      "status": "approvata-utent",
+      "meaning": "Tħejji l-ikel bis-sħana biex ikun jista’ jittiekel.",
+      "example": "Int issajjar soppa għall-familja.",
+      "exampleEnglish": "You cook soup for the family.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 217,
@@ -6864,11 +6912,19 @@
       "clues": {
         "easy": "Tikkomunika bil-kliem.",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tikkomunika bil-kliem"
       },
       "image": null,
-      "english": null,
-      "status": "approvata-utent"
+      "english": "You speak",
+      "status": "approvata-utent",
+      "meaning": "Tuża l-vuċi u l-kliem biex tikkomunika ma’ persuni oħra.",
+      "example": "Int titkellem bil-Malti d-dar.",
+      "exampleEnglish": "You speak Maltese at home.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 218,
@@ -6887,11 +6943,19 @@
       "clues": {
         "easy": "Tagħmel melodija bil-vuċi.",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tagħmel melodija"
       },
       "image": null,
-      "english": null,
-      "status": "approvata-utent"
+      "english": "You sing",
+      "status": "approvata-utent",
+      "meaning": "Toħroġ melodija jew kanzunetta bil-vuċi tiegħek.",
+      "example": "Int tkanta kanzunetta sabiħa.",
+      "exampleEnglish": "You sing a beautiful song.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 219,
@@ -6910,11 +6974,19 @@
       "clues": {
         "easy": "Tagħmel xogħol.",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tagħmel xogħol"
       },
       "image": null,
-      "english": null,
-      "status": "approvata-utent"
+      "english": "You work",
+      "status": "approvata-utent",
+      "meaning": "Tagħmel xogħol jew twettaq dmir biex tipproduċi xi ħaġa jew taqla’ l-għajxien.",
+      "example": "Int taħdem f’uffiċċju fil-belt.",
+      "exampleEnglish": "You work in an office in the city.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 220,
@@ -6933,11 +7005,19 @@
       "clues": {
         "easy": "Tqiegħed il-ħwejjeġ fuq il-ġisem.",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tpoġġi ħwejjeġ fuqek"
       },
       "image": null,
-      "english": null,
-      "status": "approvata-utent"
+      "english": "You wear",
+      "status": "approvata-utent",
+      "meaning": "Tpoġġi ħwejjeġ jew aċċessorji fuq ġismek.",
+      "example": "Int tilbes ġakketta meta jkun il-bard.",
+      "exampleEnglish": "You wear a jacket when it is cold.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 221,
