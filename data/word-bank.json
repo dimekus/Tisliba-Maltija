@@ -7,10 +7,11 @@
     "Ħ": "ittra separata u ppronunzjata"
   },
   "counts": {
-    "total": 200,
+    "total": 220,
     "common": 183,
     "ieReview": 0,
-    "ieApproved": 17
+    "ieApproved": 17,
+    "userApproved": 20
   },
   "ieReviewList": [],
   "words": [
@@ -4445,6 +4446,464 @@
       "image": null,
       "english": null,
       "status": "komuni-inizjali"
+    },
+    {
+      "id": 201,
+      "batch": 4,
+      "answer": "TIEKOL",
+      "tokens": [
+        "T",
+        "IE",
+        "K",
+        "O",
+        "L"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi ddaħħal l-ikel f’ħalqha u tibla’.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 202,
+      "batch": 4,
+      "answer": "TIXROB",
+      "tokens": [
+        "T",
+        "I",
+        "X",
+        "R",
+        "O",
+        "B"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi tieħu likwidu minn tazza jew flixkun.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 203,
+      "batch": 4,
+      "answer": "TORQOD",
+      "tokens": [
+        "T",
+        "O",
+        "R",
+        "Q",
+        "O",
+        "D"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi tistrieħ b’għajnejha magħluqa.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 204,
+      "batch": 4,
+      "answer": "TIMXI",
+      "tokens": [
+        "T",
+        "I",
+        "M",
+        "X",
+        "I"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi tersaq minn post għal ieħor bis-saqajn.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 205,
+      "batch": 4,
+      "answer": "TIĠRI",
+      "tokens": [
+        "T",
+        "I",
+        "Ġ",
+        "R",
+        "I"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi tersaq malajr ħafna bis-saqajn.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 206,
+      "batch": 4,
+      "answer": "TAQRA",
+      "tokens": [
+        "T",
+        "A",
+        "Q",
+        "R",
+        "A"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi tifhem kliem miktub.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 207,
+      "batch": 4,
+      "answer": "TIKTEB",
+      "tokens": [
+        "T",
+        "I",
+        "K",
+        "T",
+        "E",
+        "B"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi tifforma kliem u sentenzi bl-ittri.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 208,
+      "batch": 4,
+      "answer": "TIFTAĦ",
+      "tokens": [
+        "T",
+        "I",
+        "F",
+        "T",
+        "A",
+        "Ħ"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi tagħmel bieb jew tieqa miftuħa.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 209,
+      "batch": 4,
+      "answer": "TAGĦLAQ",
+      "tokens": [
+        "T",
+        "A",
+        "GĦ",
+        "L",
+        "A",
+        "Q"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi tagħmel bieb jew tieqa magħluqa.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 210,
+      "batch": 4,
+      "answer": "TIDĦAK",
+      "tokens": [
+        "T",
+        "I",
+        "D",
+        "Ħ",
+        "A",
+        "K"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi turi l-ferħ bi tbissima u ħoss.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 211,
+      "batch": 4,
+      "answer": "TIBKI",
+      "tokens": [
+        "T",
+        "I",
+        "B",
+        "K",
+        "I"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Id-dmugħ jinżlilha minn għajnejha.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 212,
+      "batch": 4,
+      "answer": "TILGĦAB",
+      "tokens": [
+        "T",
+        "I",
+        "L",
+        "GĦ",
+        "A",
+        "B"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi tieħu sehem f’logħba.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 213,
+      "batch": 4,
+      "answer": "TGĦUM",
+      "tokens": [
+        "T",
+        "GĦ",
+        "U",
+        "M"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi timxi fl-ilma billi ċċaqlaq ġisimha.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 214,
+      "batch": 4,
+      "answer": "TARA",
+      "tokens": [
+        "T",
+        "A",
+        "R",
+        "A"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi tuża għajnejha biex tħares.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 215,
+      "batch": 4,
+      "answer": "TISTAQSI",
+      "tokens": [
+        "T",
+        "I",
+        "S",
+        "T",
+        "A",
+        "Q",
+        "S",
+        "I"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi titlob tweġiba għal xi ħaġa.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 216,
+      "batch": 4,
+      "answer": "ISSAJJAR",
+      "tokens": [
+        "I",
+        "S",
+        "S",
+        "A",
+        "J",
+        "J",
+        "A",
+        "R"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi tħejji l-ikel bis-sħana.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 217,
+      "batch": 4,
+      "answer": "TITKELLEM",
+      "tokens": [
+        "T",
+        "I",
+        "T",
+        "K",
+        "E",
+        "L",
+        "L",
+        "E",
+        "M"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi tikkomunika bil-kliem.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 218,
+      "batch": 4,
+      "answer": "TKANTA",
+      "tokens": [
+        "T",
+        "K",
+        "A",
+        "N",
+        "T",
+        "A"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi tagħmel melodija bil-vuċi.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 219,
+      "batch": 4,
+      "answer": "TAĦDEM",
+      "tokens": [
+        "T",
+        "A",
+        "Ħ",
+        "D",
+        "E",
+        "M"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi tagħmel xogħol.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
+    },
+    {
+      "id": 220,
+      "batch": 4,
+      "answer": "TILBES",
+      "tokens": [
+        "T",
+        "I",
+        "L",
+        "B",
+        "E",
+        "S"
+      ],
+      "category": "azzjonijiet-femminil",
+      "difficulty": "faċli",
+      "clues": {
+        "easy": "Hi tqiegħed il-ħwejjeġ fuqha.",
+        "medium": null,
+        "hard": null
+      },
+      "image": null,
+      "english": null,
+      "status": "approvata-utent"
     }
   ],
   "plainZList": [
