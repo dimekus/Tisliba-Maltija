@@ -7943,11 +7943,18 @@
         "easy": "Tpoġġi rasek fuqha fis-sodda",
         "medium": null,
         "hard": null,
-        "grid": "Taħt rasek fis-sodda"
+        "grid": "Tistrieħ rasek fuqha"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Pillow",
+      "status": "komuni-inizjali",
+      "meaning": "Kuxxin artab li fuqu tistrieħ rasek meta timtedd jew torqod.",
+      "example": "Poġġiet rasha fuq l-imħadda.",
+      "exampleEnglish": "She rested her head on the pillow.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 252,
@@ -7969,8 +7976,15 @@
         "grid": "Tgħattik waqt l-irqad"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Blanket",
+      "status": "komuni-inizjali",
+      "meaning": "Kisja ħoxna u ratba li tintuża biex iżżommok sħun fis-sodda.",
+      "example": "Tgħattiet bil-kutra għax kien il-bard.",
+      "exampleEnglish": "She covered herself with the blanket because it was cold.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 253,
@@ -7989,11 +8003,18 @@
         "easy": "Drapp li jinkesa bih is-saqqu",
         "medium": null,
         "hard": null,
-        "grid": "Jinkesa bih is-saqqu"
+        "grid": "Jinksew fuq is-saqqu"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Bed sheets",
+      "status": "komuni-inizjali",
+      "meaning": "Biċċiet kbar tad-drapp li jinksew fuq is-saqqu jew jintużaw biex titgħatta.",
+      "example": "Biddlet il-lożor tas-sodda.",
+      "exampleEnglish": "She changed the bed sheets.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 254,
@@ -8013,11 +8034,18 @@
         "easy": "Kontenitur fond b’manku",
         "medium": null,
         "hard": null,
-        "grid": "🪣"
+        "grid": "Kontenitur fond b’manku"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Bucket",
+      "status": "komuni-inizjali",
+      "meaning": "Kontenitur miftuħ u fond, normalment b’manku, li jintuża biex iġorr likwidi jew oġġetti.",
+      "example": "Mela l-barmil bl-ilma.",
+      "exampleEnglish": "He filled the bucket with water.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 255,
@@ -8036,11 +8064,18 @@
         "easy": "Tintuża biex tiknes l-art",
         "medium": null,
         "hard": null,
-        "grid": "🧹"
+        "grid": "Tintuża biex tiknes"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Broom",
+      "status": "komuni-inizjali",
+      "meaning": "Għodda b’manku twil u xagħar iebes li tintuża biex tnaddaf l-art.",
+      "example": "Naddfet il-kċina bl-ixkupa.",
+      "exampleEnglish": "She cleaned the kitchen with the broom.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 256,
@@ -8063,8 +8098,15 @@
         "grid": "Tiksi art jew ħajt"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Tile",
+      "status": "komuni-inizjali",
+      "meaning": "Biċċa ċatta u iebsa taċ-ċeramika jew materjal ieħor li tiksi art jew ħajt.",
+      "example": "Il-maduma tal-kamra tal-banju hija blu.",
+      "exampleEnglish": "The bathroom tile is blue.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 257,
@@ -8087,11 +8129,18 @@
         "easy": "Mekkaniżmu li jingħalaq biċ-ċavetta",
         "medium": null,
         "hard": null,
-        "grid": "Tinfetaħ biċ-ċavetta"
+        "grid": "Tingħalaq biċ-ċavetta"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Lock",
+      "status": "komuni-inizjali",
+      "meaning": "Mekkaniżmu f’bieb jew kaxxa li jingħalaq u jinfetaħ b’ċavetta jew kodiċi.",
+      "example": "Daħħal iċ-ċavetta fis-serratura.",
+      "exampleEnglish": "He put the key into the lock.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 258,
@@ -8110,11 +8159,18 @@
         "easy": "Kontenitur b’ġnub u qiegħ",
         "medium": null,
         "hard": null,
-        "grid": "📦"
+        "grid": "Kontenitur b’ġnub"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Box",
+      "status": "komuni-inizjali",
+      "meaning": "Kontenitur b’qiegħ u ġnub, spiss b’għatu, li jintuża biex jinżammu jew jinġarru affarijiet.",
+      "example": "Poġġiet il-ġugarelli fil-kaxxa.",
+      "exampleEnglish": "She put the toys in the box.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 259,
@@ -8135,11 +8191,18 @@
         "easy": "Kontenitur dejjaq għal-likwidi",
         "medium": null,
         "hard": null,
-        "grid": "🍾"
+        "grid": "Kontenitur għal-likwidi"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Bottle",
+      "status": "komuni-inizjali",
+      "meaning": "Kontenitur dejjaq tal-ħġieġ jew plastik li jintuża biex jinżammu likwidi.",
+      "example": "Xtara flixkun ilma kiesaħ.",
+      "exampleEnglish": "He bought a bottle of cold water.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 260,
@@ -8158,11 +8221,18 @@
         "easy": "Tagħmel xogħol bl-użu tal-enerġija",
         "medium": null,
         "hard": null,
-        "grid": "⚙️"
+        "grid": "Taħdem bl-enerġija"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Machine",
+      "status": "komuni-inizjali",
+      "meaning": "Apparat magħmul minn partijiet li jaħdmu flimkien biex iwettaq xogħol bl-użu tal-enerġija.",
+      "example": "Il-magna taħsel il-ħwejjeġ.",
+      "exampleEnglish": "The machine washes the clothes.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 261,
