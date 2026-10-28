@@ -1,7 +1,7 @@
 <!doctype html><html lang="mt"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 <meta name="color-scheme" content="light only">
-<title>Tisliba Maltija · Grilja v47</title>
+<title>Tisliba Maltija · Grilja v48</title>
 
 <style>
 :root{color-scheme:light;--bg:#102b40;--grid:#27455c;--answer:#f7efdd;--clue:#9bb6c7;--ink:#142d43;--panel:#1c3a53;--tile:#f5e7cb;--accent:#e9bd68}
@@ -125,9 +125,12 @@ header .total-score{font-size:clamp(15px,4vw,21px)!important;font-weight:900;pad
 .inline-actions{display:grid!important;grid-template-columns:repeat(2,minmax(120px,155px))!important;justify-content:center;gap:10px!important;width:100%}
 .inline-actions button{width:100%!important;min-width:0!important;padding:9px 12px!important;font-size:14px!important}
 @media(max-width:520px){.inline-end.open{gap:6px;padding:9px!important}.inline-summary{gap:7px}.inline-summary strong{font-size:15px!important}.inline-score{font-size:11px;padding:4px 8px}.inline-end>span#inlineEndQuestion{font-size:12px!important}.inline-actions{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:7px!important}.inline-actions button{font-size:12px!important;padding:7px 6px!important}}
+
+/* V48: collapse the empty letter rack after completion */
+.tiles:empty{display:none!important;height:0!important;min-height:0!important}
 </style>
 </head><body><main class="app">
-<header><strong>Tisliba Maltija <small class="version">V47</small></strong><div class="header-stats"><span class="total-score" id="totalScore" aria-live="polite">Punti: 0</span><span class="level">Livell 1</span></div></header>
+<header><strong>Tisliba Maltija <small class="version">V48</small></strong><div class="header-stats"><span class="total-score" id="totalScore" aria-live="polite">Punti: 0</span><span class="level">Livell 1</span></div></header>
 <section class="board" id="board" aria-label="Tisliba"></section>
 <div class="verify-row"><button id="verify">✓ Iċċekkja</button><div class="inline-end" id="inlineEnd"><div class="inline-summary"><strong id="inlineEndTitle"></strong><span class="inline-score" id="inlineEndScore"></span></div><span id="inlineEndQuestion"></span><div class="inline-actions"><button id="inlineNewPuzzle">Iva, kompli</button><button id="inlineFinishGame">Le, spiċċajt</button></div></div></div>
 <section class="panel">
