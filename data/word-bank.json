@@ -494,17 +494,17 @@
         "hard": null,
         "grid": "Tiftaħ biex tidħol"
       },
-      "image": null,
+      "image": "assets/clues/bieb.png",
       "english": "Door",
       "status": "approvata-ie",
       "batch": 1,
       "meaning": "Biċċa li tinfetaħ u tingħalaq biex tidħol jew toħroġ minn post.",
       "example": "Agħlaq il-bieb qabel toħroġ.",
       "exampleEnglish": "Close the door before you leave.",
-      "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "eduImage": "assets/education/bieb.jpg",
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete"
     },
     {
       "id": 18,
@@ -523,17 +523,17 @@
         "hard": null,
         "grid": "Minnha jidħol id-dawl"
       },
-      "image": null,
+      "image": "assets/clues/tieqa.png",
       "english": "Window",
       "status": "approvata-ie",
       "batch": 1,
       "meaning": "Fetħa bil-ħġieġ f’ħajt li ddaħħal id-dawl u l-arja.",
       "example": "Fetħet it-tieqa biex tidħol l-arja.",
       "exampleEnglish": "She opened the window to let in some air.",
-      "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "eduImage": "assets/education/tieqa.jpg",
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete"
     },
     {
       "id": 19,
