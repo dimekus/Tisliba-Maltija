@@ -8254,11 +8254,18 @@
         "easy": "Elevazzjoni kbira ħafna tal-art",
         "medium": null,
         "hard": null,
-        "grid": "⛰️"
+        "grid": "Għolja kbira ħafna"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Mountain",
+      "status": "komuni-inizjali",
+      "meaning": "Parti tal-art li titla’ għoli ħafna ’l fuq mill-inħawi ta’ madwarha.",
+      "example": "Telgħu sal-quċċata tal-muntanja.",
+      "exampleEnglish": "They climbed to the top of the mountain.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 262,
@@ -8278,8 +8285,15 @@
         "grid": "Spazju ġewwa l-blat"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Cave",
+      "status": "komuni-inizjali",
+      "meaning": "Fetħa jew spazju naturali kbir ġewwa l-blat jew taħt l-art.",
+      "example": "Daħlu fl-għar b’torċa.",
+      "exampleEnglish": "They entered the cave with a torch.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 263,
@@ -8297,11 +8311,18 @@
         "easy": "Parti tal-pjanta li tikber taħt l-art",
         "medium": null,
         "hard": null,
-        "grid": "Taħt l-art tal-pjanta"
+        "grid": "Tikber taħt l-art"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Root",
+      "status": "komuni-inizjali",
+      "meaning": "Il-parti ta’ pjanta li tikber taħt l-art, iżżommha f’postha u tassorbi l-ilma.",
+      "example": "L-għerq tas-siġra niżel fil-fond.",
+      "exampleEnglish": "The tree root grew deep into the ground.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 264,
@@ -8323,8 +8344,15 @@
         "grid": "Tikber miż-zokk"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Branch",
+      "status": "komuni-inizjali",
+      "meaning": "Parti tas-siġra li tikber miż-zokk u żżomm il-weraq, il-fjuri jew il-frott.",
+      "example": "Għasfur qagħad fuq fergħa.",
+      "exampleEnglish": "A bird perched on a branch.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 265,
@@ -8348,8 +8376,15 @@
         "grid": "Minnha tikber pjanta"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Seed",
+      "status": "komuni-inizjali",
+      "meaning": "Parti żgħira li minnha tista’ tibda tikber pjanta ġdida.",
+      "example": "Żergħet żerriegħa fil-ħamrija.",
+      "exampleEnglish": "She planted a seed in the soil.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 266,
@@ -8371,8 +8406,15 @@
         "grid": "Pjanta żgħira"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Seedling",
+      "status": "komuni-inizjali",
+      "meaning": "Pjanta żgħira u ġdida li għadha fil-bidu tat-tkabbir tagħha.",
+      "example": "Poġġa x-xitla fil-ġnien.",
+      "exampleEnglish": "He planted the seedling in the garden.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 267,
@@ -8391,11 +8433,18 @@
         "easy": "Daħla tal-baħar bejn żewġt itruf tal-art",
         "medium": null,
         "hard": null,
-        "grid": "🏖️"
+        "grid": "Baħar bejn żewġt itruf"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Bay",
+      "status": "komuni-inizjali",
+      "meaning": "Parti tal-baħar li tidħol fl-art u tkun imdawra minnha fuq diversi naħat.",
+      "example": "Id-dgħajjes waqfu fil-bajja.",
+      "exampleEnglish": "The boats stopped in the bay.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 268,
@@ -8414,11 +8463,18 @@
         "easy": "Xatt miksi bir-ramel",
         "medium": null,
         "hard": null,
-        "grid": "🏝️"
+        "grid": "Xatt miksi bir-ramel"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Sandy beach",
+      "status": "komuni-inizjali",
+      "meaning": "Parti mix-xatt miksija bir-ramel fejn in-nies jistgħu jgħumu jew jistrieħu.",
+      "example": "It-tfal lagħbu fir-ramla.",
+      "exampleEnglish": "The children played on the sandy beach.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 269,
@@ -8440,8 +8496,15 @@
         "grid": "Ġebla kbira u ċatta"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Rock slab",
+      "status": "komuni-inizjali",
+      "meaning": "Biċċa kbira u ġeneralment ċatta ta’ blat jew ġebel.",
+      "example": "Poġġa bilqiegħda fuq il-blata.",
+      "exampleEnglish": "He sat on the rock slab.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 270,
@@ -8465,8 +8528,15 @@
         "grid": "Fiha jikbru l-pjanti"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Soil",
+      "status": "komuni-inizjali",
+      "meaning": "Is-saff ta’ fuq tal-art li fih minerali u materjal organiku u fejn jikbru l-pjanti.",
+      "example": "Il-ħamrija niedja wara x-xita.",
+      "exampleEnglish": "The soil is damp after the rain.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 271,
@@ -8488,8 +8558,15 @@
         "grid": "Temperatura għolja"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Heat",
+      "status": "komuni-inizjali",
+      "meaning": "Qagħda ta’ temperatura għolja jew is-sensazzjoni ta’ sħana fil-ġisem jew fl-arja.",
+      "example": "Is-sħana tas-sajf kienet qawwija.",
+      "exampleEnglish": "The summer heat was intense.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 272,
@@ -8511,8 +8588,15 @@
         "grid": "Temperatura baxxa"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Cold",
+      "status": "komuni-inizjali",
+      "meaning": "Qagħda ta’ temperatura baxxa jew is-sensazzjoni li l-arja jew oġġett mhux sħun.",
+      "example": "Il-kesħa tax-xitwa daħlet fid-dar.",
+      "exampleEnglish": "The winter cold entered the house.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 273,
@@ -8533,8 +8617,15 @@
         "grid": "Protett mix-xemx"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Shade",
+      "status": "komuni-inizjali",
+      "meaning": "Żona fejn id-dawl tax-xemx ikun imblukkat minn oġġett, siġra jew bini.",
+      "example": "Poġġejna fid-dell tas-siġra.",
+      "exampleEnglish": "We sat in the shade of the tree.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 274,
@@ -8555,8 +8646,15 @@
         "grid": "Jagħmel kollox viżibbli"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Light",
+      "status": "komuni-inizjali",
+      "meaning": "Enerġija li tagħmel l-oġġetti viżibbli u tista’ tiġi mix-xemx, nar jew lampa.",
+      "example": "Id-dawl tax-xemx daħal mit-tieqa.",
+      "exampleEnglish": "The sunlight came through the window.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 275,
@@ -8576,8 +8674,15 @@
         "grid": "Il-wiċċ li nimxu fuqu"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Ground",
+      "status": "komuni-inizjali",
+      "meaning": "Il-wiċċ solidu tal-art li fuqu nimxu, nibnu jew inkabbru l-pjanti.",
+      "example": "Il-ballun waqa’ mal-art.",
+      "exampleEnglish": "The ball fell to the ground.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 276,
@@ -8596,11 +8701,18 @@
         "easy": "Dija qawwija waqt maltempata",
         "medium": null,
         "hard": null,
-        "grid": "⚡"
+        "grid": "Dija waqt maltempata"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Lightning",
+      "status": "komuni-inizjali",
+      "meaning": "Dija elettrika qawwija u f’daqqa fis-sema waqt maltempata.",
+      "example": "Berqa xegħlet is-sema kollu.",
+      "exampleEnglish": "Lightning lit up the whole sky.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 277,
@@ -8622,8 +8734,15 @@
         "grid": "Ħoss wara l-berqa"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Thunder",
+      "status": "komuni-inizjali",
+      "meaning": "Ħoss qawwi fis-sema kkawżat mill-arja li tespandi malajr wara berqa.",
+      "example": "Ir-ragħda nstemgħet wara l-berqa.",
+      "exampleEnglish": "The thunder was heard after the lightning.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 278,
@@ -8644,11 +8763,18 @@
         "easy": "Temp ħażin b’riħ jew xita qawwija",
         "medium": null,
         "hard": null,
-        "grid": "⛈️"
+        "grid": "Temp b’riħ jew xita"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Storm",
+      "status": "komuni-inizjali",
+      "meaning": "Perjodu ta’ temp qawwi li jista’ jġib riħ, xita, ragħad u beraq.",
+      "example": "Il-maltemp waqqa’ diversi friegħi.",
+      "exampleEnglish": "The storm knocked down several branches.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 279,
@@ -8670,8 +8796,15 @@
         "grid": "Riħ ħafif"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Breeze",
+      "status": "komuni-inizjali",
+      "meaning": "Riħ ħafif u pjaċevoli li jonfoħ bil-mod.",
+      "example": "Żiffa friska daħlet mit-tieqa.",
+      "exampleEnglish": "A cool breeze came through the window.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 280,
@@ -8696,11 +8829,18 @@
         "easy": "Turi kemm hu sħun jew kiesaħ",
         "medium": null,
         "hard": null,
-        "grid": "Kejl tas-sħana"
+        "grid": "Kemm hu sħun jew kiesaħ"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Temperature",
+      "status": "komuni-inizjali",
+      "meaning": "Il-kejl ta’ kemm xi ħaġa, l-arja jew il-ġisem huma sħan jew kesħin.",
+      "example": "It-temperatura niżlet matul il-lejl.",
+      "exampleEnglish": "The temperature dropped during the night.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 281,
