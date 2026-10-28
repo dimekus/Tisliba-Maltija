@@ -4458,10 +4458,10 @@
         "O",
         "L"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi ddaħħal l-ikel f’ħalqha u tibla’.",
+        "easy": "Iddaħħal l-ikel fil-ħalq u tibla’.",
         "medium": null,
         "hard": null
       },
@@ -4481,10 +4481,10 @@
         "O",
         "B"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi tieħu likwidu minn tazza jew flixkun.",
+        "easy": "Tieħu likwidu minn tazza jew flixkun.",
         "medium": null,
         "hard": null
       },
@@ -4504,10 +4504,10 @@
         "O",
         "D"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi tistrieħ b’għajnejha magħluqa.",
+        "easy": "Tistrieħ b’għajnejk magħluqa.",
         "medium": null,
         "hard": null
       },
@@ -4526,10 +4526,10 @@
         "X",
         "I"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi tersaq minn post għal ieħor bis-saqajn.",
+        "easy": "Tersaq minn post għall-ieħor bis-saqajn.",
         "medium": null,
         "hard": null
       },
@@ -4548,10 +4548,10 @@
         "R",
         "I"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi tersaq malajr ħafna bis-saqajn.",
+        "easy": "Tersaq malajr ħafna bis-saqajn.",
         "medium": null,
         "hard": null
       },
@@ -4570,10 +4570,10 @@
         "R",
         "A"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi tifhem kliem miktub.",
+        "easy": "Tifhem kliem miktub.",
         "medium": null,
         "hard": null
       },
@@ -4593,10 +4593,10 @@
         "E",
         "B"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi tifforma kliem u sentenzi bl-ittri.",
+        "easy": "Tifforma kliem u sentenzi bl-ittri.",
         "medium": null,
         "hard": null
       },
@@ -4616,10 +4616,10 @@
         "A",
         "Ħ"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi tagħmel bieb jew tieqa miftuħa.",
+        "easy": "Tagħmel bieb jew tieqa miftuħa.",
         "medium": null,
         "hard": null
       },
@@ -4639,10 +4639,10 @@
         "A",
         "Q"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi tagħmel bieb jew tieqa magħluqa.",
+        "easy": "Tagħmel bieb jew tieqa magħluqa.",
         "medium": null,
         "hard": null
       },
@@ -4662,10 +4662,10 @@
         "A",
         "K"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi turi l-ferħ bi tbissima u ħoss.",
+        "easy": "Turi l-ferħ bi tbissima u ħoss.",
         "medium": null,
         "hard": null
       },
@@ -4684,10 +4684,10 @@
         "K",
         "I"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Id-dmugħ jinżlilha minn għajnejha.",
+        "easy": "Joħroġ id-dmugħ mill-għajnejn.",
         "medium": null,
         "hard": null
       },
@@ -4707,10 +4707,10 @@
         "A",
         "B"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi tieħu sehem f’logħba.",
+        "easy": "Tieħu sehem f’logħba.",
         "medium": null,
         "hard": null
       },
@@ -4728,10 +4728,10 @@
         "U",
         "M"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi timxi fl-ilma billi ċċaqlaq ġisimha.",
+        "easy": "Timxi fl-ilma billi ċċaqlaq il-ġisem.",
         "medium": null,
         "hard": null
       },
@@ -4749,10 +4749,10 @@
         "R",
         "A"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi tuża għajnejha biex tħares.",
+        "easy": "Tuża l-għajnejn biex tħares.",
         "medium": null,
         "hard": null
       },
@@ -4774,10 +4774,10 @@
         "S",
         "I"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi titlob tweġiba għal xi ħaġa.",
+        "easy": "Titlob tweġiba għal xi ħaġa.",
         "medium": null,
         "hard": null
       },
@@ -4799,10 +4799,10 @@
         "A",
         "R"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi tħejji l-ikel bis-sħana.",
+        "easy": "Tħejji l-ikel bis-sħana.",
         "medium": null,
         "hard": null
       },
@@ -4825,10 +4825,10 @@
         "E",
         "M"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi tikkomunika bil-kliem.",
+        "easy": "Tikkomunika bil-kliem.",
         "medium": null,
         "hard": null
       },
@@ -4848,10 +4848,10 @@
         "T",
         "A"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi tagħmel melodija bil-vuċi.",
+        "easy": "Tagħmel melodija bil-vuċi.",
         "medium": null,
         "hard": null
       },
@@ -4871,10 +4871,10 @@
         "E",
         "M"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi tagħmel xogħol.",
+        "easy": "Tagħmel xogħol.",
         "medium": null,
         "hard": null
       },
@@ -4894,10 +4894,10 @@
         "E",
         "S"
       ],
-      "category": "azzjonijiet-femminil",
+      "category": "azzjonijiet",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Hi tqiegħed il-ħwejjeġ fuqha.",
+        "easy": "Tqiegħed il-ħwejjeġ fuq il-ġisem.",
         "medium": null,
         "hard": null
       },
