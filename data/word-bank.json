@@ -1803,12 +1803,20 @@
       "clues": {
         "easy": "Insett li jagħmel l-għasel",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tagħmel l-għasel"
       },
       "image": null,
-      "english": null,
+      "english": "Bee",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Insett li jtir, jiġbor in-nektar mill-fjuri u jgħix f’kolonja.",
+      "example": "In-naħla niżlet fuq il-fjura.",
+      "exampleEnglish": "The bee landed on the flower.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 62,
@@ -1825,12 +1833,20 @@
       "clues": {
         "easy": "Insett żgħir li jgħix f’kolonja",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tgħix f’kolonja"
       },
       "image": null,
-      "english": null,
+      "english": "Ant",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Insett żgħir li jgħix f’kolonji organizzati u spiss iġorr ikel lejn il-bejta.",
+      "example": "In-nemla ġarret biċċa ikel.",
+      "exampleEnglish": "The ant carried a piece of food.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 63,
@@ -1849,12 +1865,20 @@
       "clues": {
         "easy": "Insett li jtir u spiss jidħol fid-djar",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Insett li jtir fid-djar"
       },
       "image": null,
-      "english": null,
+      "english": "Fly",
       "status": "approvata-ie",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Insett żgħir b’żewġ ġwienaħ li spiss jinstab qrib id-djar u l-ikel.",
+      "example": "Dubbiena daħlet mit-tieqa.",
+      "exampleEnglish": "A fly came in through the window.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 64,
@@ -1872,12 +1896,20 @@
       "clues": {
         "easy": "Għasfur domestiku li jbid il-bajd",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tbid il-bajd"
       },
       "image": null,
-      "english": null,
+      "english": "Hen",
       "status": "approvata-ie",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Għasfur domestiku femminili li jitkabbar l-aktar għall-bajd.",
+      "example": "It-tiġieġa biedet bajda.",
+      "exampleEnglish": "The hen laid an egg.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 65,
@@ -1895,12 +1927,20 @@
       "clues": {
         "easy": "Annimal tar-razzett b’geddumu ċatt",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Geddumu ċatt"
       },
       "image": null,
-      "english": null,
+      "english": "Pig",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Annimal tar-razzett b’ġisem tqil, saqajn qosra u geddum ċatt.",
+      "example": "Il-ħanżir qaleb it-tajn b’geddumu.",
+      "exampleEnglish": "The pig turned the mud with its snout.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 66,
@@ -1916,12 +1956,20 @@
       "clues": {
         "easy": "Ikel magħmul mid-dqiq",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Ikel magħmul mid-dqiq"
       },
       "image": null,
-      "english": null,
+      "english": "Bread",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Ikel moħmi magħmul prinċipalment mid-dqiq, l-ilma u l-ħmira.",
+      "example": "Qata’ biċċa ħobż għall-kolazzjon.",
+      "exampleEnglish": "He cut a piece of bread for breakfast.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 67,
@@ -1938,12 +1986,20 @@
       "clues": {
         "easy": "Xarba bajda",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Xarba bajda"
       },
       "image": null,
-      "english": null,
+      "english": "Milk",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Likwidu abjad nutrittiv prodott mill-mammiferi u użat bħala xarba jew fl-ikel.",
+      "example": "Xorbet tazza ħalib filgħodu.",
+      "exampleEnglish": "She drank a glass of milk in the morning.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 68,
@@ -1959,12 +2015,20 @@
       "clues": {
         "easy": "Likwidu essenzjali għall-ħajja",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Likwidu għall-ħajja"
       },
       "image": null,
-      "english": null,
+      "english": "Water",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Likwidu ċar u essenzjali għall-ħajja li nixorbu u nużaw kuljum.",
+      "example": "Imla l-flixkun bl-ilma.",
+      "exampleEnglish": "Fill the bottle with water.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 69,
@@ -1980,12 +2044,20 @@
       "clues": {
         "easy": "Jagħti togħma mielħa lill-ikel",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jagħti togħma mielħa"
       },
       "image": null,
-      "english": null,
+      "english": "Salt",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Sustanza kristallina użata biex tagħti togħma lill-ikel jew tippreservah.",
+      "example": "Żied ftit melħ mas-soppa.",
+      "exampleEnglish": "He added a little salt to the soup.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 70,
@@ -2003,12 +2075,20 @@
       "clues": {
         "easy": "Jagħti togħma ħelwa",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jagħti togħma ħelwa"
       },
       "image": null,
-      "english": null,
+      "english": "Sugar",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Sustanza ħelwa u kristallina li tintuża fix-xorb u fil-ħelu.",
+      "example": "Poġġiet kuċċarina zokkor fit-te.",
+      "exampleEnglish": "She put a teaspoon of sugar in the tea.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 71,
@@ -2024,12 +2104,20 @@
       "clues": {
         "easy": "Likwidu li jintuża fit-tisjir",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Likwidu għat-tisjir"
       },
       "image": null,
-      "english": null,
+      "english": "Oil",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Likwidu xaħmi li jintuża fit-tisjir, fit-taħwir jew għal skopijiet oħra.",
+      "example": "Saħħan iż-żejt fit-taġen.",
+      "exampleEnglish": "Heat the oil in the pan.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 72,
@@ -2045,12 +2133,20 @@
       "clues": {
         "easy": "Jiġi mit-tiġieġa",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jiġi mit-tiġieġa"
       },
       "image": null,
-      "english": null,
+      "english": "Eggs",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Ikel ovali b’qoxra li normalment jiġi mit-tiġieġ u jista’ jissajjar b’ħafna modi.",
+      "example": "Sajjar żewġ bajdiet għall-kolazzjon.",
+      "exampleEnglish": "He cooked two eggs for breakfast.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 73,
@@ -2067,12 +2163,20 @@
       "clues": {
         "easy": "Ikel magħmul mill-ħalib",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Magħmul mill-ħalib"
       },
       "image": null,
-      "english": null,
+      "english": "Cheese",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Ikel magħmul mill-ħalib magħqud u mmaturat b’diversi modi.",
+      "example": "Poġġa biċċa ġobon fil-ħobż.",
+      "exampleEnglish": "He put a piece of cheese in the bread.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 74,
@@ -2089,12 +2193,20 @@
       "clues": {
         "easy": "Ikel li jiġi mill-annimali",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Ikel mill-annimali"
       },
       "image": null,
-      "english": null,
+      "english": "Meat",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Il-parti tal-annimal li tintuża bħala ikel wara li tissajjar jew titħejja.",
+      "example": "Il-laħam issajjar bil-mod.",
+      "exampleEnglish": "The meat cooked slowly.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 75,
@@ -2109,12 +2221,20 @@
       "clues": {
         "easy": "Ikel li jinqabad mill-baħar",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jinqabad mill-baħar"
       },
       "image": null,
-      "english": null,
+      "english": "Fish",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Ħut maqbūd jew imrobbi biex jintuża bħala ikel.",
+      "example": "Illum se nieklu ħut frisk.",
+      "exampleEnglish": "Today we are going to eat fresh fish.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 76,
@@ -2130,12 +2250,20 @@
       "clues": {
         "easy": "Ħbub żgħar li jissajru",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Ħbub żgħar li jissajru"
       },
       "image": null,
-      "english": null,
+      "english": "Rice",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Ħbub żgħar ta’ pjanta li jissajru u jittieklu f’ħafna pajjiżi.",
+      "example": "Serviet ir-ross mal-ħaxix.",
+      "exampleEnglish": "She served the rice with vegetables.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 77,
@@ -2152,12 +2280,20 @@
       "clues": {
         "easy": "Ikel bħal spagetti u imqarrun",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Spagetti jew imqarrun"
       },
       "image": null,
-      "english": null,
+      "english": "Pasta",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Ikel magħmul mid-dqiq u l-ilma, bħal spagetti, imqarrun jew penne.",
+      "example": "Għamilna l-għaġin biz-zalza tat-tadam.",
+      "exampleEnglish": "We made pasta with tomato sauce.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 78,
@@ -2175,12 +2311,20 @@
       "clues": {
         "easy": "Ħaxixa li tikber taħt l-art",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tikber taħt l-art"
       },
       "image": null,
-      "english": null,
+      "english": "Potato",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Ħaxixa li tikber taħt l-art u tista’ tissajjar b’ħafna modi.",
+      "example": "Il-patata nħmiet fil-forn.",
+      "exampleEnglish": "The potato was baked in the oven.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 79,
@@ -2197,12 +2341,20 @@
       "clues": {
         "easy": "Frotta ħamra użata ħafna fit-tisjir",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Frotta ħamra għat-tisjir"
       },
       "image": null,
-      "english": null,
+      "english": "Tomato",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Frotta ħamra u mmerraq li tintuża ħafna fl-insalati u fit-tisjir.",
+      "example": "Qatta’ t-tadam għall-insalata.",
+      "exampleEnglish": "He sliced the tomato for the salad.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 80,
@@ -2220,12 +2372,20 @@
       "clues": {
         "easy": "Frotta tonda li tista’ tkun ħamra jew ħadra",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Frotta tonda"
       },
       "image": null,
-      "english": null,
+      "english": "Apple",
       "status": "approvata-ie",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Frotta tonda u tqarmeċ li tista’ tkun ħamra, ħadra jew safra.",
+      "example": "Kiel tuffieħa waqt il-brejk.",
+      "exampleEnglish": "He ate an apple during the break.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 81,
@@ -2243,12 +2403,20 @@
       "clues": {
         "easy": "Frotta tonda oranġjo",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Frotta tonda oranġjo"
       },
       "image": null,
-      "english": null,
+      "english": "Orange",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Frotta taċ-ċitru tonda b’qoxra oranġjo u meraq ħelu jew qares.",
+      "example": "Qaxxret larinġa wara l-ikla.",
+      "exampleEnglish": "She peeled an orange after the meal.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 82,
@@ -2264,12 +2432,20 @@
       "clues": {
         "easy": "Frotta safra b’togħma qarsa",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Frotta safra qarsa"
       },
       "image": null,
-      "english": null,
+      "english": "Lemon",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Frotta taċ-ċitru safra b’meraq qares u riħa qawwija.",
+      "example": "Għafas lumi fuq il-ħuta.",
+      "exampleEnglish": "He squeezed a lemon over the fish.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 83,
@@ -2287,12 +2463,20 @@
       "clues": {
         "easy": "Frotta ħamra biż-żerriegħa barra",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Ħamra biż-żerriegħa"
       },
       "image": null,
-      "english": null,
+      "english": "Strawberry",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Frotta żgħira ħamra biż-żerriegħa fuq barra u togħma ħelwa.",
+      "example": "Żiedet frawla mal-kejk.",
+      "exampleEnglish": "She added a strawberry to the cake.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 84,
@@ -2309,12 +2493,20 @@
       "clues": {
         "easy": "Frott żgħir li jikber f’għenieqed",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Frott f’għenieqed"
       },
       "image": null,
-      "english": null,
+      "english": "Grapes",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Frott żgħir u tond li jikber f’għenieqed u jista’ jkun aħdar, aħmar jew iswed.",
+      "example": "Qasam għanqud għeneb mal-familja.",
+      "exampleEnglish": "He shared a bunch of grapes with the family.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 85,
@@ -2331,12 +2523,20 @@
       "clues": {
         "easy": "Ħelu magħmul min-naħal",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Ħelu magħmul min-naħal"
       },
       "image": null,
-      "english": null,
+      "english": "Honey",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Sustanza ħelwa u ħoxna li n-naħal jagħmel min-nektar tal-fjuri.",
+      "example": "Dellek l-għasel fuq il-ħobż.",
+      "exampleEnglish": "He spread honey on the bread.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 86,
@@ -2353,12 +2553,20 @@
       "clues": {
         "easy": "Post fejn imorru t-tfal jitgħallmu",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Post tat-tagħlim"
       },
       "image": null,
-      "english": null,
+      "english": "School",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Post fejn l-istudenti jmorru biex jitgħallmu taħt il-gwida tal-għalliema.",
+      "example": "It-tfal marru l-iskola kmieni.",
+      "exampleEnglish": "The children went to school early.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 87,
@@ -2375,12 +2583,20 @@
       "clues": {
         "easy": "Post fejn tixtri",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Post fejn tixtri"
       },
       "image": null,
-      "english": null,
+      "english": "Shop",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Post fejn jinbiegħu oġġetti jew jingħataw servizzi lill-klijenti.",
+      "example": "Marret il-ħanut tixtri l-ħalib.",
+      "exampleEnglish": "She went to the shop to buy milk.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 88,
@@ -2395,12 +2611,20 @@
       "clues": {
         "easy": "Post fejn jinbiegħu ħafna affarijiet",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Post b’ħafna bejjiegħa"
       },
       "image": null,
-      "english": null,
+      "english": "Market",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Post fejn diversi bejjiegħa joffru ikel, ħwejjeġ jew prodotti oħra.",
+      "example": "Xtraw frott frisk mis-suq.",
+      "exampleEnglish": "They bought fresh fruit from the market.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 89,
@@ -2418,12 +2642,20 @@
       "clues": {
         "easy": "Post tat-talb",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Post tat-talb"
       },
       "image": null,
-      "english": null,
+      "english": "Church",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Bini Nisrani użat għat-talb, il-qima u ċ-ċelebrazzjonijiet reliġjużi.",
+      "example": "Il-qniepen tal-knisja daqqu f’nofsinhar.",
+      "exampleEnglish": "The church bells rang at noon.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 90,
@@ -2440,12 +2672,20 @@
       "clues": {
         "easy": "Post fejn jgħixu n-nies, iżgħar minn belt",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Iżgħar minn belt"
       },
       "image": null,
-      "english": null,
+      "english": "Village",
       "status": "komuni-inizjali",
-      "batch": 1
+      "batch": 1,
+      "meaning": "Post fejn tgħix komunità, normalment iżgħar minn belt u b’inqas nies.",
+      "example": "Ir-raħal jinsab bejn żewġ għoljiet.",
+      "exampleEnglish": "The village lies between two hills.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 91,
