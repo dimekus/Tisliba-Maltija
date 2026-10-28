@@ -377,17 +377,17 @@
         "hard": null,
         "grid": "Tisma’ biha"
       },
-      "image": null,
+      "image": "assets/clues/widna.png",
       "english": "Ear",
       "status": "komuni-inizjali",
       "batch": 1,
       "meaning": "L-organu fuq kull naħa tar-ras li bih tisma’.",
       "example": "Semgħet ħoss qawwi b’widnejha.",
       "exampleEnglish": "She heard a loud sound with her ears.",
-      "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "eduImage": "assets/education/widna.jpg",
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete"
     },
     {
       "id": 14,
@@ -406,17 +406,17 @@
         "hard": null,
         "grid": "Tiekol u titkellem bih"
       },
-      "image": null,
+      "image": "assets/clues/halq.png",
       "english": "Mouth",
       "status": "komuni-inizjali",
       "batch": 1,
       "meaning": "Il-parti tal-wiċċ li tintuża biex tiekol, tixrob u titkellem.",
       "example": "Fetaħ ħalqu biex jitkellem.",
       "exampleEnglish": "He opened his mouth to speak.",
-      "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "eduImage": "assets/education/halq.jpg",
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete"
     },
     {
       "id": 15,
