@@ -3921,12 +3921,20 @@
       "clues": {
         "easy": "Jifhem kliem miktub",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jifhem kliem miktub"
       },
       "image": null,
-      "english": null,
+      "english": "He reads",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Iħares lejn kliem miktub u jifhem it-tifsira tiegħu.",
+      "example": "Huwa jaqra l-gazzetta filgħodu.",
+      "exampleEnglish": "He reads the newspaper in the morning.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 132,
@@ -3944,12 +3952,20 @@
       "clues": {
         "easy": "Jagħmel kliem b’ittri",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jagħmel kliem b’ittri"
       },
       "image": null,
-      "english": null,
+      "english": "He writes",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Jifforma ittri, kliem jew sentenzi fuq karta jew apparat.",
+      "example": "Huwa jikteb ittra lil ħabibu.",
+      "exampleEnglish": "He writes a letter to his friend.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 133,
@@ -3965,12 +3981,20 @@
       "clues": {
         "easy": "Il-kuntrarju ta’ żgħir",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Il-kuntrarju ta’ żgħir"
       },
       "image": null,
-      "english": null,
+      "english": "Big",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Ta’ daqs, kwantità jew importanza akbar min-normal jew minn xi ħaġa oħra.",
+      "example": "Il-kelb il-kbir qiegħed fil-ġnien.",
+      "exampleEnglish": "The big dog is in the garden.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 134,
@@ -3986,12 +4010,20 @@
       "clues": {
         "easy": "Il-kuntrarju ta’ kbir",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Il-kuntrarju ta’ kbir"
       },
       "image": null,
-      "english": null,
+      "english": "Small",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Ta’ daqs jew kwantità inqas min-normal jew minn xi ħaġa oħra.",
+      "example": "Għandha borża żgħira.",
+      "exampleEnglish": "She has a small bag.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 135,
@@ -4007,12 +4039,20 @@
       "clues": {
         "easy": "Il-kuntrarju ta’ qasir",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Il-kuntrarju ta’ qasir"
       },
       "image": null,
-      "english": null,
+      "english": "Long; tall",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Li għandu tul jew għoli akbar min-normal, skont dak li jkun qed jiġi deskritt.",
+      "example": "It-triq hija twila ħafna.",
+      "exampleEnglish": "The road is very long.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 136,
@@ -4030,12 +4070,20 @@
       "clues": {
         "easy": "Juri l-ħin",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Juri l-ħin"
       },
       "image": null,
-      "english": null,
+      "english": "Clock",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Apparat li jkejjel u juri l-ħin; jista’ jkun mal-ħajt, fuq mejda jew jintlibes.",
+      "example": "L-arloġġ tal-ħajt juri nofsinhar.",
+      "exampleEnglish": "The wall clock shows noon.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 137,
@@ -4054,12 +4102,20 @@
       "clues": {
         "easy": "Jintuża biex tkellem lil xi ħadd mill-bogħod",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tkellem mill-bogħod"
       },
       "image": null,
-      "english": null,
+      "english": "Telephone",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Apparat li jintuża biex titkellem ma’ persuni ’l bogħod jew tibgħat messaġġi.",
+      "example": "Ċemplet lil ommha bit-telefon.",
+      "exampleEnglish": "She called her mother on the telephone.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 138,
@@ -4080,12 +4136,20 @@
       "clues": {
         "easy": "Magna elettronika għax-xogħol u l-informazzjoni",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Magna elettronika"
       },
       "image": null,
-      "english": null,
+      "english": "Computer",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Apparat elettroniku li jipproċessa informazzjoni u jintuża għax-xogħol, it-tagħlim u d-divertiment.",
+      "example": "Kiteb ir-rapport fuq il-kompjuter.",
+      "exampleEnglish": "He wrote the report on the computer.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 139,
@@ -4102,12 +4166,20 @@
       "clues": {
         "easy": "Oġġett tond użat fil-logħob",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Oġġett tond tal-logħob"
       },
       "image": null,
-      "english": null,
+      "english": "Ball",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Oġġett tond jew kważi tond użat f’ħafna logħob u sports.",
+      "example": "It-tifel tefa’ l-boċċa lil sieħbu.",
+      "exampleEnglish": "The boy threw the ball to his friend.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 140,
@@ -4127,12 +4199,20 @@
       "clues": {
         "easy": "Oġġett li jilagħbu bih it-tfal",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "It-tfal jilagħbu bih"
       },
       "image": null,
-      "english": null,
+      "english": "Toy",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Oġġett magħmul biex it-tfal jilagħbu jew jitgħallmu bih.",
+      "example": "It-tifla poġġiet il-ġugarell fil-kaxxa.",
+      "exampleEnglish": "The girl put the toy in the box.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 141,
