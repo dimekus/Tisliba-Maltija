@@ -4229,12 +4229,20 @@
       "clues": {
         "easy": "Tagħti dawl meta tinxtegħel",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Dawl meta tinxtegħel"
       },
       "image": null,
-      "english": null,
+      "english": "Candle",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Stikka tax-xama’ b’ftila li tinxtegħel biex tagħti d-dawl.",
+      "example": "Xegħlet xemgħa waqt li nqata’ d-dawl.",
+      "exampleEnglish": "She lit a candle during the power cut.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 142,
@@ -4250,12 +4258,20 @@
       "clues": {
         "easy": "Tara x-xbieha tiegħek fiha",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tara x-xbieha fiha"
       },
       "image": null,
-      "english": null,
+      "english": "Mirror",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Wiċċ lixx u jirrifletti li fih tista’ tara x-xbieha tiegħek.",
+      "example": "Ħares fil-mera qabel ħareġ.",
+      "exampleEnglish": "He looked in the mirror before leaving.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 143,
@@ -4271,12 +4287,20 @@
       "clues": {
         "easy": "Tirranġa x-xagħar bih",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tirranġa x-xagħar bih"
       },
       "image": null,
-      "english": null,
+      "english": "Comb",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Għodda bis-snien li tintuża biex tirranġa jew tħoll ix-xagħar.",
+      "example": "Għaddiet il-moxt minn xagħarha.",
+      "exampleEnglish": "She ran the comb through her hair.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 144,
@@ -4293,12 +4317,20 @@
       "clues": {
         "easy": "Jintuża għall-ħasil",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jintuża għall-ħasil"
       },
       "image": null,
-      "english": null,
+      "english": "Soap",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Sustanza li tintuża mal-ilma biex tnaddaf il-ġisem, il-ħwejjeġ jew oġġetti oħra.",
+      "example": "Ħasel idejh bis-sapun.",
+      "exampleEnglish": "He washed his hands with soap.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 145,
@@ -4317,12 +4349,20 @@
       "clues": {
         "easy": "Tixxotta ġismek bih",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tixxotta ġismek bih"
       },
       "image": null,
-      "english": null,
+      "english": "Towel",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Biċċa drapp assorbenti li tintuża biex tnixxef il-ġisem jew affarijiet oħra.",
+      "example": "Nixxef idejh bix-xugaman.",
+      "exampleEnglish": "He dried his hands with the towel.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 146,
@@ -4338,12 +4378,20 @@
       "clues": {
         "easy": "Post fejn jitkabbru fjuri u pjanti",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Jikbru fih fjuri"
       },
       "image": null,
-      "english": null,
+      "english": "Garden",
       "status": "approvata-ie",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Biċċa art fejn jitkabbru fjuri, siġar, ħaxix jew pjanti oħra.",
+      "example": "Ħawlet il-fjuri fil-ġnien.",
+      "exampleEnglish": "She planted the flowers in the garden.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 147,
@@ -4360,12 +4408,20 @@
       "clues": {
         "easy": "Biċċa art li tinħadem",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Biċċa art li tinħadem"
       },
       "image": null,
-      "english": null,
+      "english": "Field",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Biċċa art miftuħa li tintuża għall-biedja, it-trobbija jew skopijiet oħra.",
+      "example": "Il-bidwi ħadem l-għalqa filgħodu.",
+      "exampleEnglish": "The farmer worked the field in the morning.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 148,
@@ -4382,12 +4438,20 @@
       "clues": {
         "easy": "Elevazzjoni naturali tal-art, iżgħar minn muntanja",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Art għolja naturali"
       },
       "image": null,
-      "english": null,
+      "english": "Hill",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Għolja naturali tal-art li tkun iżgħar u inqas wieqfa minn muntanja.",
+      "example": "Telgħu sal-quċċata tal-għolja.",
+      "exampleEnglish": "They climbed to the top of the hill.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 149,
@@ -4404,12 +4468,20 @@
       "clues": {
         "easy": "Art imdawra kollha bl-ilma",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Art imdawra bl-ilma"
       },
       "image": null,
-      "english": null,
+      "english": "Island",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Biċċa art imdawra kollha kemm hi bl-ilma.",
+      "example": "Malta hija gżira fil-Mediterran.",
+      "exampleEnglish": "Malta is an island in the Mediterranean.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 150,
@@ -4426,12 +4498,20 @@
       "clues": {
         "easy": "Frak fin li ssibu max-xatt",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Frak fin max-xatt"
       },
       "image": null,
-      "english": null,
+      "english": "Sand",
       "status": "komuni-inizjali",
-      "batch": 2
+      "batch": 2,
+      "meaning": "Frak fin ta’ blat u minerali li jinstab max-xtut, fid-deżerti u f’postijiet oħra.",
+      "example": "It-tfal bnew kastell bir-ramel.",
+      "exampleEnglish": "The children built a sandcastle.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 151,
