@@ -4830,11 +4830,19 @@
       "clues": {
         "easy": "Tiekol l-ikel minn fuqu",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Tiekol l-ikel minn fuqu"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Plate",
+      "status": "komuni-inizjali",
+      "meaning": "Reċipjent ċatt jew baxx li fuqu jitqiegħed u jittiekel l-ikel.",
+      "example": "Poġġiet l-insalata fuq il-platt.",
+      "exampleEnglish": "She put the salad on the plate.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 162,
@@ -4854,11 +4862,19 @@
       "clues": {
         "easy": "Taqta’ l-ikel biha",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Taqta’ l-ikel biha"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Knife",
+      "status": "komuni-inizjali",
+      "meaning": "Għodda b’xafra li tintuża biex taqta’ l-ikel jew materjali oħra.",
+      "example": "Qatta’ l-ħobż bis-sikkina.",
+      "exampleEnglish": "He cut the bread with the knife.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 163,
@@ -4879,11 +4895,19 @@
       "clues": {
         "easy": "Għodda bis-snien li tiekol biha",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Għodda bis-snien"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Fork",
+      "status": "komuni-inizjali",
+      "meaning": "Għodda tal-ikel b’manku u diversi snien, użata biex iżżomm jew ittella’ l-ikel.",
+      "example": "Kiel l-insalata bil-furketta.",
+      "exampleEnglish": "He ate the salad with a fork.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 164,
@@ -4900,11 +4924,19 @@
       "clues": {
         "easy": "Issajjar jew taħmi fih",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Issajjar jew taħmi fih"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Oven",
+      "status": "komuni-inizjali",
+      "meaning": "Apparat magħluq li jsaħħan l-ikel biex isajru jew jaħmih.",
+      "example": "Il-kejk qiegħed jinħema fil-forn.",
+      "exampleEnglish": "The cake is baking in the oven.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 165,
@@ -4921,11 +4953,19 @@
       "clues": {
         "easy": "Xarba sħuna skura li spiss tittieħed filgħodu",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Xarba sħuna skura"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Coffee",
+      "status": "komuni-inizjali",
+      "meaning": "Xarba skura u normalment sħuna magħmula minn żerriegħa tal-kafè mixwija u mitħuna.",
+      "example": "Xorob kafè sħun filgħodu.",
+      "exampleEnglish": "He drank hot coffee in the morning.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 166,
@@ -4940,11 +4980,19 @@
       "clues": {
         "easy": "Xarba sħuna magħmula mill-weraq",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Xarba sħuna bil-weraq"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Tea",
+      "status": "komuni-inizjali",
+      "meaning": "Xarba li ssir billi jitħalla weraq tat-te jew ħxejjex oħra fl-ilma sħun.",
+      "example": "Għamlet tazza te bil-lumi.",
+      "exampleEnglish": "She made a cup of tea with lemon.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 167,
@@ -4962,11 +5010,19 @@
       "clues": {
         "easy": "Ikel likwidu li jittiekel sħun",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Ikel likwidu sħun"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Soup",
+      "status": "komuni-inizjali",
+      "meaning": "Ikel likwidu msajjar b’ħaxix, laħam jew ingredjenti oħra.",
+      "example": "Is-soppa sħuna kienet lesta għall-ikel.",
+      "exampleEnglish": "The hot soup was ready to eat.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 168,
@@ -4987,11 +5043,19 @@
       "clues": {
         "easy": "Taħlita ta’ ħaxix nej",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Taħlita ta’ ħaxix nej"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Salad",
+      "status": "komuni-inizjali",
+      "meaning": "Taħlita ta’ ħaxix, weraq jew ingredjenti oħra li ħafna drabi tittiekel kiesħa.",
+      "example": "Żiedet it-tadam mal-insalata.",
+      "exampleEnglish": "She added tomatoes to the salad.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 169,
@@ -5008,11 +5072,19 @@
       "clues": {
         "easy": "Ħelu moħmi li jinqata’ f’biċċiet",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Ħelu moħmi f’biċċiet"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Cake",
+      "status": "komuni-inizjali",
+      "meaning": "Ħelu moħmi magħmul mid-dqiq, iz-zokkor u ingredjenti oħra.",
+      "example": "Qasmu l-kejk fil-festa.",
+      "exampleEnglish": "They shared the cake at the celebration.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 170,
@@ -5030,11 +5102,19 @@
       "clues": {
         "easy": "Iżomm l-ikel u x-xorb kesħin",
         "medium": null,
-        "hard": null
+        "hard": null,
+        "grid": "Iżomm l-ikel kiesaħ"
       },
       "image": null,
-      "english": null,
-      "status": "komuni-inizjali"
+      "english": "Fridge",
+      "status": "komuni-inizjali",
+      "meaning": "Apparat li jżomm l-ikel u x-xorb f’temperatura baxxa biex jibqgħu friski.",
+      "example": "Poġġa l-ħalib fil-friġġ.",
+      "exampleEnglish": "He put the milk in the fridge.",
+      "eduImage": null,
+      "imageCredit": null,
+      "imageSource": null,
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 171,
