@@ -290,17 +290,17 @@
         "hard": null,
         "grid": "Għandha ħames swaba’"
       },
-      "image": null,
+      "image": "assets/clues/id.png",
       "english": "Hand",
       "status": "komuni-inizjali",
       "batch": 1,
       "meaning": "Il-parti fit-tarf tad-driegħ li għandha s-swaba’.",
       "example": "Kitbet isimha b’idha l-leminija.",
       "exampleEnglish": "She wrote her name with her right hand.",
-      "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "eduImage": "assets/education/id.jpg",
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete"
     },
     {
       "id": 11,
