@@ -3155,18 +3155,13 @@
         "grid": "Fuq il-parti ta’ fuq"
       },
       "image": null,
-      "english": null,
+      "english": "Sweater",
       "status": "komuni-inizjali",
       "batch": 2,
       "meaning": "Biċċa ħwejjeġ li tintlibes fuq il-parti ta’ fuq tal-ġisem.",
       "example": "Libes flokk komdu għall-mixja.",
-      "exampleEnglish": null,
-      "translationReview": [
-        "Top",
-        "Jumper",
-        "Sweater"
-      ],
-      "eduStatus": "needs-user-translation-review"
+      "exampleEnglish": "He wore a comfortable sweater for the walk.",
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 107,
@@ -5670,11 +5665,9 @@
     {
       "id": 189,
       "batch": 3,
-      "answer": "JISSAJJAR",
+      "answer": "JSAJJAR",
       "tokens": [
         "J",
-        "I",
-        "S",
         "S",
         "A",
         "J",
@@ -5691,15 +5684,12 @@
         "grid": "Iħejji l-ikel"
       },
       "image": null,
-      "english": null,
+      "english": "He is cooking",
       "status": "komuni-inizjali",
-      "meaning": null,
-      "example": null,
-      "exampleEnglish": null,
-      "translationReview": [
-        "JISSAJJAR jista’ jfisser ‘is being cooked’; jekk l-azzjoni hi ‘he cooks’, il-forma mistennija tista’ tkun JSAJJAR"
-      ],
-      "eduStatus": "needs-user-word-review"
+      "meaning": "Qiegħed iħejji l-ikel bis-sħana biex ikun jista’ jittiekel.",
+      "example": "Hu jsajjar l-ikla fil-kċina.",
+      "exampleEnglish": "He is cooking the meal in the kitchen.",
+      "eduStatus": "text-complete-images-pending"
     },
     {
       "id": 190,
