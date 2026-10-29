@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="mt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reviżjoni sħiħa tad-Dizzjunarju</title>
+<style>
+:root{--navy:#102f45;--navy2:#183f59;--line:#54738a;--cream:#fff6df;--pale:#a9c4d5;--green:#53c68c;--amber:#f4b942;--red:#e77070}
+*{box-sizing:border-box}body{margin:0;background:var(--navy);color:#fff;font:15px/1.35 Arial,sans-serif}
+header{position:sticky;top:0;z-index:5;background:rgba(16,47,69,.97);padding:14px 18px;border-bottom:2px solid var(--line)}
+h1{margin:0 0 10px;font-size:25px}.tools{display:flex;gap:8px;flex-wrap:wrap}.tools input,.tools select{padding:9px 10px;border:0;border-radius:7px;font-size:14px;min-width:180px}
+.stats{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}.pill{background:var(--navy2);border:1px solid var(--line);border-radius:999px;padding:5px 10px;font-weight:700}.pill.good{background:#24664d}.pill.warn{background:#785b1c}
+main{padding:12px;overflow:auto}table{width:100%;border-collapse:collapse;background:var(--navy2);min-width:1250px}
+th{position:sticky;top:128px;z-index:3;background:#254d68;text-align:left;padding:9px;border:1px solid var(--line)}
+td{vertical-align:top;padding:9px;border:1px solid var(--line)}tr:nth-child(even){background:#16384f}
+.word{font-size:17px;font-weight:800}.tokens{display:flex;gap:3px;flex-wrap:wrap;margin-top:6px}.token{background:var(--cream);color:#17364a;border-radius:4px;padding:3px 6px;font-weight:800}
+.clue{font-weight:700}.count{display:inline-block;margin-top:5px;padding:2px 6px;border-radius:8px;background:#245c78;font-size:12px}.count.bad{background:#9d3f3f}
+.picwrap{display:grid;grid-template-columns:1fr 1fr;gap:7px;min-width:190px}.pic{background:#0d293c;border:1px solid var(--line);border-radius:7px;padding:5px;text-align:center;font-size:11px}
+.pic img{display:block;width:86px;height:70px;object-fit:contain;margin:0 auto 4px;background:#fff;border-radius:5px}.pic.edu img{object-fit:cover}
+.missing{height:70px;display:grid;place-items:center;color:#ffd989;font-weight:700;border:1px dashed #8aa3b3;border-radius:5px;margin-bottom:4px}
+.small{font-size:12px;color:#dcebf4}.empty{color:#ffc9c9;font-weight:700}
+@media(max-width:760px){
+ header{position:static}h1{font-size:21px}.tools input,.tools select{min-width:0;flex:1 1 140px}
+ main{padding:8px}table,tbody{display:block;min-width:0}thead{display:none}tr{display:block;margin-bottom:13px;border:2px solid var(--line);border-radius:10px;overflow:hidden}td{display:grid;grid-template-columns:105px 1fr;border:0;border-bottom:1px solid #45667d;padding:8px}td:last-child{border:0}td:before{content:attr(data-label);font-weight:800;color:#bcd3e2;padding-right:7px}.picwrap{min-width:0}.pic img{width:100%;height:110px}
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Reviżjoni sħiħa tad-Dizzjunarju</h1>
+<div class="tools">
+<input id="search" placeholder="Fittex kelma, ħjiel jew tifsira…">
+<select id="category"><option value="">Il-kategoriji kollha</option></select>
+<select id="images"><option value="">L-istampi kollha</option><option value="complete">Żewġ stampi lesti</option><option value="partial">Stampa waħda</option><option value="missing">Bla stampi</option></select>
+</div>
+<div class="stats" id="stats"></div>
+</header>
+<main><table><thead><tr>
+<th>Kelma u kaxxi</th><th>Kategorija</th><th>Ħjiel tal-grilja</th><th>Bl-Ingliż</th><th>Tifsira</th><th>Użata f’sentenza</th><th>Stampi</th>
+</tr></thead><tbody id="rows"></tbody></table></main>
+<script>
+let words=[];
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const imgState=w=>w.image&&w.eduImage?'complete':w.image||w.eduImage?'partial':'missing';
+function picture(path,label,kind){
+ return '<div class="pic '+kind+'">'+(path?'<a href="'+esc(path)+'" target="_blank"><img loading="lazy" src="'+esc(path)+'" alt="'+esc(label)+'"></a>':'<div class="missing">Għadha nieqsa</div>')+'<span>'+label+'</span></div>';
+}
+function render(){
+ const q=document.querySelector('#search').value.trim().toLocaleLowerCase('mt');
+ const cat=document.querySelector('#category').value;
+ const im=document.querySelector('#images').value;
+ const shown=words.filter(w=>{
+  const hay=[w.answer,w.category,w.clues&&w.clues.grid,w.english,w.meaning,w.example,w.exampleEnglish].join(' ').toLocaleLowerCase('mt');
+  return (!q||hay.includes(q))&&(!cat||w.category===cat)&&(!im||imgState(w)===im);
+ });
+ document.querySelector('#rows').innerHTML=shown.map(w=>{
+  const clue=w.clues&&w.clues.grid||''; const n=[...clue].length;
+  const toks=(w.tokens||[]).map(t=>'<span class="token">'+esc(t)+'</span>').join('');
+  return '<tr>'+
+  '<td data-label="Kelma"><div class="word">'+esc(w.answer)+'</div><div class="tokens">'+toks+'</div><div class="small">ID '+w.id+' · '+esc(w.difficulty)+'</div></td>'+
+  '<td data-label="Kategorija">'+esc(w.category)+'</td>'+
+  '<td data-label="Ħjiel"><div class="clue">'+esc(clue)+'</div><span class="count '+(n>24?'bad':'')+'">'+n+'/24</span></td>'+
+  '<td data-label="Bl-Ingliż">'+(w.english?esc(w.english):'<span class="empty">Nieqsa</span>')+'</td>'+
+  '<td data-label="Tifsira">'+(w.meaning?esc(w.meaning):'<span class="empty">Nieqsa</span>')+'</td>'+
+  '<td data-label="Sentenza">'+(w.example?esc(w.example):'<span class="empty">Nieqsa</span>')+(w.exampleEnglish?'<div class="small" style="margin-top:6px">'+esc(w.exampleEnglish)+'</div>':'')+'</td>'+
+  '<td data-label="Stampi"><div class="picwrap">'+picture(w.image,'Ħjiel','cluepic')+picture(w.eduImage,'Fissirli','edu')+'</div></td>'+
+  '</tr>';
+ }).join('');
+ const complete=words.filter(w=>imgState(w)==='complete').length;
+ const partial=words.filter(w=>imgState(w)==='partial').length;
+ const textComplete=words.filter(w=>w.english&&w.meaning&&w.example&&w.exampleEnglish&&w.clues&&w.clues.grid).length;
+ document.querySelector('#stats').innerHTML='<span class="pill">'+shown.length+' minn '+words.length+'</span><span class="pill good">'+textComplete+' test komplut</span><span class="pill good">'+complete+' b’żewġ stampi</span><span class="pill warn">'+partial+' bi stampa waħda</span>';
+}
+fetch('data/word-bank.json?v='+Date.now()).then(r=>r.json()).then(data=>{
+ words=data.words||[];
+ const cats=[...new Set(words.map(w=>w.category).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'mt'));
+ document.querySelector('#category').innerHTML+=[...cats].map(c=>'<option>'+esc(c)+'</option>').join('');
+ render();
+}).catch(e=>{document.querySelector('#rows').innerHTML='<tr><td class="empty">Ma setax jinfetaħ id-dizzjunarju: '+esc(e.message)+'</td></tr>'});
+['search','category','images'].forEach(id=>document.querySelector('#'+id).addEventListener(id==='search'?'input':'change',render));
+</script>
+</body></html>
