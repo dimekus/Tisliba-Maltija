@@ -553,7 +553,7 @@
         "hard": null,
         "grid": "Fuqha tiekol"
       },
-      "image": null,
+      "image": "assets/clues/mejda.png",
       "english": "Table",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -561,9 +561,9 @@
       "example": "Poġġejna l-platti fuq il-mejda.",
       "exampleEnglish": "We put the plates on the table.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 20,
@@ -583,7 +583,7 @@
         "hard": null,
         "grid": "Tpoġġi bilqiegħda fuqu"
       },
-      "image": null,
+      "image": "assets/clues/siggu.png",
       "english": "Chair",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -591,9 +591,9 @@
       "example": "Poġġa bilqiegħda fuq is-siġġu.",
       "exampleEnglish": "He sat down on the chair.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 21,
@@ -613,7 +613,7 @@
         "hard": null,
         "grid": "Torqod fuqha"
       },
-      "image": null,
+      "image": "assets/clues/sodda.png",
       "english": "Bed",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -621,9 +621,9 @@
       "example": "It-tifel mar fis-sodda kmieni.",
       "exampleEnglish": "The boy went to bed early.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 22,
@@ -643,7 +643,7 @@
         "hard": null,
         "grid": "Parti magħluqa minn dar"
       },
-      "image": null,
+      "image": "assets/clues/kamra.png",
       "english": "Room",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -651,9 +651,9 @@
       "example": "Il-kamra tas-sodda tinsab fuq.",
       "exampleEnglish": "The bedroom is upstairs.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 23,
@@ -673,7 +673,7 @@
         "hard": null,
         "grid": "Fiha ssajjar"
       },
-      "image": null,
+      "image": "assets/clues/kcina.png",
       "english": "Kitchen",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -681,9 +681,9 @@
       "example": "Qed tipprepara l-ikla fil-kċina.",
       "exampleEnglish": "She is preparing the meal in the kitchen.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 24,
@@ -732,7 +732,7 @@
         "hard": null,
         "grid": "Fuq ġewwa tal-kamra"
       },
-      "image": null,
+      "image": "assets/clues/saqaf.png",
       "english": "Ceiling",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -740,9 +740,9 @@
       "example": "Il-lampa hija mwaħħla mas-saqaf.",
       "exampleEnglish": "The lamp is attached to the ceiling.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 26,
@@ -761,7 +761,7 @@
         "hard": null,
         "grid": "Jifred kamra minn oħra"
       },
-      "image": null,
+      "image": "assets/clues/hajt.png",
       "english": "Wall",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -769,9 +769,9 @@
       "example": "Dendlu l-kwadru mal-ħajt.",
       "exampleEnglish": "They hung the picture on the wall.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 27,
@@ -791,7 +791,7 @@
         "hard": null,
         "grid": "Titla’ u tinżel fuqu"
       },
-      "image": null,
+      "image": "assets/clues/tarag.png",
       "english": "Stairs",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -799,9 +799,9 @@
       "example": "Tela’ t-taraġ bil-mod.",
       "exampleEnglish": "He went up the stairs slowly.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 28,
@@ -823,7 +823,7 @@
         "hard": null,
         "grid": "Tiftaħ serratura biha"
       },
-      "image": null,
+      "image": "assets/clues/cavetta.png",
       "english": "Key",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -831,9 +831,9 @@
       "example": "Fetaħ il-bieb biċ-ċavetta.",
       "exampleEnglish": "He opened the door with the key.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 29,
@@ -857,7 +857,7 @@
         "hard": null,
         "grid": "Mgħarfa żgħira"
       },
-      "image": null,
+      "image": "assets/clues/kuccarina.png",
       "english": "Teaspoon",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -865,9 +865,9 @@
       "example": "Ħawwad il-kafè bil-kuċċarina.",
       "exampleEnglish": "Stir the coffee with the teaspoon.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 30,
@@ -887,7 +887,7 @@
         "hard": null,
         "grid": "Tixrob minnha"
       },
-      "image": null,
+      "image": "assets/clues/tazza.png",
       "english": "Cup",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -895,9 +895,9 @@
       "example": "Xorbot tazza te sħun.",
       "exampleEnglish": "She drank a cup of hot tea.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 31,
@@ -1297,7 +1297,7 @@
         "hard": null,
         "grid": "Art baxxa bejn għoljiet"
       },
-      "image": null,
+      "image": "assets/clues/wied.png",
       "english": "Valley",
       "status": "approvata-ie",
       "batch": 1,
@@ -1305,9 +1305,9 @@
       "example": "Imxejna fil-wied wara x-xita.",
       "exampleEnglish": "We walked through the valley after the rain.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 45,
@@ -1388,7 +1388,7 @@
         "hard": null,
         "grid": "Tikber fuq fergħa"
       },
-      "image": null,
+      "image": "assets/clues/werqa.png",
       "english": "Leaf",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -1396,9 +1396,9 @@
       "example": "Werqa waqgħet mis-siġra.",
       "exampleEnglish": "A leaf fell from the tree.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 48,
@@ -1448,7 +1448,7 @@
         "hard": null,
         "grid": "Pjanti ħodor baxxi"
       },
-      "image": null,
+      "image": "assets/clues/haxix.png",
       "english": "Grass",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -1456,9 +1456,9 @@
       "example": "Il-ħaxix kiber wara x-xita.",
       "exampleEnglish": "The grass grew after the rain.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 50,
@@ -1925,12 +1925,12 @@
       "category": "annimali",
       "difficulty": "medja",
       "clues": {
-        "easy": "Annimal tar-razzett b’geddumu ċatt",
+        "easy": "Annimal roża tar-razzett",
         "medium": null,
         "hard": null,
-        "grid": "Geddumu ċatt"
+        "grid": "Annimal roża tar-razzett"
       },
-      "image": null,
+      "image": "assets/clues/hanzir.png",
       "english": "Pig",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -1938,9 +1938,9 @@
       "example": "Il-ħanżir qaleb it-tajn b’geddumu.",
       "exampleEnglish": "The pig turned the mud with its snout.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 66,
@@ -2078,7 +2078,7 @@
         "hard": null,
         "grid": "Jagħti togħma ħelwa"
       },
-      "image": null,
+      "image": "assets/clues/zokkor.png",
       "english": "Sugar",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -2086,9 +2086,9 @@
       "example": "Poġġiet kuċċarina zokkor fit-te.",
       "exampleEnglish": "She put a teaspoon of sugar in the tea.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 71,
@@ -2253,7 +2253,7 @@
         "hard": null,
         "grid": "Ħbub żgħar li jissajru"
       },
-      "image": null,
+      "image": "assets/clues/ross.png",
       "english": "Rice",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -2261,9 +2261,9 @@
       "example": "Serviet ir-ross mal-ħaxix.",
       "exampleEnglish": "She served the rice with vegetables.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 77,
@@ -2586,7 +2586,7 @@
         "hard": null,
         "grid": "Post fejn tixtri"
       },
-      "image": null,
+      "image": "assets/clues/hanut.png",
       "english": "Shop",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -2594,9 +2594,9 @@
       "example": "Marret il-ħanut tixtri l-ħalib.",
       "exampleEnglish": "She went to the shop to buy milk.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 88,
@@ -2733,7 +2733,7 @@
         "hard": null,
         "grid": "Minnha jgħaddu l-karozzi"
       },
-      "image": null,
+      "image": "assets/clues/triq.png",
       "english": "Road",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -2741,9 +2741,9 @@
       "example": "Il-karozza waqfet fit-tarf tat-triq.",
       "exampleEnglish": "The car stopped at the side of the road.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 93,
@@ -3182,7 +3182,7 @@
         "hard": null,
         "grid": "Jintlibsu mar-riġlejn"
       },
-      "image": null,
+      "image": "assets/clues/qliezet.png",
       "english": "Trousers",
       "status": "approvata-ie",
       "batch": 2,
@@ -3190,9 +3190,9 @@
       "example": "Libes qalziet skur għax-xogħol.",
       "exampleEnglish": "He wore dark trousers to work.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 108,
@@ -3308,7 +3308,7 @@
         "hard": null,
         "grid": "Jintlibes fis-sieq"
       },
-      "image": null,
+      "image": "assets/clues/zarbun.png",
       "english": "Shoe",
       "status": "komuni-inizjali",
       "batch": 2,
@@ -3316,9 +3316,9 @@
       "example": "Rabtet il-lazz taż-żarbun.",
       "exampleEnglish": "She tied the shoelace of her shoe.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 112,
@@ -3340,7 +3340,7 @@
         "hard": null,
         "grid": "Jintlibes fuq ir-ras"
       },
-      "image": null,
+      "image": "assets/clues/kappell.png",
       "english": "Hat",
       "status": "komuni-inizjali",
       "batch": 2,
@@ -3348,9 +3348,9 @@
       "example": "Libes kappell kontra x-xemx.",
       "exampleEnglish": "He wore a hat to protect himself from the sun.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 113,
@@ -3433,7 +3433,7 @@
         "hard": null,
         "grid": "Jintlibsu fl-idejn"
       },
-      "image": null,
+      "image": "assets/clues/ingwanti.png",
       "english": "Gloves",
       "status": "komuni-inizjali",
       "batch": 2,
@@ -3441,9 +3441,9 @@
       "example": "Libset l-ingwanti biex idejha ma jiksaħux.",
       "exampleEnglish": "She wore gloves to keep her hands warm.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 116,
@@ -4922,16 +4922,16 @@
         "hard": null,
         "grid": "Issajjar jew taħmi fih"
       },
-      "image": null,
+      "image": "assets/clues/forn.png",
       "english": "Oven",
       "status": "komuni-inizjali",
       "meaning": "Apparat magħluq li jsaħħan l-ikel biex isajru jew jaħmih.",
       "example": "Il-kejk qiegħed jinħema fil-forn.",
       "exampleEnglish": "The cake is baking in the oven.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "complete-shared-clue-image"
     },
     {
       "id": 165,
