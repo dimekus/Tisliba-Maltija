@@ -1478,7 +1478,7 @@
         "hard": null,
         "grid": "Biċċa iebsa mill-art"
       },
-      "image": null,
+      "image": "assets/clues/gebla.png",
       "english": "Stone",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -1486,9 +1486,9 @@
       "example": "Sabet ġebla lixxa max-xatt.",
       "exampleEnglish": "She found a smooth stone by the shore.",
       "eduImage": null,
-      "imageCredit": null,
-      "imageSource": null,
-      "eduStatus": "text-complete-images-pending"
+      "imageCredit": "Original image generated for Tisliba Maltija",
+      "imageSource": "OpenAI image generation",
+      "eduStatus": "clue-image-complete"
     },
     {
       "id": 51,
