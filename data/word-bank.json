@@ -31,7 +31,7 @@
         "hard": null,
         "grid": "Il-mara li wellditek"
       },
-      "image": "assets/clues/omm.png",
+      "image": null,
       "english": "Mother",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -62,7 +62,7 @@
         "hard": null,
         "grid": "Ġenitur raġel"
       },
-      "image": "assets/clues/missier.png",
+      "image": null,
       "english": "Father",
       "status": "approvata-ie",
       "batch": 1,
@@ -89,7 +89,7 @@
         "hard": null,
         "grid": "Tifel fl-istess familja"
       },
-      "image": "assets/clues/hu.png",
+      "image": null,
       "english": "Brother",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -117,7 +117,7 @@
         "hard": null,
         "grid": "Tifla fl-istess familja"
       },
-      "image": "assets/clues/oht.png",
+      "image": null,
       "english": "Sister",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -146,7 +146,7 @@
         "hard": null,
         "grid": "Tifel tal-ġenituri"
       },
-      "image": "assets/clues/iben.png",
+      "image": null,
       "english": "Son",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -175,7 +175,7 @@
         "hard": null,
         "grid": "Tifla tal-ġenituri"
       },
-      "image": "assets/clues/bint.png",
+      "image": null,
       "english": "Daughter",
       "status": "komuni-inizjali",
       "batch": 1,
@@ -727,10 +727,10 @@
       "category": "dar",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Jgħatti kamra minn fuq",
+        "easy": "Jgħatti kamra jew dar",
         "medium": null,
         "hard": null,
-        "grid": "Fuq ġewwa tal-kamra"
+        "grid": "Jgħatti kamra jew dar"
       },
       "image": "assets/clues/saqaf.png",
       "english": "Ceiling",
@@ -786,10 +786,10 @@
       "category": "dar",
       "difficulty": "faċli",
       "clues": {
-        "easy": "Titla’ u tinżel fuqu",
+        "easy": "Titla’ u tinżel minnu",
         "medium": null,
         "hard": null,
-        "grid": "Titla’ u tinżel fuqu"
+        "grid": "Titla’ u tinżel minnu"
       },
       "image": "assets/clues/tarag.png",
       "english": "Stairs",
@@ -2248,10 +2248,10 @@
       "category": "ikel",
       "difficulty": "medja",
       "clues": {
-        "easy": "Ħbub żgħar li jissajru",
+        "easy": "Ikel abjad li jissajjar",
         "medium": null,
         "hard": null,
-        "grid": "Ħbub żgħar li jissajru"
+        "grid": "Ikel abjad li jissajjar"
       },
       "image": "assets/clues/ross.png",
       "english": "Rice",
@@ -7126,7 +7126,7 @@
         "hard": null,
         "grid": "Persuna adulta maskili"
       },
-      "image": null,
+      "image": "assets/clues/ragel.png",
       "english": "Man",
       "status": "komuni-inizjali",
       "meaning": "Persuna adulta tas-sess maskili.",
@@ -7155,7 +7155,7 @@
         "hard": null,
         "grid": "Persuna adulta femminili"
       },
-      "image": null,
+      "image": "assets/clues/mara.png",
       "english": "Woman",
       "status": "komuni-inizjali",
       "meaning": "Persuna adulta tas-sess femminili.",
@@ -7185,7 +7185,7 @@
         "hard": null,
         "grid": "Persuna maskili żgħira"
       },
-      "image": null,
+      "image": "assets/clues/tifel.png",
       "english": "Boy",
       "status": "komuni-inizjali",
       "meaning": "Persuna maskili li għadha ma saritx adulta.",
@@ -7215,7 +7215,7 @@
         "hard": null,
         "grid": "Persuna femminili żgħira"
       },
-      "image": null,
+      "image": "assets/clues/tifla.png",
       "english": "Girl",
       "status": "komuni-inizjali",
       "meaning": "Persuna femminili li għadha ma saritx adulta.",
