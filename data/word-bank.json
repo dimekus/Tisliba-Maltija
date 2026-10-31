@@ -1004,7 +1004,7 @@
         "easy": "Jinsab fuq rasna",
         "medium": null,
         "hard": null,
-        "grid": "Jinsab fuq rasna"
+        "grid": "Tinsab fuq rasna"
       },
       "image": null,
       "english": "Sky",
@@ -7427,7 +7427,7 @@
         "easy": "Għamara magħluqa fejn jinżammu l-ħwejjeġ",
         "medium": null,
         "hard": null,
-        "grid": "Għamara għall-ħwejjeġ"
+        "grid": "Tefgħa l-affarijiet fih"
       },
       "image": null,
       "english": "Wardrobe",
@@ -7549,7 +7549,7 @@
         "easy": "Kisja tad-drapp mifruxa mal-art",
         "medium": null,
         "hard": null,
-        "grid": "Kisja mifruxa mal-art"
+        "grid": "Minsuġ u jitpoġġa fl-art"
       },
       "image": null,
       "english": "Carpet",
@@ -7581,7 +7581,7 @@
         "easy": "Tpoġġi rasek fuqha fis-sodda",
         "medium": null,
         "hard": null,
-        "grid": "Tistrieħ rasek fuqha"
+        "grid": "Isserraħ rasek fuqha"
       },
       "image": null,
       "english": "Pillow",
@@ -7641,7 +7641,7 @@
         "easy": "Drapp li jinkesa bih is-saqqu",
         "medium": null,
         "hard": null,
-        "grid": "Jinksew fuq is-saqqu"
+        "grid": "Titgħatta bihom fis-sajf"
       },
       "image": null,
       "english": "Bed sheets",
@@ -7949,7 +7949,7 @@
         "easy": "Parti tal-pjanta li tikber taħt l-art",
         "medium": null,
         "hard": null,
-        "grid": "Tikber taħt l-art"
+        "grid": "Jikber taħt l-art"
       },
       "image": null,
       "english": "Root",
@@ -8339,7 +8339,7 @@
         "easy": "Dija qawwija waqt maltempata",
         "medium": null,
         "hard": null,
-        "grid": "Dija waqt maltempata"
+        "grid": "Dawl waqt maltempata"
       },
       "image": null,
       "english": "Lightning",
@@ -9634,7 +9634,7 @@
         "easy": "Post fejn jiġu manifatturati prodotti",
         "medium": null,
         "hard": null,
-        "grid": "Post li jagħmel prodotti"
+        "grid": "Post ta’ manifattura"
       },
       "image": null,
       "english": "Factory",
