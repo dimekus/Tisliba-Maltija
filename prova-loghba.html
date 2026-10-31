@@ -50,8 +50,8 @@ header strong{font-size:clamp(21px,6vw,30px)}.version{display:inline-block;verti
 .board .cell.clue.pic span{font-size:clamp(19px,5.8vw,32px)}
 .board .cell.clue.pic img{display:block;width:96%;height:96%;padding:3%;object-fit:contain;margin:auto;filter:drop-shadow(0 1px 1px #102b4066)}
 .board .cell.clue b{font-size:0!important;width:0;height:0;padding:0;position:absolute;pointer-events:none;z-index:4;filter:drop-shadow(0 1px 0 #fff8)}
-.board .cell.clue.across b{right:-8px;top:50%;bottom:auto;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:9px solid #526f88;transform:translateY(-50%)}
-.board .cell.clue.down b{bottom:-8px;left:50%;right:auto;border-left:7px solid transparent;border-right:7px solid transparent;border-top:9px solid #526f88;transform:translateX(-50%)}
+.board .cell.clue.across b{right:-8px;top:50%;bottom:auto;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:9px solid #9A5555;transform:translateY(-50%)}
+.board .cell.clue.down b{bottom:-8px;left:50%;right:auto;border-left:7px solid transparent;border-right:7px solid transparent;border-top:9px solid #9A5555;transform:translateX(-50%)}
 @media(pointer:coarse){.board .cell.clue.clue-short span{font-size:clamp(8.5px,2.7vw,12px)}.board .cell.clue.clue-medium span{font-size:clamp(7px,2.3vw,10px)}.board .cell.clue.clue-long span{font-size:clamp(5.8px,1.9vw,8.5px)}.board .cell.clue.across b{right:-7px;border-top-width:6px;border-bottom-width:6px;border-left-width:8px}.board .cell.clue.down b{bottom:-7px;border-left-width:6px;border-right-width:6px;border-top-width:8px}}
 
 /* V33: mobile-safe clue fitting and subtler pointers */
@@ -136,7 +136,7 @@ header .total-score{font-size:clamp(15px,4vw,21px)!important;font-weight:900;pad
 /* V63: selected 30% visual clue set and complete text-only Fissirli content */
 </style>
 </head><body><main class="app">
-<header><strong>Tisliba Maltija <small class="version">V66 PROVA</small></strong><div class="header-stats"><span class="total-score" id="totalScore" aria-live="polite">Punti: 0</span><span class="level">Novizz · 1</span></div></header>
+<header><strong>Tisliba Maltija <small class="version">V67 PROVA</small></strong><div class="header-stats"><span class="total-score" id="totalScore" aria-live="polite">Punti: 0</span><span class="level">Novizz · 1</span></div></header>
 <section class="board" id="board" aria-label="Tisliba"></section>
 <div class="verify-row"><button id="verify">✓ Iċċekkja</button><div class="inline-end" id="inlineEnd"><div class="inline-summary"><strong id="inlineEndTitle"></strong><span class="inline-score" id="inlineEndScore"></span></div><span id="inlineEndQuestion"></span><div class="inline-actions"><button id="inlineNewPuzzle">Iva, kompli</button><button id="inlineFinishGame">Le, spiċċajt</button><button id="explainWords">Fissirli</button></div></div></div>
 <section class="panel">
