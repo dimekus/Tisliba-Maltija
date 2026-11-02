@@ -27,3 +27,11 @@ L-effetti għandhom jagħmlu l-logħba aktar ferrieħa mingħajr ma jfixklu l-qa
 - Jekk l-ittra magħżula ma tkunx fit-tisliba, il-joker ma jintilifx.
 - Matul l-iżvilupp, uża simulazzjoni jew riklam ta’ prova biss; qatt tuża riklami reali waqt it-testijiet.
 - L-għajnuna tingħata biss wara konferma li r-riklam tlesta; jekk ir-riklam jingħalaq jew ifalli, il-logħba tibqa’ fl-istess stat.
+
+## Xiri biex jitneħħew ir-riklami
+
+- Jinbena portal ta’ ħlas reali separat għall-verżjoni kummerċjali.
+- Jappoġġa Revolut u ħlas bil-kard permezz ta’ fornitur sigur; il-logħba qatt ma taħżen dettalji tal-kard direttament.
+- Ix-xiri jiġi vverifikat mis-server jew mill-ħanut tal-app u jkun jista’ jiġi rrestawrat fuq apparat ieħor.
+- Qabel il-ħruġ fuq Play Store, il-mekkaniżmu għandu juża Google Play Billing fejn meħtieġ mir-regoli tal-ħanut.
+- V91 juża simulazzjoni lokali biss biex jiġi ttestjat il-fluss u ma jagħmel ebda ħlas reali.
