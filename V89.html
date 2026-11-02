@@ -184,6 +184,7 @@ header .total-score{font-size:clamp(15px,4vw,21px)!important;font-weight:900;pad
 
 
 /* V89: inline tool labels, stable feedback colours, and staged turn sounds */
+.board .cell.answer.turn-waiting-good{background:#f7efdd!important;box-shadow:none!important}
 .tool-col button{flex-wrap:nowrap!important;white-space:nowrap!important;flex-direction:row!important;gap:7px!important}
 .tool-col button .tool-icon,.tool-col button .joker-face,.tool-col button .uk-flag{flex:0 0 auto}
 #gameTools #hint{flex-direction:row!important}
@@ -347,7 +348,7 @@ document.getElementById('verify').onclick=async()=>{
  answers.forEach(c=>{c.classList.remove('drop-target','hint-choice','turn-good','turn-bad','returning','turn-word-across','turn-word-across-first','turn-word-across-last','turn-word-down','turn-word-down-first','turn-word-down-last');c.style.removeProperty('outline')});
  const completedBefore=new Set(words.filter(w=>w.cells.every((k,i)=>byKey[k].dataset.locked==='1'&&byKey[k].textContent===w.letters[i])));
  let good=0,bad=0;const goodCells=[],badCells=[],usedAll=available().length===0&&cells.length===5;
- for(const cell of cells){delete cell.dataset.pending;if(cell.textContent===solution[cell.dataset.key]){good++;goodCells.push(cell);cell.dataset.locked='1';cell.dataset.user='1';delete cell.dataset.help;cell.classList.add('good');const spent=findTile(cell.dataset.tileId);if(spent)spent.closest('.tile-slot').remove();delete cell.dataset.tileId}else{bad++;badCells.push(cell);cell.classList.remove('sel');cell.classList.add('bad','turn-bad');const rack=tiles.getBoundingClientRect(),box=cell.getBoundingClientRect();cell.style.setProperty('--return-y',Math.max(90,rack.top-box.top)+'px')}}
+ for(const cell of cells){delete cell.dataset.pending;if(cell.textContent===solution[cell.dataset.key]){good++;goodCells.push(cell);cell.dataset.locked='1';cell.dataset.user='1';delete cell.dataset.help;cell.classList.add('good','turn-waiting-good');const spent=findTile(cell.dataset.tileId);if(spent)spent.closest('.tile-slot').remove();delete cell.dataset.tileId}else{bad++;badCells.push(cell);cell.classList.remove('sel');cell.classList.add('bad','turn-bad');const rack=tiles.getBoundingClientRect(),box=cell.getBoundingClientRect();cell.style.setProperty('--return-y',Math.max(90,rack.top-box.top)+'px')}}
  const bonus=usedAll&&bad===0?5:0;
  const completedNow=words.filter(w=>!completedBefore.has(w)&&w.cells.every((k,i)=>byKey[k].dataset.locked==='1'&&byKey[k].textContent===w.letters[i]));
  const assistedNow=completedNow.filter(w=>w.cells.some(k=>byKey[k].dataset.help==='1')).length;
@@ -355,8 +356,8 @@ document.getElementById('verify').onclick=async()=>{
  const wordBonus=completedNow.reduce((sum,w)=>sum+w.letters.length,0),turnPoints=good-bad+bonus+wordBonus;
  say('Qed nurik ir-riżultat tat-turn...');
  if(badCells.length){playBadSound();await wait(750);badCells.forEach(cell=>cell.classList.add('returning'));await wait(850);badCells.forEach(cell=>{returnTile(cell);cell.textContent='';cell.classList.remove('long','bad','good','turn-bad','returning');cell.style.removeProperty('--return-y');cell.style.color=''})}
- if(goodCells.length){goodCells.forEach(cell=>cell.classList.add('turn-good'));playGoodSound();await wait(1000)}
- if(completedNow.length){goodCells.forEach(cell=>cell.classList.remove('turn-good'));completedNow.forEach(w=>{const cls=w.direction==='across'?'turn-word-across':'turn-word-down';w.cells.forEach((k,i)=>{const cell=byKey[k];if(!cell)return;delete cell.dataset.pending;cell.classList.remove('turn-good','sel','drop-target','hint-choice');cell.classList.add(cls);if(i===0)cell.classList.add(cls+'-first');if(i===w.cells.length-1)cell.classList.add(cls+'-last')})});playWordSound();await wait(1200)}
+ if(goodCells.length){goodCells.forEach(cell=>cell.classList.remove('turn-waiting-good'));goodCells.forEach(cell=>cell.classList.add('turn-good'));playGoodSound();await wait(1000)}
+ if(completedNow.length){goodCells.forEach(cell=>cell.classList.remove('turn-good','turn-waiting-good'));completedNow.forEach(w=>{const cls=w.direction==='across'?'turn-word-across':'turn-word-down';w.cells.forEach((k,i)=>{const cell=byKey[k];if(!cell)return;delete cell.dataset.pending;cell.classList.remove('turn-good','sel','drop-target','hint-choice');cell.classList.add(cls);if(i===0)cell.classList.add(cls+'-first');if(i===w.cells.length-1)cell.classList.add(cls+'-last')})});playWordSound();await wait(1200)}
  else if(goodCells.length){await wait(350)}
  goodCells.forEach(cell=>cell.classList.remove('turn-good'));
  answers.forEach(cell=>cell.classList.remove('turn-word-across','turn-word-across-first','turn-word-across-last','turn-word-down','turn-word-down-first','turn-word-down-last','drop-target','hint-choice'));
