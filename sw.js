@@ -1,4 +1,4 @@
-const CACHE_NAME = "tisliba-maltija-v117";
+const CACHE_NAME = "tisliba-maltija-v118";
 const CACHE_PREFIX = "tisliba-maltija-v";
 const APP_SHELL = [
   "./",
