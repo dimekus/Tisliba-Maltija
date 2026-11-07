@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "Tisliba Maltija",
+  "short_name": "Tisliba",
+  "description": "Logħba edukattiva tat-tisliba bil-Malti.",
+  "lang": "mt",
+  "start_url": "./?app=installed",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#17103d",
+  "theme_color": "#102b40",
+  "icons": [
+    {
+      "src": "assets/ui/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
